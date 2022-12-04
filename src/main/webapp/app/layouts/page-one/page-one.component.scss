@@ -1,0 +1,135 @@
+// FUSEE
+.fusee {
+  width: 50%;
+  transform: scale(0);
+  animation: fusee 20s ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes fusee {
+  0% {
+    transform: translateX(-60%) translateY(0%) scale(1) rotate(0);
+  }
+  100% {
+    transform: translateX(300%) translateY(-50%) scale(0) rotate(55deg);
+  }
+}
+
+// ZEPPELIN
+.zeppelin {
+  transform: scale(0);
+  filter: drop-shadow(5px 5px 4px grey);
+  animation: zeppelin-start 35s 0s forwards, zeppelin-fly 15s 35s infinite;
+}
+@keyframes zeppelin-start {
+  0% {
+    transform: translateX(70%) translateY(60%) scale(0);
+  }
+  100% {
+    transform: translateX(0%) translateY(5%) scale(1);
+  }
+}
+
+@keyframes zeppelin-fly {
+  0% {
+    transform: translateX(0%) translateY(5%) scale(1);
+  }
+  50% {
+    transform: translateX(-15%) translateY(2%) scale(1);
+  }
+  100% {
+    transform: translateX(0%) translateY(5%) scale(1);
+  }
+}
+
+// NUAGES
+.nuage1 {
+  filter: drop-shadow(5px 5px 4px grey);
+  animation: nuage 120s ease infinite;
+}
+
+.nuage2 {
+  filter: drop-shadow(5px 5px 4px grey);
+  animation: nuage 180s ease infinite;
+}
+
+.nuage3 {
+  filter: drop-shadow(5px 5px 4px grey);
+  animation: nuage 240s ease infinite;
+}
+
+@keyframes nuage {
+  0% {
+    transform: translateY(2%) translateX(0%);
+    scale: 1;
+  }
+  15% {
+    transform: translateY(-2%) translateX(5%);
+    scale: 0.9;
+  }
+  30% {
+    transform: translateY(-4%) translateX(-10%);
+    scale: 0.7;
+  }
+  45% {
+    transform: translateY(2%) translateX(5%);
+    scale: 0.8;
+  }
+  60% {
+    transform: translateY(-2%) translateX(-10%);
+    scale: 0.6;
+  }
+  75% {
+    transform: translateY(1%) translateX(5%);
+    scale: 0.8;
+  }
+  100% {
+    transform: translateY(-3%) translateX(0%);
+    scale: 0.9;
+  }
+}
+
+// OVNI
+.ovni {
+  width: 50%;
+  filter: drop-shadow(5px 5px 4px grey);
+  animation: ovni 80s ease infinite;
+}
+
+@keyframes ovni {
+  0% {
+    transform: translateX(0%);
+    scale: 0.5;
+    filter: blur(4px);
+  }
+  15% {
+    transform: translateX(-25%) rotate(-17deg);
+    scale: 1;
+    filter: blur(0);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+    scale: 0.7;
+    filter: blur(0);
+  }
+  45% {
+    transform: translateX(-15%) rotate(13deg);
+    scale: 0.8;
+    filter: blur(0);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+    scale: 0.6;
+    filter: blur(0);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+    scale: 0.8;
+    filter: blur(0);
+  }
+  100% {
+    transform: translateX(0%);
+    scale: 0.5;
+    filter: blur(2px);
+  }
+}

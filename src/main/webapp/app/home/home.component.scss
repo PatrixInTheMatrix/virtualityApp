@@ -1,0 +1,209 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.content {
+  background-color: transparent;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// CONTAINER
+.leftContainer {
+  display: inline-block;
+  height: 55vh;
+  @media (max-width: 767.98px) {
+    display: flex;
+    // align-items: center;
+    height: 25vh;
+  }
+}
+
+.leftContainerDescription {
+  margin-top: 2em;
+
+  @media (max-width: 767.98px) {
+    margin-top: 0em;
+  }
+}
+
+.rightContainer {
+  padding: 0 10px;
+  overflow: scroll;
+  background: transparent;
+}
+
+// LOGO
+.logo {
+  border-radius: 10px;
+  max-width: 100%;
+  filter: drop-shadow(-5px 5px 4px grey);
+  padding: 10px;
+  opacity: 0.7;
+  @media (max-width: 767.98px) {
+    max-height: 80%;
+  }
+}
+
+.symbol {
+  max-width: 1em;
+  filter: drop-shadow(-5px 5px 4px grey);
+  color: #638ebb;
+  margin: 1em;
+}
+
+.symbol:hover {
+  color: #082154;
+}
+
+.btn-symbol {
+  width: 100%;
+}
+
+.txt-symbol {
+  font-size: 0.8em;
+  height: 1.5em;
+}
+// NAVIGATION CAROUSEL
+.carousel {
+  position: relative;
+  cursor: auto;
+}
+
+.carousel-inner {
+  overflow: scroll;
+  height: 85vh;
+  @media (max-width: 767.98px) {
+    height: 65vh;
+  }
+}
+
+.carousel-item {
+  overflow: scroll;
+  height: 70vh;
+  @media (max-width: 767.98px) {
+    height: 50vh;
+  }
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  cursor: auto;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px 0px inset;
+  border-radius: 10px;
+  margin-right: 15%;
+  margin-left: 15%;
+  @media (max-width: 767.98px) {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  flex: 0 1 auto;
+  width: 20vw;
+  height: 50px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: opacity 0.6s ease;
+  opacity: 0.3;
+  transform: scale(0.9);
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators [data-bs-target] {
+    transition: none;
+  }
+}
+.carousel-indicators .active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+button {
+  background-color: transparent;
+  width: 3em;
+  margin: 2px;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.activeLanguage {
+  padding-bottom: 20px;
+  transition: opacity 0.9s ease;
+}
+
+.noActivelanguage {
+  padding-top: 20px;
+  transition: opacity 0.9s ease;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  display: flex;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  margin-right: 10px;
+  @media (max-width: 767.98px) {
+    margin-bottom: 10px;
+    height: 20vh;
+  }
+
+  background-color: transparent;
+  // border: 1px solid #f1f1f1;
+  // border-radius: 10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  &.clicked {
+    transform: rotateY(180deg);
+  }
+}
+/*
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+*/
+
+.flip-card-front,
+.flip-card-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.flip-card-back {
+  background: radial-gradient(white, transparent) !important;
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,49 @@
+{
+  "wcmsPages": [
+    {
+      "id": "pageOne",
+      "variant": 1,
+      "image": {
+        "url": "https://t3.ftcdn.net/jpg/00/84/92/06/360_F_84920643_7xPuxWKOpLHaXd5khhFlMD0KEzTrX2EV.jpg",
+        "width": "auto",
+        "height": "200",
+        "border": "solid 1px",
+        "borderRadius": "20px",
+        "boxShadow": "grey 0px 8px 24px"
+      },
+      "quote": {
+        "show": true
+      }
+    },
+    {
+      "id": "pageTwo",
+      "variant": 1,
+      "image": {
+        "url": "../../content/images/wish.svg",
+        "width": "auto",
+        "height": "200",
+        "border": "solid 1px",
+        "borderRadius": "20px",
+        "boxShadow": "grey 0px 8px 24px"
+      },
+      "quote": {
+        "show": false
+      }
+    },
+    {
+      "id": "pageThree",
+      "variant": 0,
+      "image": {
+        "url": "../../content/images/do.svg",
+        "width": "auto",
+        "height": "200",
+        "border": "solid 1px",
+        "borderRadius": "20px",
+        "boxShadow": "grey 0px 8px 24px"
+      },
+      "quote": {
+        "show": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+@import 'bootstrap-variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+/* ==============================================================
+Bootstrap tweaks
+===============================================================*/
+// FONTS
+@font-face {
+  font-family: Baskerville;
+  src: url('../../content/fonts/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+  font-family: Baskerville-Bold;
+  src: url('../../content/fonts/LibreBaskerville-Bold.ttf');
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url('../../content/fonts/LibreBaskerville-Italic.ttf');
+}
+@font-face {
+  font-family: Thunder-Bold;
+  src: url('../../content/fonts/Thunder Bold.otf');
+}
+
+@media screen and (min-width: 1px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+// FONTS SIZE
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+// COLOR SYSTEM
+$dwd-dark-blue: #082154;
+$dwd-light-blue: #638ebb;
+$dwd-dark-green: #04751d;
+$dwd-light-green: #04a427;
+$dwd-dark-grey: #909090;
+$dwd-grey: silver;
+$dwd-light-grey: #e4e5e6;
+
+// STYLE
+$dwd-border-radius: 0.5rem;
+
+:root {
+  // --type-body: Open Sans, Helvetica, Arial, sans-serif;
+  --type-quote: Vollkorn;
+  --quote-image-width: 140px;
+  --border-rad: 0.5rem;
+  // --accent-color: hsl(322deg 85% 65%);
+  --accent-color: #04a427;
+  // --quote-bg: hsl(0 0% 97%);
+  --quote-bg: silver;
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bgColor);
+
+  line-height: var(--bs-body-line-height);
+  letter-spacing: var(--bs-body-letter-spacing);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  color: #666666;
+  filter: drop-shadow(-0.05em 0.05em 0px silver);
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-weight: 100;
+  color: #666666;
+  filter: drop-shadow(-0.05em 0.05em 0px silver);
+}
+
+/* Increase contrast of links to get 100% on Lighthouse Accessability Audit. Override this color if you want to change the link color, or use a Bootswatch theme */
+a {
+  color: #638ebb;
+  // font-weight: bold;
+}
+
+a:hover {
+  color: #082154;
+}
+
+b,
+.gradientText {
+  // background-image: linear-gradient(to left, rgba(green,1), rgba(green,0));
+  background-image: linear-gradient(to left, rgba($dwd-light-grey, 1), rgba($dwd-light-grey, 0));
+
+  &.green {
+    background-image: linear-gradient(to left, $dwd-dark-grey, $dwd-dark-green);
+  }
+
+  &.blue {
+    background-image: linear-gradient(to left, $dwd-dark-grey, $dwd-dark-blue);
+  }
+
+  &.rainbow {
+    background-image: linear-gradient(to right, $dwd-dark-blue, $dwd-light-blue, $dwd-light-green, $dwd-dark-green);
+  }
+
+  &.light-rainbow {
+    background-image: linear-gradient(to right, $dwd-dark-blue, $dwd-light-blue, $dwd-light-green, $dwd-dark-green);
+    filter: drop-shadow(-0.05em 0.05em 0px white);
+  }
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.blockquote {
+  color: $dwd-dark-blue;
+  position: relative;
+  margin: 1.2rem 1.2rem;
+  padding: 1.2rem 1.2rem;
+  display: flex;
+  justify-content: center;
+  // padding: 1.6em 2.4em .7em calc(1.4em + var(--quote-image-width));
+  font: italic 1.2rem var(--type-quote);
+  background: var(--quote-bg) no-repeat left / var(--quote-image-width);
+  border-radius: var(--border-rad);
+  border: 2px solid silver;
+  box-shadow: 2px 2px 4px hsl(0 0% 0% / 20%);
+  text-indent: 1.6em;
+}
+
+.blockquote::before {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--border-rad);
+  // box-shadow: inset -2px -2px 1px hsl(0 0% 100%), inset 2px 2px 4px hsl(0 0% 0% / 20%);
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px 0px inset;
+  // border-radius: 10px;
+}
+
+.block-tel-nr::after {
+  content: ' \260e';
+}
+.blockquote::after {
+  content: '❝';
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: -2px;
+  transform: translate(-50%, -50%);
+  width: 4vh;
+  height: 4vh;
+  background: rgba(silver, 0.9);
+  box-shadow: 0 4px 5px -1px hsla(0 0% 0% / 20%);
+  border-radius: 999px;
+  display: grid;
+  place-content: center;
+  padding-top: 0.5em;
+  color: var(--accent-color);
+  font-size: 2.5em;
+  font-style: normal;
+  text-indent: 0;
+}
+
+.blockquote-author-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--quote-image-width);
+  height: 100%;
+  opacity: 0.75;
+  background: var(--accent-color) var(--image) no-repeat center / cover;
+  background-blend-mode: hard-light;
+  border-top-left-radius: var(--border-rad);
+  border-bottom-left-radius: var(--border-rad);
+}
+
+.blocktext {
+  position: relative;
+  margin: 1.2rem 1.2rem;
+  padding: 1.2rem 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* override hover color for dropdown-item forced by bootstrap to all a:not([href]):not([tabindex]) elements in _reboot.scss */
+a:not([href]):not([tabindex]):hover.dropdown-item {
+  color: $dropdown-link-hover-color;
+}
+
+/* override .dropdown-item.active background-color on hover */
+.dropdown-item.active:hover {
+  background-color: mix($dropdown-link-hover-bg, $dropdown-link-active-bg, 50%);
+}
+
+a:hover {
+  /* make sure browsers use the pointer cursor for anchors, even with no href */
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: $dropdown-link-hover-color;
+}
+
+/* ==========================================================================
+Browser Upgrade Prompt
+========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Generic styles
+========================================================================== */
+
+/* Error highlight on input fields */
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid green;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid red;
+}
+
+/* other generic styles */
+
+.jh-card {
+  padding: 1.5%;
+  margin-top: 20px;
+  border: none;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.break {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.form-control {
+  background-color: #fff;
+}
+
+.readonly {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.hand,
+[jhisortby] {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+Custom alerts for notification
+========================================================================== */
+.alerts {
+  .alert {
+    text-overflow: ellipsis;
+    pre {
+      background: none;
+      border: none;
+      font: inherit;
+      color: inherit;
+      padding: 0;
+      margin: 0;
+    }
+    .popover pre {
+      font-size: 10px;
+    }
+  }
+  .jhi-toast {
+    position: fixed;
+    width: 100%;
+    &.left {
+      left: 5px;
+    }
+    &.right {
+      right: 5px;
+    }
+    &.top {
+      top: 55px;
+    }
+    &.bottom {
+      bottom: 55px;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .alerts .jhi-toast {
+    width: 50%;
+  }
+}
+
+/* ==========================================================================
+entity list page css
+========================================================================== */
+
+.table-entities thead th .d-flex > * {
+  margin: auto 0;
+}
+
+/* ==========================================================================
+entity detail page css
+========================================================================== */
+.row-md.jh-entity-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 10px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .row-md.jh-entity-details > {
+    dt {
+      float: left;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0.5em 0;
+    }
+    dd {
+      border-bottom: 1px solid #eee;
+      padding: 0.5em 0;
+      margin-left: 0;
+    }
+  }
+}
+
+/* ==========================================================================
+ui bootstrap tweaks
+========================================================================== */
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+.thread-dump-modal-lock {
+  max-width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dropdown-menu {
+  padding-left: 0px;
+}
+
+/* ==========================================================================
+angular-cli removes postcss-rtl processed inline css, processed rules must be added here instead
+========================================================================== */
+/* page-ribbon.component.scss */
+.ribbon {
+  left: -3.5em;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* navbar.component.scss */
+.navbar {
+  ul.navbar-nav {
+    .nav-item {
+      margin-left: 0.5em;
+    }
+  }
+}
+/* jhipster-needle-scss-add-main JHipster will add new css style */

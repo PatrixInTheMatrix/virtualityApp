@@ -1,0 +1,11 @@
+{
+  "pageTwo": {
+    "title": "Develop individuality",
+    "quote": "„The value of an idea lies in its implementation.“",
+    "description": "",
+    "html": "Structure and format your text the way you want it.",
+    "css": "Find your design or style on the website, thanks to the scalability and the separation of content and design. It also has good maintainability.",
+    "angular": "Gives you the ability to create reusable, custom components with high compatibility.",
+    "svg": "Design your images with a lot of flexibility. With the support of CSS and/or JavaScript, SVG files generate captivating interactions and animations.\nIn addition, reduced weight make the file faster to load."
+  }
+}
