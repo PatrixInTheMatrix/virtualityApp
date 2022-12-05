@@ -3,7 +3,7 @@
     {
       "id": "demo",
       "theme": {
-        "fontFamily": "Baskerville",
+        "fontFamily": "Arial",
         "fontSize": "1em",
         "fontWeight": "100",
         "color": "#333333",
@@ -12,22 +12,22 @@
         "letterSpacing": "normal"
       },
       "title": {
-        "fontFamily": "Thunder-Bold",
-        "fontSize": "6em",
+        "fontFamily": "Arial",
+        "fontSize": "3em",
         "fontWeight": "100",
         "color": "silver",
         "backgroundColor": "grey",
         "border": "solid 5px",
         "borderRadius": "20px",
         "boxShadow": "grey 0px 8px 24px",
-        "padding": "40px",
-        "marginBottom": "100px"
+        "padding": "20px",
+        "marginBottom": "40px"
       }
     },
     {
       "id": "client",
       "theme": {
-        "fontFamily": "Thunder-Bold",
+        "fontFamily": "Arial-Bold",
         "fontSize": "2em",
         "fontWeight": "100",
         "color": "#EEE9E2",

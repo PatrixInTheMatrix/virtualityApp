@@ -1,6 +1,5 @@
 <div style="overflow-x: hidden">
 
-  <!-- TITEL -->
   <div style="display: flex; justify-content: center">
     <span class="display-6"
           [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
@@ -15,17 +14,19 @@
           jhiTranslate="pageThree.title"></span>
   </div>
 
+
   <div [hidden]="this.wcmsService.JsonWcmsPages[2].variant!==0">
 
     <div [hidden]="!this.wcmsService.JsonWcmsPages[2].quote.show" class="blockquote" jhiTranslate="pageThree.quote">
     </div>
 
     <div style="display: flex; justify-content: center; align-items: center">
-      <img [attr.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
-           [height]="this.wcmsService.JsonWcmsPages[2].image.height"
+      <img [style.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
+           [style.max-height]="this.wcmsService.JsonWcmsPages[2].image.height"
            [style.border]="this.wcmsService.JsonWcmsPages[2].image.border"
            [style.border-radius]="this.wcmsService.JsonWcmsPages[2].image.borderRadius"
            [style.box-shadow]="this.wcmsService.JsonWcmsPages[2].image.boxShadow"
+           [style.margin-bottom]="'1em'"
            [src]="this.wcmsService.JsonWcmsPages[2].image.url" alt="wcms-page-Three">
     </div>
 
@@ -36,22 +37,74 @@
 
   <div [hidden]="this.wcmsService.JsonWcmsPages[2].variant!==1">
 
-    <div class="row">
-      <div [hidden]="!this.wcmsService.JsonWcmsPages[2].quote.show" class="col-5 blockquote" jhiTranslate="pageThree.quote">
-      </div>
-      <div class="col-5" style="display: flex; justify-content: center; align-items: center">
-        <img [attr.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
-             [height]="this.wcmsService.JsonWcmsPages[2].image.height"
-             [style.border]="this.wcmsService.JsonWcmsPages[2].image.border"
-             [style.border-radius]="this.wcmsService.JsonWcmsPages[2].image.borderRadius"
-             [style.box-shadow]="this.wcmsService.JsonWcmsPages[2].image.boxShadow"
-             [src]="this.wcmsService.JsonWcmsPages[2].image.url" alt="wcms-page-Three">
-      </div>
+    <div [hidden]="!this.wcmsService.JsonWcmsPages[2].quote.show" class="blockquote" jhiTranslate="pageThree.quote">
     </div>
 
     <div class="row">
-      <div class="blocktext" jhiTranslate="pageThree.description">
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <div class="blocktext" jhiTranslate="pageThree.description">
+        </div>
       </div>
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <img [style.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
+             [style.max-height]="this.wcmsService.JsonWcmsPages[2].image.height"
+             [style.border]="this.wcmsService.JsonWcmsPages[2].image.border"
+             [style.border-radius]="this.wcmsService.JsonWcmsPages[2].image.borderRadius"
+             [style.box-shadow]="this.wcmsService.JsonWcmsPages[2].image.boxShadow"
+             [style.margin-bottom]="'1em'"
+             [src]="this.wcmsService.JsonWcmsPages[2].image.url" alt="wcms-page-Three">
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <img [style.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
+             [style.max-height]="this.wcmsService.JsonWcmsPages[2].image.height"
+             [style.border]="this.wcmsService.JsonWcmsPages[2].image.border"
+             [style.border-radius]="this.wcmsService.JsonWcmsPages[2].image.borderRadius"
+             [style.box-shadow]="this.wcmsService.JsonWcmsPages[2].image.boxShadow"
+             [style.margin-bottom]="'1em'"
+             [src]="this.wcmsService.JsonWcmsPages[2].image.url" alt="wcms-page-Three">
+      </div>
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <div class="blocktext" jhiTranslate="pageThree.description">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div [hidden]="this.wcmsService.JsonWcmsPages[2].variant!==2">
+
+    <div [hidden]="!this.wcmsService.JsonWcmsPages[2].quote.show" class="blockquote" jhiTranslate="pageThree.quote">
+    </div>
+
+    <div class="row">
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <div class="blocktext" jhiTranslate="pageThree.description">
+        </div>
+      </div>
+
+      <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+        <img [style.max-width]="this.wcmsService.JsonWcmsPages[2].image.width"
+             [style.max-height]="this.wcmsService.JsonWcmsPages[2].image.height"
+             [style.border]="this.wcmsService.JsonWcmsPages[2].image.border"
+             [style.border-radius]="this.wcmsService.JsonWcmsPages[2].image.borderRadius"
+             [style.box-shadow]="this.wcmsService.JsonWcmsPages[2].image.boxShadow"
+             [style.margin-bottom]="'1em'"
+             [src]="this.wcmsService.JsonWcmsPages[2].image.url" alt="wcms-page-Three">
+      </div>
+
+    </div>
+
+    <div class="blocktext" jhiTranslate="pageThree.description">
     </div>
 
   </div>

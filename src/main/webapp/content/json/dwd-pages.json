@@ -2,14 +2,14 @@
   "wcmsPages": [
     {
       "id": "pageOne",
-      "variant": 1,
+      "variant": 2,
       "image": {
-        "url": "https://t3.ftcdn.net/jpg/00/84/92/06/360_F_84920643_7xPuxWKOpLHaXd5khhFlMD0KEzTrX2EV.jpg",
-        "width": "auto",
-        "height": "200",
-        "border": "solid 1px",
+        "url": "../../content/images/template-welcome.jpg",
+        "width": "75%",
+        "height": "auto",
+        "border": "none",
         "borderRadius": "20px",
-        "boxShadow": "grey 0px 8px 24px"
+        "boxShadow": "grey 0px 8px 8px"
       },
       "quote": {
         "show": true
@@ -20,11 +20,11 @@
       "variant": 1,
       "image": {
         "url": "../../content/images/wish.svg",
-        "width": "auto",
-        "height": "200",
-        "border": "solid 1px",
+        "width": "55%",
+        "height": "auto",
+        "border": "none",
         "borderRadius": "20px",
-        "boxShadow": "grey 0px 8px 24px"
+        "boxShadow": "grey 0px 8px 8px"
       },
       "quote": {
         "show": false
@@ -35,11 +35,11 @@
       "variant": 0,
       "image": {
         "url": "../../content/images/do.svg",
-        "width": "auto",
-        "height": "200",
-        "border": "solid 1px",
+        "width": "30%",
+        "height": "auto",
+        "border": "none",
         "borderRadius": "20px",
-        "boxShadow": "grey 0px 8px 24px"
+        "boxShadow": "grey 0px 8px 8px"
       },
       "quote": {
         "show": true
