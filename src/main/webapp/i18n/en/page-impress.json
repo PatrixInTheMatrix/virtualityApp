@@ -2,17 +2,17 @@
   "pageImpress": {
     "title": "DiWiDi [Dream it, Wish it, Do it]",
     "business": "Information according to § 5 TMG",
-    "businessName": "DiWiDi UG (limited liability)",
+    "businessName": "Sample company",
     "district": "Headquarters:",
-    "districtName": "Munich",
+    "districtName": "Sample city",
     "address": "Business address:",
     "leaders": "Represented by:",
     "register": "Commercial Register:",
-    "registerSitz": "Munich District Court",
+    "registerSitz": "District court sample town",
     "registerGericht": "-Register Court-",
     "ustId": "Sales tax identification number according to §27 a sales tax law:",
     "versicherung": "Professional Liability Insurance:",
-    "versicherungName": "Hiscox SA,<br/> Branch for Germany",
-    "versicherungArt": "business liability insurance,<br/> Cyber and data insurance,<br/> Electronics and office contents insurance"
+    "versicherungName": "Sample insurance,<br/> Branch for the country",
+    "versicherungArt": "Insurance benefit,<br/> Insurance benefit,<br/> Insurance benefit"
   }
 }

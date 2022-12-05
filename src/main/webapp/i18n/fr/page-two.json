@@ -1,8 +1,8 @@
 {
   "pageTwo": {
     "title": "Développer l'individualité",
-    "quote": "„La valeur d'une idée réside dans sa mise en œuvre.“",
-    "description": "",
+    "quote": "Exemple de citation: „Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua“",
+    "description": "Exemple de texte: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
     "html": "Structurez et formatez votre texte comme vous le souhaitez.",
     "css": "Présentez votre design, votre style sur votre site internet grace à une grande flexibilité. De plus la séparation du contenu et du design permet une maintenance beaucoup plus facile de votre code.",
     "angular": "Angular vous donne la possibilité de créer des composants personnalisés réutilisables avec une compatibilité élevée.",

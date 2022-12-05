@@ -2,17 +2,17 @@
   "pageImpress": {
     "title": "DiWiDi [Dream it, Wish it, Do it]",
     "business": "Angaben gemäß § 5 TMG",
-    "businessName": "DiWiDi UG (haftungsbeschränkt)",
+    "businessName": "Musterfirma",
     "district": "Sitz:",
-    "districtName": "München",
+    "districtName": "Musterstadt",
     "address": "Geschäftsanschrift:",
     "leaders": "Vertreten durch:",
     "register": "Handelsregister:",
-    "registerSitz": "Amtsgericht München",
+    "registerSitz": "Amtsgericht Musterstadt",
     "registerGericht": "-Registergericht-",
     "ustId": "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:",
     "versicherung": "Berufshaftpflichtversicherung:",
-    "versicherungName": "Hiscox SA,<br/> Niederlassung für Deutschland",
-    "versicherungArt": "Betriebshaftpflichtversicherung,<br/> Cyber- und Datenversicherung,<br/> Elektronik- und Büroinhaltsversicherung"
+    "versicherungName": "Musterversicherung,<br/> Niederlassung für Musterland",
+    "versicherungArt": "Versicherungsleistung,<br/> Versicherungsleistung,<br/> Versicherungsleistung"
   }
 }
