@@ -1,11 +1,7 @@
 {
   "pageTwo": {
-    "title": "Develop individuality",
+    "title": "Our performance",
     "quote": "Pattern quote: „Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.“",
-    "description": "Pattern text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "html": "Structure and format your text the way you want it.",
-    "css": "Find your design or style on the website, thanks to the scalability and the separation of content and design. It also has good maintainability.",
-    "angular": "Gives you the ability to create reusable, custom components with high compatibility.",
-    "svg": "Design your images with a lot of flexibility. With the support of CSS and/or JavaScript, SVG files generate captivating interactions and animations.\nIn addition, reduced weight make the file faster to load."
+    "description": "Pattern text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
   }
 }
