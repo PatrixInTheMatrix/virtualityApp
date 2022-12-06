@@ -207,3 +207,64 @@ button {
   background: radial-gradient(white, transparent) !important;
   transform: rotateY(180deg);
 }
+
+.info-circle {
+  // margin: 2px;
+  // border-color: transparent;
+  // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: solid;
+  width: 150px;
+  height: 50px;
+  border-radius: 0 500px 500px 500px;
+  background-color: silver;
+  position: relative;
+  top: -85vh;
+  @media (max-width: 767.98px) {
+    top: -65vh;
+  }
+  overflow: hidden;
+
+  .info-zoom{
+    visibility: hidden;
+  }
+
+  &:hover{
+    overflow: auto;
+    padding: 20px;
+    width: 70%;
+    height: 60%;
+    max-width: 70%;
+    max-height: 60%;
+    z-index: 2;
+    color: black;
+    transition: color 2s, width 2s, height 2s;
+    .info-zoom{
+      visibility: visible;
+    }
+  }
+}
+
+.info-img{
+  width: 60px;
+  @media (max-width: 767.98px) {
+    width: 30px;
+  }
+}
+
+/*
+.carousel-inner {
+  overflow: scroll;
+  height: 85vh;
+  @media (max-width: 767.98px) {
+    height: 65vh;
+  }
+}
+
+.carousel-item {
+  overflow: scroll;
+  height: 70vh;
+  @media (max-width: 767.98px) {
+    height: 50vh;
+  }
+}
+ */
