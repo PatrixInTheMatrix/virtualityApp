@@ -7,6 +7,7 @@ import {WcmsService} from "../../services/wcms.service";
   styleUrls: ['./page-two.component.scss'],
 })
 export class PageTwoComponent implements OnInit {
+  pageName = 'pageTwo';
 
   constructor(public wcmsService: WcmsService) {}
 

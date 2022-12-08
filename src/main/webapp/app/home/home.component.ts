@@ -21,10 +21,10 @@ export class HomeComponent implements OnInit, OnDestroy {
   version = '';
 
   account: Account | null = null;
+  showImpressum = false;
+  showPackage = false;
 
   private readonly destroy$ = new Subject<void>();
-
-  showImpressum = false;
 
   constructor(
     private accountService: AccountService,
@@ -72,9 +72,15 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   impressMe(): void {
     this.showImpressum = !this.showImpressum;
-    if (this.showImpressum)
+    if (this.showImpressum){
       setTimeout(() => {
         this.showImpressum = false;
       }, 20000);
+    }
+  }
+
+  packageMe(): void {
+    this.showPackage = !this.showPackage;
+    document.getElementById('infoCircle')!.className = this.showPackage ? 'info-circle-hover' : 'info-circle';
   }
 }

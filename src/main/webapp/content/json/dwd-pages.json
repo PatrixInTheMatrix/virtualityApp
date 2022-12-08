@@ -2,47 +2,65 @@
   "wcmsPages": [
     {
       "id": "pageOne",
-      "variant": 2,
-      "image": {
-        "url": "../../content/images/template-welcome.jpg",
-        "width": "75%",
+      "image1": {
+        "show": true,
+        "url": "../../content/images/page-one/welcome.svg",
+        "width": "55%",
         "height": "auto",
         "border": "none",
-        "borderRadius": "20px",
-        "boxShadow": "grey 0px 8px 8px"
+        "borderRadius": "10px",
+        "boxShadow": ""
       },
-      "quote": {
-        "show": true
+      "image2": {
+        "show": true,
+        "url": "../../content/images/page-one/new-product-icon.svg",
+        "width": "45%",
+        "height": "auto",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": ""
       }
     },
     {
       "id": "pageTwo",
-      "variant": 1,
-      "image": {
+      "image1": {
+        "show": true,
         "url": "../../content/images/wish.svg",
         "width": "55%",
         "height": "auto",
         "border": "none",
-        "borderRadius": "20px",
+        "borderRadius": "10px",
         "boxShadow": "grey 0px 8px 8px"
       },
-      "quote": {
-        "show": false
+      "image2": {
+        "show": true,
+        "url": "../../content/images/page-three/cloth-store-icon.svg",
+        "width": "50%",
+        "height": "auto",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 8px 8px"
       }
     },
     {
       "id": "pageThree",
-      "variant": 0,
-      "image": {
-        "url": "../../content/images/do.svg",
-        "width": "30%",
+      "image1": {
+        "show": true,
+        "url": "../../content/images/page-three/cloth-store-icon.svg",
+        "width": "50%",
         "height": "auto",
         "border": "none",
-        "borderRadius": "20px",
+        "borderRadius": "10px",
         "boxShadow": "grey 0px 8px 8px"
       },
-      "quote": {
-        "show": true
+      "image2": {
+        "show": true,
+        "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+        "width": "50%",
+        "height": "auto",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 8px 8px"
       }
     }
   ]

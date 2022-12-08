@@ -17,6 +17,16 @@ import { PageOneComponent } from '../layouts/page-one/page-one.component';
 import { PageTwoComponent } from '../layouts/page-two/page-two.component';
 import { PageThreeComponent } from '../layouts/page-three/page-three.component';
 import { PageImpressComponent } from '../layouts/page-impress/page-impress.component';
+import { PageHeaderComponent } from "../biblio/page-header/page-header.component";
+import { PageQuoteComponent } from "../biblio/page-quote/page-quote.component";
+import { OpenComponent } from "../biblio/open/open.component";
+import { GmapComponent } from "../biblio/gmap/gmap.component";
+import { SocialMediaComponent } from "../biblio/social-media/social-media.component";
+import { CommunicationComponent } from "../biblio/communication/communication.component";
+import { Shop01Component } from "../biblio/shop01/shop01.component";
+import { Shop02Component } from "../biblio/shop02/shop02.component";
+import { Shop03Component } from "../biblio/shop03/shop03.component";
+import { Shop04Component } from "../biblio/shop04/shop04.component";
 
 @NgModule({
   imports: [SharedLibsModule],
@@ -37,6 +47,16 @@ import { PageImpressComponent } from '../layouts/page-impress/page-impress.compo
     PageTwoComponent,
     PageThreeComponent,
     PageImpressComponent,
+    PageHeaderComponent,
+    PageQuoteComponent,
+    OpenComponent,
+    GmapComponent,
+    SocialMediaComponent,
+    CommunicationComponent,
+    Shop01Component,
+    Shop02Component,
+    Shop03Component,
+    Shop04Component,
   ],
   exports: [
     SharedLibsModule,
@@ -56,6 +76,16 @@ import { PageImpressComponent } from '../layouts/page-impress/page-impress.compo
     PageTwoComponent,
     PageThreeComponent,
     PageImpressComponent,
+    PageHeaderComponent,
+    PageQuoteComponent,
+    OpenComponent,
+    GmapComponent,
+    SocialMediaComponent,
+    CommunicationComponent,
+    Shop01Component,
+    Shop02Component,
+    Shop03Component,
+    Shop04Component,
   ],
 })
 export class SharedModule {}

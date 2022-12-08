@@ -13,6 +13,9 @@ export class WcmsService {
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
   wcmsSelectedTheme = this.JsonWcmsThemes[0].theme;
   wcmsSelectedTitle = this.JsonWcmsThemes[0].title;
+  wcmsSelectedGMap = this.JsonWcmsThemes[0].gMap;
+  wcmsSelectedSocialMedia = this.JsonWcmsThemes[0].socialMedia;
+  wcmsSelectedCommunication = this.JsonWcmsThemes[0].communication;
   // PAGES
   rootWcmsPages = _JsonWcmsPages as RootObjectPages;
   JsonWcmsPages = this.rootWcmsPages.wcmsPages;
@@ -22,6 +25,9 @@ export class WcmsService {
   setSelectedTheme(themeNr: number): void {
     this.wcmsSelectedTheme = this.JsonWcmsThemes[themeNr].theme;
     this.wcmsSelectedTitle = this.JsonWcmsThemes[themeNr].title;
+    this.wcmsSelectedGMap = this.JsonWcmsThemes[themeNr].gMap;
+    this.wcmsSelectedSocialMedia = this.JsonWcmsThemes[themeNr].socialMedia;
+    this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;
 
     document.documentElement.style.setProperty('--bs-body-font-family', this.wcmsSelectedTheme.fontFamily);
     document.documentElement.style.setProperty('--bs-body-font-size', this.wcmsSelectedTheme.fontSize);
@@ -36,4 +42,16 @@ export class WcmsService {
     document.documentElement.style.setProperty('--dwd-placeholder-color', 'silver');
   }
 
+  getIndex(pageName: string) : number {
+    let index = 0;
+    switch(pageName){
+      case 'pageOne': index = 0;
+        break;
+      case 'pageTwo': index = 1;
+        break;
+      case 'pageThree': index = 2;
+        break;
+    }
+    return index;
+  }
 }

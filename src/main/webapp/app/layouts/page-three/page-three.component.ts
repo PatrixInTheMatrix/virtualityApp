@@ -7,10 +7,11 @@ import {WcmsService} from "../../services/wcms.service";
   styleUrls: ['./page-three.component.scss'],
 })
 export class PageThreeComponent implements OnInit {
+  pageName = 'pageThree';
 
   constructor(public wcmsService: WcmsService) {}
 
   ngOnInit(): void {
-
+    console.warn('PageThreeComponent');
   }
 }

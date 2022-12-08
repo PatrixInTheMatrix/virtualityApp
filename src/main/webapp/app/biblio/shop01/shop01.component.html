@@ -1,0 +1,19 @@
+<div>
+
+  <!-- BILD -->
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom:1em">
+    <img [style.max-width]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.width"
+         [style.max-height]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.height"
+         [style.border]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.border"
+         [style.border-radius]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
+         [style.box-shadow]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
+         [src]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.url" alt="wcms-page-One">
+  </div><!-- END:BILD -->
+
+  <!-- BESCHREIBUNG -->
+  <div style=" margin-bottom:1em">
+    <p [jhiTranslate]="pageName+'.description1'">
+    </p>
+  </div><!-- END:BESCHREIBUNG -->
+
+</div>

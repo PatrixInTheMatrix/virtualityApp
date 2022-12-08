@@ -1,0 +1,41 @@
+<div style="display: flex; justify-content: center;">
+  <a [href]="'tel:'+ wcmsService.wcmsSelectedCommunication.telNr">
+    <button class="communication">
+      <div class="row">
+        <div class="col-9" style="display: flex; justify-content: right">
+          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.telText}}</span>
+        </div>
+        <div class="col-3" style="display: flex; justify-content: left">
+          <img height="35em" [src]="wcmsService.wcmsSelectedCommunication.telSrc">
+        </div>
+      </div>
+    </button>
+  </a>
+</div>
+<div style="display: flex; justify-content: center;">
+  <a [href]="'mailto:'+ wcmsService.wcmsSelectedCommunication.email">
+    <button class="communication">
+      <div class="row">
+        <div class="col-9" style="display: flex; justify-content: right">
+          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.emailText}}</span>
+        </div>
+        <div class="col-3" style="display: flex; justify-content: left">
+          <img height="35em" [src]="wcmsService.wcmsSelectedCommunication.telSrc">
+        </div>
+      </div>
+    </button>
+  </a>
+</div>
+
+<!--
+<div style="display: flex; justify-content: center">
+  <a [href]="'tel:'+ wcmsService.wcmsSelectedCommunication.telNr">
+    <button class="communication">
+      <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.telText}}</span>
+    </button>
+    <div class="special" style="display: flex; justify-content: center">
+      <img width="50" [src]="wcmsService.wcmsSelectedCommunication.telSrc">
+    </div>
+  </a>
+</div>
+-->

@@ -27,26 +27,27 @@ import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    SharedModule,
-    HomeModule,
-    // jhipster-needle-angular-add-module JHipster will add new module here
-    AppRoutingModule,
-    // Set this to true to enable service worker (PWA)
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
-    HttpClientModule,
-    NgxWebstorageModule.forRoot({ prefix: 'jhi', separator: '-', caseSensitive: true }),
-    TranslationModule,
-  ],
-  providers: [
-    Title,
-    { provide: LOCALE_ID, useValue: 'de' },
-    { provide: NgbDateAdapter, useClass: NgbDateDayjsAdapter },
-    httpInterceptorProviders,
-  ],
-  declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
-  bootstrap: [MainComponent],
+    imports: [
+        BrowserModule,
+        SharedModule,
+        HomeModule,
+        // jhipster-needle-angular-add-module JHipster will add new module here
+        AppRoutingModule,
+        // Set this to true to enable service worker (PWA)
+        ServiceWorkerModule.register('ngsw-worker.js', {enabled: false}),
+        HttpClientModule,
+        NgxWebstorageModule.forRoot({prefix: 'jhi', separator: '-', caseSensitive: true}),
+        TranslationModule,
+    ],
+    providers: [
+        Title,
+        {provide: LOCALE_ID, useValue: 'de'},
+        {provide: NgbDateAdapter, useClass: NgbDateDayjsAdapter},
+        httpInterceptorProviders,
+    ],
+    declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent,],
+    bootstrap: [MainComponent],
+    exports: [ ]
 })
 export class AppModule {
   constructor(applicationConfigService: ApplicationConfigService, iconLibrary: FaIconLibrary, dpConfig: NgbDatepickerConfig) {

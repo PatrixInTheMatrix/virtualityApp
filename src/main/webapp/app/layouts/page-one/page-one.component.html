@@ -1,112 +1,11 @@
 <div style="overflow-x: hidden">
 
-  <div style="display: flex; justify-content: center">
-    <span class="display-6"
-          [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
-          [style.font-size]="this.wcmsService.wcmsSelectedTitle.fontSize"
-          [style.color]="this.wcmsService.wcmsSelectedTitle.color"
-          [style.background-color]="this.wcmsService.wcmsSelectedTitle.backgroundColor"
-          [style.border]="this.wcmsService.wcmsSelectedTitle.border"
-          [style.border-radius]="this.wcmsService.wcmsSelectedTitle.borderRadius"
-          [style.box-shadow]="this.wcmsService.wcmsSelectedTitle.boxShadow"
-          [style.padding]="this.wcmsService.wcmsSelectedTitle.padding"
-          [style.margin-bottom]="this.wcmsService.wcmsSelectedTitle.marginBottom"
-          jhiTranslate="pageOne.title"></span>
-  </div>
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
+  <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
 
-  <div [hidden]="this.wcmsService.JsonWcmsPages[0].variant!==0">
+  <jhi-shop02 [pageName]="pageName"></jhi-shop02>
 
-    <div [hidden]="!this.wcmsService.JsonWcmsPages[0].quote.show" class="blockquote" jhiTranslate="pageOne.quote">
-    </div>
-
-    <div style="display: flex; justify-content: center; align-items: center">
-      <img [style.max-width]="this.wcmsService.JsonWcmsPages[0].image.width"
-           [style.max-height]="this.wcmsService.JsonWcmsPages[0].image.height"
-           [style.border]="this.wcmsService.JsonWcmsPages[0].image.border"
-           [style.border-radius]="this.wcmsService.JsonWcmsPages[0].image.borderRadius"
-           [style.box-shadow]="this.wcmsService.JsonWcmsPages[0].image.boxShadow"
-           [style.margin-bottom]="'1em'"
-           [src]="this.wcmsService.JsonWcmsPages[0].image.url" alt="wcms-page-one">
-    </div>
-
-    <div class="blocktext" jhiTranslate="pageOne.description">
-    </div>
-
-  </div>
-
-  <div [hidden]="this.wcmsService.JsonWcmsPages[0].variant!==1">
-
-    <div [hidden]="!this.wcmsService.JsonWcmsPages[0].quote.show" class="blockquote" jhiTranslate="pageOne.quote">
-    </div>
-
-    <div class="row">
-
-      <div class="col-7" style="display: flex; justify-content: center; align-items: center">
-        <div class="blocktext" jhiTranslate="pageOne.description">
-        </div>
-      </div>
-
-      <div class="col-5" style="display: flex; justify-content: center; align-items: center">
-        <img [style.max-width]="this.wcmsService.JsonWcmsPages[0].image.width"
-             [style.max-height]="this.wcmsService.JsonWcmsPages[0].image.height"
-             [style.border]="this.wcmsService.JsonWcmsPages[0].image.border"
-             [style.border-radius]="this.wcmsService.JsonWcmsPages[0].image.borderRadius"
-             [style.box-shadow]="this.wcmsService.JsonWcmsPages[0].image.boxShadow"
-             [style.margin-bottom]="'1em'"
-             [src]="this.wcmsService.JsonWcmsPages[0].image.url" alt="wcms-page-one">
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-5" style="display: flex; justify-content: center; align-items: center">
-        <img [style.max-width]="this.wcmsService.JsonWcmsPages[0].image.width"
-             [style.max-height]="this.wcmsService.JsonWcmsPages[0].image.height"
-             [style.border]="this.wcmsService.JsonWcmsPages[0].image.border"
-             [style.border-radius]="this.wcmsService.JsonWcmsPages[0].image.borderRadius"
-             [style.box-shadow]="this.wcmsService.JsonWcmsPages[0].image.boxShadow"
-             [style.margin-bottom]="'1em'"
-             [src]="this.wcmsService.JsonWcmsPages[0].image.url" alt="wcms-page-one">
-      </div>
-
-      <div class="col-7" style="display: flex; justify-content: center; align-items: center">
-        <div class="blocktext" jhiTranslate="pageOne.description">
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div [hidden]="this.wcmsService.JsonWcmsPages[0].variant!==2">
-
-    <div [hidden]="!this.wcmsService.JsonWcmsPages[0].quote.show" class="blockquote" jhiTranslate="pageOne.quote">
-    </div>
-
-    <div class="row">
-
-      <div class="col-7" style="display: flex; justify-content: center; align-items: center">
-        <div class="blocktext" jhiTranslate="pageOne.description">
-        </div>
-      </div>
-
-      <div class="col-5" style="display: flex; justify-content: center; align-items: center">
-        <img [style.max-width]="this.wcmsService.JsonWcmsPages[0].image.width"
-             [style.max-height]="this.wcmsService.JsonWcmsPages[0].image.height"
-             [style.border]="this.wcmsService.JsonWcmsPages[0].image.border"
-             [style.border-radius]="this.wcmsService.JsonWcmsPages[0].image.borderRadius"
-             [style.box-shadow]="this.wcmsService.JsonWcmsPages[0].image.boxShadow"
-             [style.margin-bottom]="'1em'"
-             [src]="this.wcmsService.JsonWcmsPages[0].image.url" alt="wcms-page-one">
-      </div>
-
-    </div>
-
-    <div class="blocktext" jhiTranslate="pageOne.description">
-    </div>
-
-  </div>
+  <jhi-communication></jhi-communication>
 
 </div>

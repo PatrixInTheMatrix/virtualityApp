@@ -1,0 +1,44 @@
+<div>
+
+  <!-- BLOCK1 BILD & BESCHREIBUNG -->
+  <div class="row">
+
+    <!-- BESCHREIBUNG -->
+    <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+      <div class="blocktext" [jhiTranslate]="pageName+'.description1'">
+      </div>
+    </div><!-- END:BESCHREIBUNG -->
+
+    <!-- BILD1 -->
+    <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+      <img [style.max-width]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.width"
+           [style.max-height]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.height"
+           [style.border]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.border"
+           [style.border-radius]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
+           [style.box-shadow]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
+           [style.margin-bottom]="'1em'"
+           [src]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.url" alt="wcms-page-One">
+    </div><!-- END:BILD1 -->
+
+  </div><!-- END:BLOCK1 BILD & BESCHREIBUNG -->
+
+  <!-- BLOCK2 BILD & BESCHREIBUNG -->
+  <div class="row">
+    <!-- BILD2 -->
+    <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+      <img [style.max-width]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.width"
+           [style.max-height]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.height"
+           [style.border]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.border"
+           [style.border-radius]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.borderRadius"
+           [style.box-shadow]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.boxShadow"
+           [style.margin-bottom]="'1em'"
+           [src]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image2.url" alt="wcms-page-One">
+    </div>
+    <!-- BILD -->
+    <div class="col-6" style="display: flex; justify-content: center; align-items: center">
+      <div class="blocktext" [jhiTranslate]="pageName+'.description2'">
+      </div>
+    </div>
+
+  </div>
+</div>
