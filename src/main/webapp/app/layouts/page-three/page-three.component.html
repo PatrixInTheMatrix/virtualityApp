@@ -1,11 +1,17 @@
 <div style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
   <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
 
-  <jhi-shop02 [pageName]="pageName"></jhi-shop02>
+  <div class="row">
+    <div class="col 6">
+      <jhi-open></jhi-open>
+    </div>
 
-  <jhi-gmap></jhi-gmap>
+    <div class="col 6">
+      <jhi-gmap></jhi-gmap>
+    </div>
+  </div>
 
+  <jhi-communication></jhi-communication>
 </div>
