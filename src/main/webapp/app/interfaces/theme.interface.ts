@@ -30,13 +30,21 @@ export interface GMap {
   boxShadow: string;
 }
 
+export interface Tel {
+  number: string;
+  description: string;
+  src: string;
+}
+
+export interface Email {
+  address: string;
+  description: string;
+  src: string;
+}
+
 export interface Communication {
-  telNr: string;
-  telText: string;
-  telSrc: string;
-  email: string;
-  emailText: string;
-  emailSrc: string;
+  tel: Tel;
+  email: Email;
 }
 
 export interface Url {
@@ -78,14 +86,6 @@ export interface WcmsTheme {
   title: Title;
   gMap: GMap;
   communication: Communication;
-  socialMedia: SocialMedia;
-}
-
-export interface WcmsTheme {
-  id: string;
-  theme: Theme;
-  title: Title;
-  gMap: GMap;
   socialMedia: SocialMedia;
 }
 

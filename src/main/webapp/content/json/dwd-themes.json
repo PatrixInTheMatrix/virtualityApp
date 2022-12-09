@@ -32,12 +32,16 @@
         "boxShadow": "grey 0px 2px 2px"
       },
       "communication": {
-        "telNr": "+491234567891",
-        "telText": "+49 123456789-1",
-        "telSrc": "../../content/images//communication/whatsapp-7466235.svg",
-        "email": "muster@exemple.com",
-        "emailText": "schreib uns...",
-        "emailSrc": ""
+        "tel": {
+          "number": "+491234567",
+          "description": "+49 123456-7",
+          "src": "../../content/images/communication/whatsapp-7466235.svg"
+        },
+        "email": {
+          "address": "email@email.com",
+          "description": "email@email.com",
+          "src": "../../content/images/communication/whatsapp-7466235.svg"
+        }
       },
       "socialMedia": {
         "url": {
