@@ -16,6 +16,7 @@ export class WcmsService {
   wcmsSelectedGMap = this.JsonWcmsThemes[0].gMap;
   wcmsSelectedSocialMedia = this.JsonWcmsThemes[0].socialMedia;
   wcmsSelectedCommunication = this.JsonWcmsThemes[0].communication;
+  wcmsSelectedOpen = this.JsonWcmsThemes[0].open;
   // PAGES
   rootWcmsPages = _JsonWcmsPages as RootObjectPages;
   JsonWcmsPages = this.rootWcmsPages.wcmsPages;
@@ -28,6 +29,7 @@ export class WcmsService {
     this.wcmsSelectedGMap = this.JsonWcmsThemes[themeNr].gMap;
     this.wcmsSelectedSocialMedia = this.JsonWcmsThemes[themeNr].socialMedia;
     this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;
+    this.wcmsSelectedOpen = this.JsonWcmsThemes[themeNr].open;
 
     document.documentElement.style.setProperty('--bs-body-font-family', this.wcmsSelectedTheme.fontFamily);
     document.documentElement.style.setProperty('--bs-body-font-size', this.wcmsSelectedTheme.fontSize);

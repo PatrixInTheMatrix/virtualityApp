@@ -1,23 +1,103 @@
 <div style="text-align: center">
-  <span id="openTitle" jhiTranslate="pageThree.open.title"></span>
-  <p><strong>Montag bis Donnerstag:</strong>
-    <br>
-    <span class="open" days="MonTueWedThu" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</span>
-    <br>
-    <span class="open" days="MonTueWedThu" minH="13" minM="55" maxH="16" maxM="30">13:55 – 16:30</span>
-  </p>
-  <p><strong>Freitag:</strong>
-    <br>
-    <span class="open" days="Fri" minH="8" minM="0" maxH="14" maxM="30">08:00 – 14:30</span>
-  </p>
-  <p>
-    <strong>Samstag:</strong>
-    <br>
-    aktuell geschlossen<br>
-    <!--08:00 - 12:00
-    <em>außer Ostern, Pfingsten, Allerheiligen und Weihnachten</em>-->
-  </p>
-  <p>
-    <em>Termine im Haus nur nach telefonischer Vereinbarung.</em>
-  </p>
+
+  <!-- -------------- HEADER  -------------- -->
+
+  <div class="row" [hidden]="!isOpen">
+    <div class="col-6" style="text-align: right">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.open.src">
+    </div>
+    <div class="col-6" style="text-align: left">
+      <div style="font-weight: 900; font-style: italic" id="openTitle" jhiTranslate="pageThree.open.title.open"></div>
+      <img style="max-width: 280px; position: relative; top: -35px; left: -40px"
+           [src]="'../../content/images/open/thought-cloud-icon_lg.svg'">
+    </div>
+  </div>
+
+  <div class="row" [hidden]="isOpen || isOpenAgain">
+    <div class="col-6" style="text-align: right">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.close.src">
+    </div>
+    <div class="col-6" style="text-align: left">
+      <div style="font-weight: 900; font-style: italic" id="closeTitle" jhiTranslate="pageThree.open.title.close"></div>
+      <img style="max-width: 280px; position: relative; top: -35px; left: -40px"
+           [src]="'../../content/images/open/thought-cloud-icon_lg.svg'">
+    </div>
+  </div>
+
+  <div class="row" [hidden]="!isOpenAgain">
+    <div class="col-6" style="text-align: right">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.openAgain.src">
+    </div>
+    <div class="col-6" style="text-align: left">
+      <div style="font-weight: 900; font-style: italic" id="openAgainTitle" jhiTranslate="pageThree.open.title.openAgain"></div>
+      <img style="max-width: 220px; position: relative; top: -30px; left: -30px"
+           [src]="'../../content/images/open/thought-cloud-icon_lg.svg'">
+    </div>
+  </div>
+
+  <!-- -------------- BLOCK  -------------- -->
+
+  <div class="row">
+    <div class="col-12">
+      <div class="days">Montag bis Donnerstag:</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="open" days="MonTueWedThu" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div>
+      <!-- <div class="openText">Heute gleich wieder offen</div> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="open" days="MonTueWedThu" minH="13" minM="30" maxH="16" maxM="30">13:30 – 16:30</div>
+      <!-- <div class="openText">Heute gleich wieder offen</div> -->
+    </div>
+  </div>
+
+  <!-- -------------- BLOCK  -------------- -->
+
+  <div class="row">
+    <div class="col-12">
+      <div class="days">Freitag:</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="open" days="Fri" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div>
+      <!-- <div class="openText">Heute gleich wieder offen</div> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="open" days="Fri" minH="17" minM="00" maxH="18" maxM="30">17:00 – 18:30</div>
+      <!-- <div class="openText">Heute gleich wieder offen</div> -->
+    </div>
+  </div>
+
+  <!-- -------------- BLOCK  -------------- -->
+
+  <div class="row">
+    <div class="col-12">
+      <div class="days">Samstag und Sonntag:</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <span>geschlossen</span>
+    </div>
+  </div>
+
+
+  <!-- -------------- INFO  -------------- -->
+
+  <div class="row mt-2">
+    <div class="col-12">
+      <em class="days">Termine im Haus nur nach telefonischer Vereinbarung.</em>
+    </div>
+  </div>
+
 </div>

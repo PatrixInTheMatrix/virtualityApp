@@ -1,0 +1,125 @@
+$main: #444;
+$back: #777;
+
+$sans: 'Open Sans', sans-serif;
+$serif: 'Merriweather', serif;
+
+body{
+  background: $back;
+  font-family: $serif;
+}
+
+@keyframes expand{
+  0%{
+    width: 0;
+    height: 0;
+    z-index: 4;
+  }
+  49%{
+    width: 50vw;
+    height: 50vw;
+    z-index: 3;
+  }
+  50%{
+    width: 50vw;
+    height: 50vw;
+    z-index: 2;
+  }
+  75%{
+    width: 50vw;
+    height: 50vw;
+    z-index: -1;
+  }
+  76%{
+    width: 0vw;
+    height: 0vw;
+    z-index: -1;
+  }
+  100%{
+    width: 0vw;
+    height: 0vw;
+    z-index: 5;
+  }
+}
+
+@keyframes center{
+  0%{
+    transform: translateX(-50%) translateY(-50%);
+  }
+  49%{
+    transform: translateX(0%) translateY(0%);
+  }
+  100%{
+    transform: translateX(0%) translateY(0%);
+  }
+}
+
+$time: 16s;
+$timing: linear;
+
+.my-wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  overflow: hidden;
+  width: 50vw;
+  height: 50vw;
+  animation: expand $time infinite;
+  animation-timing-function: $timing;
+
+  .inner{
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 50vh;
+    min-width: 50vw;
+    min-height: 50vw;
+    animation: center $time infinite;
+    animation-timing-function: $timing;
+  }
+
+  &:nth-child(2), &:nth-child(2) .inner{
+    animation-delay: -$time*1/4;
+  }
+  &:nth-child(3), &:nth-child(3) .inner{
+    animation-delay:  -$time*2/4;
+  }
+  &:nth-child(4), &:nth-child(4) .inner{
+    animation-delay: -$time*3/4;
+  }
+}
+
+/*
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  width: 25vw;
+  height: 25vw;
+  border: 30px solid $main;
+  z-index: 10;
+  color: $main;
+  text-transform: uppercase;
+  font-family: $sans;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4vw;
+  letter-spacing: 0.8vw;
+  line-height: 2;
+  mix-blend-mode: color-dodge;
+}
+
+
+.sig{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: rgba(0,0,0,0.4);
+}
+*/

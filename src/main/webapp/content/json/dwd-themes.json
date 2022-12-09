@@ -35,12 +35,23 @@
         "tel": {
           "number": "+491234567",
           "description": "+49 123456-7",
-          "src": "../../content/images/communication/whatsapp-7466235.svg"
+          "src": "../../content/images/communication/telephone-icon.svg"
         },
         "email": {
           "address": "email@email.com",
           "description": "email@email.com",
-          "src": "../../content/images/communication/whatsapp-7466235.svg"
+          "src": "../../content/images/communication/email-address-icon.svg"
+        }
+      },
+      "open": {
+        "open": {
+          "src": "../../content/images/open/open-icon.svg"
+        },
+        "close": {
+          "src": "../../content/images/open/closed-icon.svg"
+        },
+        "openAgain": {
+          "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
       "socialMedia": {

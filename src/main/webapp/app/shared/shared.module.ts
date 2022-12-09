@@ -23,6 +23,12 @@ import { OpenComponent } from "../biblio/open/open.component";
 import { GmapComponent } from "../biblio/gmap/gmap.component";
 import { SocialMediaComponent } from "../biblio/social-media/social-media.component";
 import { CommunicationComponent } from "../biblio/communication/communication.component";
+import { Gallery01Component } from "../biblio/gallery01/gallery01.component";
+import { Gallery02Component } from "../biblio/gallery02/gallery02.component";
+import { Gallery03Component } from "../biblio/gallery03/gallery03.component";
+import { Gallery04Component } from "../biblio/gallery04/gallery04.component";
+import { Gallery05Component } from "../biblio/gallery05/gallery05.component";
+import { Gallery06Component } from "../biblio/gallery06/gallery06.component";
 import { Shop01Component } from "../biblio/shop01/shop01.component";
 import { Shop02Component } from "../biblio/shop02/shop02.component";
 import { Shop03Component } from "../biblio/shop03/shop03.component";
@@ -53,6 +59,12 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     GmapComponent,
     SocialMediaComponent,
     CommunicationComponent,
+    Gallery01Component,
+    Gallery02Component,
+    Gallery03Component,
+    Gallery04Component,
+    Gallery05Component,
+    Gallery06Component,
     Shop01Component,
     Shop02Component,
     Shop03Component,
@@ -82,6 +94,12 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     GmapComponent,
     SocialMediaComponent,
     CommunicationComponent,
+    Gallery01Component,
+    Gallery02Component,
+    Gallery03Component,
+    Gallery04Component,
+    Gallery05Component,
+    Gallery06Component,
     Shop01Component,
     Shop02Component,
     Shop03Component,

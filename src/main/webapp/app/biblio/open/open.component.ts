@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {WcmsService} from "../../services/wcms.service";
 
 @Component({
   selector: 'jhi-open',
@@ -6,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./open.component.scss']
 })
 export class OpenComponent implements OnInit {
-
+  isOpen = false;
+  isOpenAgain = false;
   currentDate = new Date();
   minDate = new Date();
   maxDate = new Date();
-  // constructor() { }
+  wcmsColor = this.wcmsService.wcmsSelectedTheme.color;
+
+  constructor(public wcmsService: WcmsService) { }
 
   ngOnInit(): void {
     this.matchOpeningTime();
@@ -22,15 +26,18 @@ export class OpenComponent implements OnInit {
   }
 
   matchOpeningTime(): void{
-    const today = this.getDayOfTheWeek(this.currentDate.getDay());
+    this.isOpen = false;
+    this.isOpenAgain = false;
 
+    const today = this.getDayOfTheWeek(this.currentDate.getDay());
     const openItems = document.getElementsByClassName('open') as HTMLCollection;
 
+    /*
     const openTextItems = document.getElementsByClassName('openText') as HTMLCollection;
     for(let j=0; j < openTextItems.length; j++){
       openTextItems[j].setAttribute('style', 'visibility:hidden')
     }
-
+    */
     for(let i=0; i < openItems.length; i++){
       const attrDays = openItems[i].getAttribute('days');
       const attrMinH = openItems[i].getAttribute('minH');
@@ -53,16 +60,21 @@ export class OpenComponent implements OnInit {
       if( -1 < attrDays!.indexOf(today)) {
         if (this.minDate.getTime() <= this.currentDate.getTime() && this.maxDate.getTime() >= this.currentDate.getTime()) {
           // OPEN
-          openItems[i].setAttribute("style", "color:blue");
+          this.isOpen = true;
+          openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
+
         } else {
-          // WILL BE OPEN AGAIN
           if(this.maxDate.getTime() >= this.currentDate.getTime()){
-            openTextItems[i].setAttribute('style', 'visibility:visible')
-            openItems[i].setAttribute("style", "color:grey");
+            // WILL BE OPEN AGAIN
+            this.isOpenAgain = true;
+            openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
+          }else{
+            // TODAY BUT ALREADY PASSED
+            openItems[i].setAttribute("style", "color:"+this.wcmsColor);
           }
         }
       }else{
-        openItems[i].setAttribute("style", "color:grey");
+        openItems[i].setAttribute("style", "color:"+this.wcmsColor);
       }
 
     }

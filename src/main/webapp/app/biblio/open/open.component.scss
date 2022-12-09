@@ -1,0 +1,26 @@
+.openText{
+  transform: rotate(-13deg);
+  color: #555;
+  font-size: .8em;
+  // font-weight: 700;
+  border: 0.25rem solid #555;
+  display: inline-block;
+  padding: 0.25em 1em;
+  text-transform: uppercase;
+  border-radius: 1em;
+  font-family: 'Courier';
+  -webkit-mask-image: url('../../../content/images/stamp/grunge.png');
+  -webkit-mask-size: 944px 604px;
+  mix-blend-mode: multiply;
+
+  position: relative;
+  top: -1.8em;
+  left: 11em;
+
+}
+
+.days{
+  font-weight: 600;
+  color: grey;
+  padding: .5em;
+}
