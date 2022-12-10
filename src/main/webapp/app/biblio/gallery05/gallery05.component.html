@@ -1,6 +1,4 @@
-<div class="angle one"></div>
-<div class="angle two"></div>
-<div class="angle three"></div>
-<div class="angle four"></div>
-<div class="angle five"></div>
-<div class="angle six"></div>
+
+<div *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
+     class="angle" [style.background-image]="getBgUrl(image.scr)">
+</div>

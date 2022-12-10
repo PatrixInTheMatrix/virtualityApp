@@ -3,7 +3,7 @@
     {
       "id": "demo",
       "theme": {
-        "fontFamily": "Arial",
+        "fontFamily": "Baskerville",
         "fontSize": "1em",
         "fontWeight": "100",
         "color": "#333333",
@@ -25,8 +25,8 @@
       },
       "gMap": {
         "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1251083.4689996284!2d9.596097691109282!3d50.9214425637295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1670421843753!5m2!1sde!2sde",
-        "width": "80%",
-        "height": "auto",
+        "width": "auto",
+        "height": "20em",
         "border": "none",
         "borderRadius": "10px",
         "boxShadow": "grey 0px 2px 2px"

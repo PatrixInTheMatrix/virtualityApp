@@ -29,6 +29,7 @@ import { Gallery03Component } from "../biblio/gallery03/gallery03.component";
 import { Gallery04Component } from "../biblio/gallery04/gallery04.component";
 import { Gallery05Component } from "../biblio/gallery05/gallery05.component";
 import { Gallery06Component } from "../biblio/gallery06/gallery06.component";
+import { SeparatorComponent } from "../biblio/separator/separator.component";
 import { Shop01Component } from "../biblio/shop01/shop01.component";
 import { Shop02Component } from "../biblio/shop02/shop02.component";
 import { Shop03Component } from "../biblio/shop03/shop03.component";
@@ -59,6 +60,7 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     GmapComponent,
     SocialMediaComponent,
     CommunicationComponent,
+    SeparatorComponent,
     Gallery01Component,
     Gallery02Component,
     Gallery03Component,
@@ -94,6 +96,7 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     GmapComponent,
     SocialMediaComponent,
     CommunicationComponent,
+    SeparatorComponent,
     Gallery01Component,
     Gallery02Component,
     Gallery03Component,

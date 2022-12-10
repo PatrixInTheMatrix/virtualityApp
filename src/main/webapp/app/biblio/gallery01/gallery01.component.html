@@ -1,6 +1,5 @@
 <div class="gallery">
-  <img src="../../content/images/gallery/2nd_Logo_Concept_v3_5k.png" alt="">
-  <img src="../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png" alt="">
-  <img src="../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png" alt="">
-  <img src="../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png" alt="">
+    <img *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
+         [src]="getTrustResourceUrl(image.scr)"
+         [alt]="image.alt">
 </div>

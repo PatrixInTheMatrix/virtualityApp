@@ -1,9 +1,3 @@
-<div class="my-wrap" style="background-image: url('../../../content/images/gallery/2nd_Logo_Concept_v3_5k.png')">
+<div *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
+     class="my-wrap" [style.background-image]="getBgUrl(image.scr)">
 </div>
-<div class="my-wrap" style="background-image: url('../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png')">
-</div>
-<div class="my-wrap" style="background-image: url('../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png')">
-</div>
-<div class="my-wrap" style="background-image: url('../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png')">
-</div>
-

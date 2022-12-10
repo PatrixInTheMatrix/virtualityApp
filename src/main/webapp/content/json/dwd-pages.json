@@ -19,49 +19,91 @@
         "border": "none",
         "borderRadius": "10px",
         "boxShadow": ""
-      }
-    },
-    {
-      "id": "pageTwo",
-      "image1": {
-        "show": true,
-        "url": "../../content/images/wish.svg",
-        "width": "35%",
-        "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": "grey 0px 8px 8px"
       },
-      "image2": {
-        "show": true,
-        "url": "../../content/images/page-three/cloth-store-icon.svg",
-        "width": "35%",
+      "gallery": {
+        "width": "45%",
         "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": "grey 0px 8px 8px"
-      }
-    },
-    {
-      "id": "pageThree",
-      "image1": {
-        "show": true,
-        "url": "../../content/images/page-three/cloth-store-icon.svg",
-        "width": "50%",
-        "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": "grey 0px 8px 8px"
+        "border": "solid 5px",
+        "borderRadius": "2em",
+        "boxShadow": "",
+        "images":
+          [
+            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt": "DiWiDi"},
+            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt": "Dream it"},
+            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt": "Wish it"},
+            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt": "Do it"}
+          ]
+        }
       },
-      "image2": {
-        "show": true,
-        "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-        "width": "50%",
-        "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": "grey 0px 8px 8px"
+      {
+        "id": "pageTwo",
+        "image1": {
+          "show": true,
+          "url": "../../content/images/wish.svg",
+          "width": "35%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "grey 0px 8px 8px"
+        },
+        "image2": {
+          "show": true,
+          "url": "../../content/images/page-three/cloth-store-icon.svg",
+          "width": "35%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "grey 0px 8px 8px"
+        },
+        "gallery": {
+          "width": "45%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "",
+          "images":
+          [
+            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt": "Seite2"},
+            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt": "Dream it"},
+            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt": "Wish it"},
+            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt": "Do it"}
+          ]
+        }
+      },
+      {
+        "id": "pageThree",
+        "image1": {
+          "show": true,
+          "url": "../../content/images/page-three/cloth-store-icon.svg",
+          "width": "50%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "grey 0px 8px 8px"
+        },
+        "image2": {
+          "show": true,
+          "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+          "width": "50%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "grey 0px 8px 8px"
+        },
+        "gallery": {
+          "width": "45%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "",
+          "images":
+          [
+            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt" : ""},
+            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt" : ""},
+            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt" : ""},
+            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt" : ""}
+          ]
+        }
       }
-    }
   ]
 }

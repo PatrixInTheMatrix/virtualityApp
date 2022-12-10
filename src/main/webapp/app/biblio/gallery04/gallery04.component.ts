@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 import {WcmsService} from "../../services/wcms.service";
 
@@ -8,12 +8,21 @@ import {WcmsService} from "../../services/wcms.service";
   styleUrls: ['./gallery04.component.scss']
 })
 export class Gallery04Component implements OnInit {
-  gPic: SafeResourceUrl | undefined;
+  @Input() pageName = 'pageOne';
 
   constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
 
   ngOnInit(): void {
-    // this.gMap = this.sanitizer.bypassSecurityTrustResourceUrl(this.wcmsService.wcmsSelectedGMap.url);
     console.warn('Gallery04Component');
+  }
+
+  getTrustResourceUrl(url: string): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
+  getBgUrl(url: string): string {
+    const prefix = "url(";
+    const suffix = ")";
+    return prefix + url + suffix;
   }
 }

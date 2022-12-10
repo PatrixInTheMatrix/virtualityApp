@@ -47,7 +47,9 @@ import { ErrorComponent } from './layouts/error/error.component';
     ],
     declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent,],
     bootstrap: [MainComponent],
-    exports: [ ]
+    exports: [
+
+    ]
 })
 export class AppModule {
   constructor(applicationConfigService: ApplicationConfigService, iconLibrary: FaIconLibrary, dpConfig: NgbDatepickerConfig) {

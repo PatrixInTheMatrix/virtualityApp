@@ -1,18 +1,11 @@
 <div class="container">
-  <div class="box">
-    <img src="../../../content/images/gallery/2nd_Logo_Concept_v3_5k.png">
-    <span>DiWiDi</span>
+
+  <div class="box" *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
+        [style.border-radius]="wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.borderRadius"
+        [style.box-shadow]="wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.boxShadow">
+    <img [src]="getTrustResourceUrl(image.scr)"
+         [alt]="image.alt">
+    <span>{{image.alt}}</span>
   </div>
-  <div class="box">
-    <img src="../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png">
-    <span>Dream it</span>
-  </div>
-  <div class="box">
-    <img src="../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png">
-    <span>Wish it</span>
-  </div>
-  <div class="box">
-    <img src="../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png">
-    <span>Do it</span>
-  </div>
+
 </div>
