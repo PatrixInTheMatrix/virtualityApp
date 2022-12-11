@@ -1,11 +1,8 @@
 {
   "pageTwo": {
-    "title": "Unsa Leistung",
-    "quote": "Mustazitod: „Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.“",
-    "description": "Mustatext: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "html": "Ihrn Text strukturiern und formadiern, wia Sie 's si vorstäin.",
-    "css": "Ihr Design oda ihrn Stil auf da Webseitn, duach de Skaliarbarkeit und da Drennung vo Inhoid und Gstoidung wiederfindn. 's hod außerdem a guade Wartbarkeit.",
-    "angular": "Bietet Ihna de Möglichkeit, wiedervawendbare, benutzerdefinierte Komponantn mid hoha Kompatibilität zua eastäin.",
-    "svg": "Ihre Buida mid vui Flexibilität zua gstoidn."
+    "title": "Stichwort für Ihre Leistung, ihr Ogbot",
+    "quote": "Sie könna do a motivierends Zitate oda a Botschoft einfügn",
+    "description1": "Wenn Sie möchdn könna Sie do Ihre Leistung oda Ihr Ogbot beschreibn bzw. aufzähln.",
+    "description2": "Sie könna mearere Leistung oda Ogbote aufzähln."
   }
 }

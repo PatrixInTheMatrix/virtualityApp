@@ -37,6 +37,7 @@ export interface Product {
   alt: string;
   title: string;
   description: string;
+  special: string;
   price: string;
 }
 

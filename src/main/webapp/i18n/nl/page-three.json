@@ -1,11 +1,15 @@
 {
   "pageThree": {
-    "title": "Mia san eareichbar",
-    "quote": "Mustazitod: „Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.“",
-    "description": "Mustatext: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "website": "Ihre Webpräsenz, Ihre Intanetpräsenz, Ihr Dahoam im Intanet.",
-    "webapp": "Ihre Software werd im Browsa des Benutzers aufgrufa oda ausgführt.",
-    "w2p": "Ihr Konfiguratoa für individuelle Druckvorlogn wia Visitenkardn, Briafbabia und Werbemiddl üba des Intanet.",
-    "svg": "Ihre individuelln Oimadiona und interaktivn Benutzeroberflächn innerhoib vo Start-ups oda skaliarbarn Buidern."
+    "title": "Ihre Kontaktdadn und Öffnungszeidn bekannt gbn",
+    "quote": "I gfrei mi üba Ihrn Oruaf oda Ihre Email",
+    "description1": "Fügn Sie ois Nächsts a kuaze Beschreibung Ihrs Unternehmens a und gbn Sie duach de Auswoi vo Schlüsselwörtern oan Überblick üba den Unternehmenstyp, de Branche und de Vorteile da Arbad in Ihrem Unternehma.",
+    "description2": "Fügn Sie ois Nächsts a kuaze Beschreibung Ihrs Unternehmens a und gbn Sie duach de Auswoi vo Schlüsselwörtern oan Überblick üba den Unternehmenstyp, de Branche und de Vorteile da Arbad in Ihrem Unternehma.",
+    "open": {
+      "title": {
+        "open": "Mia hom für Sie göffnet",
+        "close": "leida grod gschlossn",
+        "openAgain": "gleich wieda do ;)"
+      }
+    }
   }
 }

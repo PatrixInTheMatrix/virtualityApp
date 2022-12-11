@@ -17,29 +17,31 @@
     </div>
   </div>
 
-  <div class="row mt-4" style="display: flex; justify-content: center">
-    <div class="col-6" style="
-          max-width: 30%;
-          margin: 0 2em;
-          border-radius: 0 10px 50px 10px;
-          text-align: left;
-          padding: 1em 2em;
-
-          cursor: pointer">
+  <div class="row mt-4">
+    <div class="col-1"></div>
+    <div class="col-5" style="text-align: center; cursor: pointer">
       <img height="50em" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
-      <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
     </div>
 
-    <div class="col-6" style="
-          max-width: 30%;
-          margin: 0 2em;
-          border-radius: 50px 10px 10px 10px;
-          text-align: right; padding: 1em 2em;
-
-          cursor: pointer;
-         ">
-      <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+    <div class="col-5"style="text-align: center; cursor: pointer;">
       <img height="50em" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+    </div>
+
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-1"></div>
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+        <span class="txt-symbol">DiWiDi: </span><br>
+        <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+      </a>
+    </div>
+
+    <div class="col-5"style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+        <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+      </a>
     </div>
 
   </div>

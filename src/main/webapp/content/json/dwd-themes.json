@@ -35,13 +35,13 @@
       },
       "communication": {
         "tel": {
-          "number": "+491234567",
-          "description": "+49 123456-7",
+          "number": "+4981379961901",
+          "description": "+49 8137 9961901",
           "src": "../../content/images/communication/telephone-icon.svg"
         },
         "email": {
-          "address": "email@email.com",
-          "description": "email@email.com",
+          "address": "info@diwidi.net",
+          "description": "info@diwidi.net",
           "src": "../../content/images/communication/email-address-icon.svg"
         }
       },

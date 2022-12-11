@@ -1,5 +1,39 @@
 {
  "sortiment": {
-   "product1": "test"
- }
+   "product1": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": "Angebote der Woche !!!"
+   },
+   "product2": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": ""
+   },
+   "product3": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": "Versandkosten frei !!!"
+   },
+   "product4": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": ""
+   },
+   "product5": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": "Leider ausverkauft !!!"
+   },
+   "product6": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": ""
+ },
+   "product7": {
+     "title": "Produkt / Dienstleistung",
+     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "special": ""
+   }
+}
 }

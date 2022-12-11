@@ -80,50 +80,57 @@
             {
               "scr": "../../../content/images/page-two/surprise-icon.svg",
               "alt": "Seite2",
-              "title": "Produkt #1",
-              "description": "sortiment.product1",
+              "title": "sortiment.product1.title",
+              "description": "sortiment.product1.description",
+              "special": "sortiment.product1.special",
               "price": "10"
             },
             {
               "scr" : "../../../content/images/page-two/box-package-icon.svg",
               "alt": "Dream it",
-              "title": "Produkt #2",
-              "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At",
+              "title": "sortiment.product2.title",
+              "description": "sortiment.product2.description",
+              "special": "sortiment.product2.special",
               "price": "15"
             },
             {
               "scr" : "../../../content/images/page-two/return-product-icon.svg",
               "alt": "Wish it",
-              "title": "Produkt #3",
-              "description": "Versand frei",
+              "title": "sortiment.product3.title",
+              "description": "sortiment.product3.description",
+              "special": "sortiment.product3.special",
               "price": "5"
             },
             {
               "scr" : "../../../content/images/page-two/box-package-icon.svg",
               "alt": "Do it",
-              "title": "Produkt #4",
-              "description": "description #4",
+              "title": "sortiment.product4.title",
+              "description": "sortiment.product4.description",
+              "special": "sortiment.product4.special",
               "price": "200"
             },
             {
               "scr": "../../../content/images/page-two/package-cancelled-icon.svg",
               "alt": "Seite2",
-              "title": "Produkt #5",
-              "description": "leider ausverkauft",
+              "title": "sortiment.product5.title",
+              "description": "sortiment.product5.description",
+              "special": "sortiment.product5.special",
               "price": "10"
             },
             {
               "scr" : "../../../content/images/page-two/box-package-icon.svg",
               "alt": "Dream it",
-              "title": "Produkt #6",
-              "description": "description #6",
+              "title": "sortiment.product6.title",
+              "description": "sortiment.product6.description",
+              "special": "sortiment.product6.special",
               "price": "15"
             },
             {
               "scr" : "../../../content/images/page-two/box-package-icon.svg",
               "alt": "Wish it",
-              "title": "Produkt #7",
-              "description": "description #7",
+              "title": "sortiment.product7.title",
+              "description": "sortiment.product7.description",
+              "special": "sortiment.product7.special",
               "price": "5"
             }
           ]
