@@ -1,102 +1,114 @@
-<button id="infoCircle" class="info-circle" (click)="packageMe()">
+<div id="infoCircle" class="info-circle-hover" (click)="packageMe()">
 
-  <!--
-  <div class="row info-zoom">
-    <div class="col-12">
-      <img style="height: 80px" src="../../content/images/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png" />
-    </div>
-  </div>
--->
-
-  <div class="row not-info-zoom" style="position: relative; top: -80px">
+  <!-- BUTTON -->
+  <div class="row not-info-zoom">
     <div class="col-3">
       <img class="info-img" src="../../content/images/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png" />
     </div>
-    <div class="col-9">
-      <b>Unser Angebot für SIE!</b>
+    <div class="col-9" style="display: flex; justify-content: center; align-items: center">
+      <b class="stamp is-nope">Unser Angebot für SIE!</b>
     </div>
+  </div><!-- END:BUTTON -->
+
+  <!-- ZOOM -->
+  <div class="row info-zoom" style="margin-top: -2em">
+    <div class="col-4"></div>
+    <div class="col-4" style="display: flex; justify-content: center; align-items: center; text-align: center">
+      <h6>Gelangweilt und genervt vom Standard?</h6>
+    </div>
+    <div class="col-4 stamp is-price">Ab 499,00€<br><span style="font-size: .6em">zzgl.MWST</span></div>
   </div>
 
-  <div class="row info-zoom mb-2">
-
-    <div class="col-2">
-      <img class="info-img" src="../../content/images/wish.svg" />
-    </div>
-
-    <div class="col-10">
-      <span>
-        Sie geben uns Ihre Texte, Bilder und Ihr Logo, wir erstellen Ihnen eine individuelle, professionelle Homepage mit vier Kategorien, ohne INOS-, WIX-, WordPress- usw. Vorlagen, die auf allen Endgeräten einsetzbar ist.
-      </span>
-    </div>
-
-  </div>
-
-  <div class="row info-zoom mb-2">
-    <div class="col-10">
-        <span>
-            Home-
-            Mit anklickbaren Logo
-            Kurze Firmenbeschreibung
-            Kleiner Spruch/Slogan
-            Firmenname
-            Allgemein/Willkommen
-            Zitat (wenn man möchte)
-            Verschiedene Platzierungen möglich
-            Text
-            Verschiedene Platzierungen möglich
-            Bilder
-            Verschiedene Platzierungen möglich
-            Bei mehreren Bildern können diese in einem Karussell oder in einer Diashow präsentiert werden
-            Ihr Angebot/ihre Leistung
-            Zitat (wenn man möchte)
-            Verschiedene Platzierungen möglich
-            Beispielbilder mit Beschreibung
-            Verschiedene Platzierungen möglich
-            Text
-            Verschiedene Platzierungen möglich
-            So erreichen Sie uns
-            Zitat (wenn man möchte)
-            Verschiedene Platzierungen möglich
-            Öffnungszeiten
-            Statisch oder mit Echtzeitanzeige (der Bereich der Öffnungszeit wird hervorgehoben, wenn diese Uhrzeit aktuell ist.
-            Google-Maps (wenn man möchte)
-            Kontaktdaten
-            mit oder ohne Klickfunktion
-            Telefonklickfunktion an Öffnungszeiten angepasst
-            Text
-            Verschiedene Platzierungen möglich
-      </span>
+  <div class="row info-zoom desktop-margin">
+    <div class="col-12" style="display: flex; justify-content: center; align-items: center">
+      <h5>Problem gelöst!</h5>
     </div>
   </div>
-
-</button>
-
-<!--
-<div class="row info-zoom mb-2">
-    <div class="col-2">
-      <img class="info-img" src="../../content/images/wish.svg" />
-    </div>
-    <div class="col-10">
-          <span
-          >Das Webdesign ist für den ersten Eindrucks eines Besuchers von Ihrem Unternehmen verantwortlich, und ein gutes Design kann
-            Ihnen helfen, die Verkaufszahlen zu verbessern.</span
-          >
-      <span class="price">499€</span>
-    </div>
-  </div>
-
-  <hr />
 
   <div class="row info-zoom">
-    <div class="col-10">
-          <span
-          >Mit responsivem Website-Design kann sich Ihre Website anpassen und das beste Erlebnis bieten, unabhängig davon, ob man sich auf
-            ihrem Desktop, Laptop, Tablet oder Smartphone befindet.</span
-          >
-      <span class="price">899€</span>
-    </div>
-    <div class="col-2">
-      <img class="info-img" src="../../content/images/do.svg" />
+    <div class="col-12" style="display: flex; justify-content: center; align-items: center">
+      <div><img class="info-img" src="../../content/images/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png" /></div>
     </div>
   </div>
--->
+
+  <div class="row info-zoom">
+    <div class="col-12" style="display: flex; justify-content: center; align-items: center">
+      <span  style="margin-top: 1em">Sie geben uns Ihre Texte, Bilder und Ihr Logo, wir erstellen Ihnen eine individuelle, professionelle Homepage mit vier Kategorien.
+      </span>
+    </div>
+  </div>
+
+  <div class="row info-zoom" style="margin-top: 1em">
+    <div class="col-1"></div>
+
+    <div class="col-4" style="display: flex; justify-content: end; align-items: center">
+      <ul class="simple" >
+        <li style="text-align: right">
+          <h6>Home/Startseite</h6>
+          <img class="info-img" src="../../content/images/template-store.svg" />
+        </li>
+      </ul>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-6" style="text-align: left;">
+      <ul><h6>Möglicher Ihnhalt</h6>
+        <li>anklickbaren Logo</li>
+        <li>Firmenname</li>
+        <li>Firmenbeschreibung</li>
+        <li>Kleiner Spruch/Slogan</li>
+        <li>Soziale Medien</li>
+        <li>Impressum</li>
+      </ul>
+    </div>
+
+    <div class="col-1"></div>
+
+  </div>
+
+  <div class="row info-zoom" style="margin-top: 1em;">
+
+    <div class="col-1" style=" border-top: solid 1px grey"></div>
+
+    <div class="col-4" style="display: flex; justify-content: end; align-items: center; border-top: solid 1px grey">
+      <ul class="simple" style="margin-top: 1em">
+        <li style="text-align: right">
+          <h6>Allgemein / Willkommen</h6>
+          <img style="margin-bottom: .5em" class="info-img" src="../../content/images/dream.svg" />
+        </li>
+        <li style="text-align: right">
+          <h6>Ihr Angebot / ihre Leistung</h6>
+          <img style="margin-bottom: .5em" class="info-img" src="../../content/images/wish.svg" />
+        </li>
+        <li style="text-align: right">
+          <h6>So erreichen Sie uns</h6>
+          <img style="margin-bottom: .5em" class="info-img" src="../../content/images/do.svg" />
+        </li>
+      </ul>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-6" style="text-align: left; border-top: solid 1px grey">
+      <ul style="margin-top: 1em"><h6>Möglicher Ihnhalt</h6>
+        <li>Zitat</li>
+        <li>Text / Bilder</li>
+        <li>
+          <ul class="simple">Öffnungszeiten
+            <li class="li-small">Statisch oder mit Echtzeitanzeige</li>
+          </ul>
+        </li>
+        <li>Diashow</li>
+        <li>Google-Map</li>
+        <li>Angebotes Liste</li>
+        <li>
+          <ul class="simple">Kontaktdaten
+            <li class="li-small">mit oder ohne Klickfunktion</li>
+            <li class="li-small">Telefonklickfunktion an die Öffnungszeiten angepasst</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-1"></div>
+
+  </div>
+  
+</div>
