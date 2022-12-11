@@ -6,6 +6,7 @@
     backgroundColor: string;
     lineHeight: string;
     letterSpacing: string;
+    filter: string;
   }
 
   export interface Title {
@@ -28,6 +29,7 @@
     border: string;
     borderRadius: string;
     boxShadow: string;
+    filter: string;
   }
 
   export interface Tel {

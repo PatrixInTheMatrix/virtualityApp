@@ -34,6 +34,9 @@ import { Shop01Component } from "../biblio/shop01/shop01.component";
 import { Shop02Component } from "../biblio/shop02/shop02.component";
 import { Shop03Component } from "../biblio/shop03/shop03.component";
 import { Shop04Component } from "../biblio/shop04/shop04.component";
+import { Shop05Component } from "../biblio/shop05/shop05.component";
+import { List01Component } from "../biblio/list01/list01.component";
+import { MediaBalloonComponent } from "../biblio/media-balloon/media-balloon.component";
 
 @NgModule({
   imports: [SharedLibsModule],
@@ -71,6 +74,9 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     Shop02Component,
     Shop03Component,
     Shop04Component,
+    Shop05Component,
+    List01Component,
+    MediaBalloonComponent,
   ],
   exports: [
     SharedLibsModule,
@@ -107,6 +113,9 @@ import { Shop04Component } from "../biblio/shop04/shop04.component";
     Shop02Component,
     Shop03Component,
     Shop04Component,
+    Shop05Component,
+    List01Component,
+    MediaBalloonComponent,
   ],
 })
 export class SharedModule {}

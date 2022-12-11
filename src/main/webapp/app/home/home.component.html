@@ -1,4 +1,6 @@
-<div class="row content">
+<div class="row content"
+     [style.filter]="wcmsService.wcmsSelectedTheme.filter"
+>
   <!-- HEADER -->
   <div class="leftContainer col-md-3">
     <div class="flip-card" (click)="makeMeHover(0.5)">
@@ -82,6 +84,7 @@
 
   <!-- MAIN -->
   <div class="rightContainer col-md-9">
+
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <!-- NAVIGATION -->
       <div class="carousel-indicators">
@@ -169,51 +172,7 @@
     </div>
 
     <!-- CIRCLE -->
-    <button id="infoCircle" class="info-circle" (click)="packageMe()">
-      <div class="row info-zoom">
-        <div class="col-12">
-          <img style="height: 80px" src="../../content/images/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png" />
-        </div>
-      </div>
-
-      <div class="row not-info-zoom" style="position: relative; top: -80px">
-        <div class="col-3">
-          <img class="info-img" src="../../content/images/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png" />
-        </div>
-        <div class="col-9">
-          <b>Unser Angebot für SIE!</b>
-        </div>
-      </div>
-      <!-- <img class="not-info-zoom" style="width: 30px; position: relative; top: -40px; left: 70px;transform: rotate(-20deg); z-index: 3;" src="../../content/images/hand-clicking-icon.svg"> -->
-
-      <div class="row info-zoom mb-2">
-        <div class="col-2">
-          <img class="info-img" src="../../content/images/wish.svg" />
-        </div>
-        <div class="col-10">
-          <span
-            >Das Webdesign ist für den ersten Eindrucks eines Besuchers von Ihrem Unternehmen verantwortlich, und ein gutes Design kann
-            Ihnen helfen, die Verkaufszahlen zu verbessern.</span
-          >
-          <span class="price">499€</span>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row info-zoom">
-        <div class="col-10">
-          <span
-            >Mit responsivem Website-Design kann sich Ihre Website anpassen und das beste Erlebnis bieten, unabhängig davon, ob man sich auf
-            ihrem Desktop, Laptop, Tablet oder Smartphone befindet.</span
-          >
-          <span class="price">899€</span>
-        </div>
-        <div class="col-2">
-          <img class="info-img" src="../../content/images/do.svg" />
-        </div>
-      </div>
-    </button>
+    <jhi-media-balloon></jhi-media-balloon>
     <!-- END:CIRCLE -->
     <!-- <img style="width: 30px; position: absolute; top: 30px; left: 28vw;transform: rotate(-20deg); z-index: 3;" src="../../content/images/hand-clicking-icon.svg"> -->
   </div>

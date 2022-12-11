@@ -22,7 +22,6 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   account: Account | null = null;
   showImpressum = false;
-  showPackage = false;
 
   private readonly destroy$ = new Subject<void>();
 
@@ -79,8 +78,4 @@ export class HomeComponent implements OnInit, OnDestroy {
     }
   }
 
-  packageMe(): void {
-    this.showPackage = !this.showPackage;
-    document.getElementById('infoCircle')!.className = this.showPackage ? 'info-circle-hover' : 'info-circle';
-  }
 }

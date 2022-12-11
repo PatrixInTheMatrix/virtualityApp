@@ -9,7 +9,8 @@
         "color": "#333333",
         "backgroundColor": "#EEE9E2",
         "lineHeight": "normal",
-        "letterSpacing": "normal"
+        "letterSpacing": "normal",
+        "filter": ""
       },
       "title": {
         "fontFamily": "Arial",
@@ -29,7 +30,8 @@
         "height": "20em",
         "border": "none",
         "borderRadius": "10px",
-        "boxShadow": "grey 0px 2px 2px"
+        "boxShadow": "grey 0px 2px 2px",
+        "filter": "grayscale(69%)"
       },
       "communication": {
         "tel": {

@@ -1,4 +1,3 @@
-
 export interface Image1 {
   show: boolean;
   url: string;
@@ -33,11 +32,29 @@ export interface Gallery {
   images: Image[];
 }
 
+export interface Product {
+  scr: string;
+  alt: string;
+  title: string;
+  description: string;
+  price: string;
+}
+
+export interface List {
+  width: string;
+  height: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  products: Product[];
+}
+
 export interface WcmsPage {
   id: string;
   image1: Image1;
   image2: Image2;
   gallery: Gallery;
+  list: List;
 }
 
 export interface RootObjectPages {

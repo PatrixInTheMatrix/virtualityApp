@@ -68,6 +68,65 @@
             {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt": "Wish it"},
             {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt": "Do it"}
           ]
+        },
+        "list": {
+          "width": "45%",
+          "height": "auto",
+          "border": "none",
+          "borderRadius": "10px",
+          "boxShadow": "",
+          "products":
+          [
+            {
+              "scr": "../../../content/images/page-two/surprise-icon.svg",
+              "alt": "Seite2",
+              "title": "Produkt #1",
+              "description": "Billiger ab Montag",
+              "price": "10"
+            },
+            {
+              "scr" : "../../../content/images/page-two/box-package-icon.svg",
+              "alt": "Dream it",
+              "title": "Produkt #2",
+              "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At",
+              "price": "15"
+            },
+            {
+              "scr" : "../../../content/images/page-two/return-product-icon.svg",
+              "alt": "Wish it",
+              "title": "Produkt #3",
+              "description": "Versand frei",
+              "price": "5"
+            },
+            {
+              "scr" : "../../../content/images/page-two/box-package-icon.svg",
+              "alt": "Do it",
+              "title": "Produkt #4",
+              "description": "description #4",
+              "price": "200"
+            },
+            {
+              "scr": "../../../content/images/page-two/package-cancelled-icon.svg",
+              "alt": "Seite2",
+              "title": "Produkt #5",
+              "description": "leider ausverkauft",
+              "price": "10"
+            },
+            {
+              "scr" : "../../../content/images/page-two/box-package-icon.svg",
+              "alt": "Dream it",
+              "title": "Produkt #6",
+              "description": "description #6",
+              "price": "15"
+            },
+            {
+              "scr" : "../../../content/images/page-two/box-package-icon.svg",
+              "alt": "Wish it",
+              "title": "Produkt #7",
+              "description": "description #7",
+              "price": "5"
+            }
+          ]
         }
       },
       {

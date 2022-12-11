@@ -21,7 +21,7 @@ export class OpenComponent implements OnInit {
   }
 
   getDayOfTheWeek(day: number): string{
-    const week = ['','Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+    const week = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     return week[day];
   }
 
@@ -52,10 +52,6 @@ export class OpenComponent implements OnInit {
       if(attrMaxH !== null && attrMaxM !== null){
         this.maxDate.setHours(parseInt(attrMaxH, 10),parseInt(attrMaxM, 10),0);
       }
-
-      console.warn(this.currentDate);
-      console.warn(this.minDate);
-      console.warn(this.maxDate);
 
       if( -1 < attrDays!.indexOf(today)) {
         if (this.minDate.getTime() <= this.currentDate.getTime() && this.maxDate.getTime() >= this.currentDate.getTime()) {

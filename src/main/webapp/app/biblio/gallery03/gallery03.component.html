@@ -1,4 +1,6 @@
-<div class="container">
+<div class="container"
+     style="filter: grayscale(50%)"
+>
 
   <div class="box" *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
         [style.border-radius]="wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.borderRadius"
