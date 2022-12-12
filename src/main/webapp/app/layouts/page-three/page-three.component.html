@@ -19,28 +19,38 @@
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center; cursor: pointer">
-      <img height="50em" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+    <div class="col-5" style="text-align: center;">
+      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+      </a>
     </div>
 
     <div class="col-5"style="text-align: center; cursor: pointer;">
-      <img height="50em" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+      </a>
     </div>
 
   </div>
 
+
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center; cursor: pointer">
+    <div class="col-5" style="text-align: center;">
       <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <span class="txt-symbol">DiWiDi: </span><br>
-        <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+        <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
+          <code>DiWiDi-Telefon: </code><br>
+          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+        </button>
       </a>
     </div>
 
     <div class="col-5"style="text-align: center; cursor: pointer">
       <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+        <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
+          <code>DiWiDi-Briefkasten: </code><br>
         <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+        </button>
       </a>
     </div>
 
