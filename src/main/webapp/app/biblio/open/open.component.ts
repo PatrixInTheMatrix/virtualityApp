@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {WcmsService} from "../../services/wcms.service";
 
 @Component({
@@ -7,6 +7,8 @@ import {WcmsService} from "../../services/wcms.service";
   styleUrls: ['./open.component.scss']
 })
 export class OpenComponent implements OnInit {
+  @Input() pageName = 'pageOne';
+
   isOpen = false;
   isOpenAgain = false;
   currentDate = new Date();

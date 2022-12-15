@@ -19,4 +19,10 @@ export class Gallery06Component implements OnInit {
   getTrustResourceUrl(url: string): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
+
+  getBgUrl(url: string): string {
+    const prefix = "url(";
+    const suffix = ")";
+    return prefix + url + suffix;
+  }
 }

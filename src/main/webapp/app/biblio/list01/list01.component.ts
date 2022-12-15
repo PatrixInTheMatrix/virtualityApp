@@ -31,7 +31,7 @@ export class List01Component implements OnInit {
     this.selectedProduct = index;
     const zoomProduct = document.getElementById('zoomProduct') as HTMLElement;
     // zoomProduct.setAttribute('src', src);
-    zoomProduct.setAttribute('src', this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].scr);
+    zoomProduct.setAttribute('src', this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].scr);
 
   }
 }

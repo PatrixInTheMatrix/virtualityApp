@@ -78,11 +78,10 @@ body {
   font-weight: var(--bs-body-font-weight);
 
   color: var(--bs-body-color);
-  background-color: var(--bs-body-bgColor);
-
+  // background-color: var(--bs-body-bgColor);
+  background-image: var(--bs-body-image);
   line-height: var(--bs-body-line-height);
   letter-spacing: var(--bs-body-letter-spacing);
-
 }
 
 h1,

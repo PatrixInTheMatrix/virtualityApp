@@ -3,23 +3,23 @@
   <div class="row">
 
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <div class="blocktext" [jhiTranslate]="pageName+'.description1'">
+      <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.description1'">
       </div>
     </div>
 
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <img [style.max-width]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.width"
-           [style.max-height]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.height"
-           [style.border]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.border"
-           [style.border-radius]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
-           [style.box-shadow]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
+      <img [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.width"
+           [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.height"
+           [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.border"
+           [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
+           [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
            [style.margin-bottom]="'1em'"
-           [src]="this.wcmsService.JsonWcmsPages[this.wcmsService.getIndex(pageName)].image1.url" alt="wcms-page-One">
+           [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.url" alt="wcms-page-One">
     </div>
 
   </div>
 
-  <div class="blocktext" [jhiTranslate]="pageName+'.description2'">
+  <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.description2'">
   </div>
 
 </div>

@@ -17,6 +17,9 @@ import {WcmsService} from "../services/wcms.service";
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit, OnDestroy {
+
+  client = "kebab";
+
   languages = LANGUAGES;
   version = '';
 
@@ -43,11 +46,11 @@ export class HomeComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe(account => (this.account = account));
 
-    this.wcmsService.setSelectedTheme(0);
+    this.wcmsService.setSelectedTheme(this.client);
   }
 
   login(): void {
-    this.router.navigate(['/login']);
+    this.router.navigate(['/login']).then();
   }
 
   changeLanguage(languageKey: string): void {

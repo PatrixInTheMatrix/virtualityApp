@@ -1,5 +1,4 @@
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  min-height: 500px;    /* Set slide height here */
-
+#carouselGalleryIndicators.carousel.slide {
+  width: 100%;
+  max-width: 30vh !important;
 }

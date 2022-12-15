@@ -1,5 +1,5 @@
 <div class="gallery">
-    <img *ngFor="let image of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].gallery.images"
+    <img *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
          [src]="getTrustResourceUrl(image.scr)"
          [alt]="image.alt">
 </div>

@@ -1,13 +1,26 @@
-<div style="overflow-x: hidden">
+<div *ngIf="wcmsService.wcmsClient === 'demo'" style="overflow-x: hidden">
 
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
   <jhi-separator></jhi-separator>
 
   <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
 
-  <jhi-gallery03 [pageName]="pageName"></jhi-gallery03>
+  <jhi-gallery03 [pageName]="pageName" style="display: flex; justify-content: center"></jhi-gallery03>
 
-  Hier können Sie Ihr Unternehmen kurz vorstellen oder beschreiben.
-  Geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen
+  <span style="margin-top: 1em">
+    Hier können Sie Ihr Unternehmen kurz vorstellen oder beschreiben.
+    Geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen
+  </span>
+
+</div>
+
+<div *ngIf="wcmsService.wcmsClient === 'kebab'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+  <jhi-separator></jhi-separator>
+
+  <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
+
+  <jhi-gallery03 [pageName]="pageName" style="display: flex; justify-content: center"></jhi-gallery03>
 
 </div>

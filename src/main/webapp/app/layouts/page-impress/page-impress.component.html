@@ -1,121 +1,39 @@
 <!--
-  <span jhiTranslate="pageImpress.business">Angaben gemäß § 5 TMG DiWiDi UG (haftungsbeschränkt)</span>
-  <span jhiTranslate="pageImpress.district">Sitz:München</span>
-  <span  jhiTranslate="pageImpress.address">Geschäftsanschrift:Feringastraße 6 85774 Unterföhring</span>
-  <span jhiTranslate="pageImpress.leaders">Vertreten durch:Manuela Wallner&Patrice Perrin</span>
+  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.business">Angaben gemäß § 5 TMG DiWiDi UG (haftungsbeschränkt)</span>
+  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.district">Sitz:München</span>
+  <span  [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.address">Geschäftsanschrift:Feringastraße 6 85774 Unterföhring</span>
+  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.leaders">Vertreten durch:Manuela Wallner&Patrice Perrin</span>
 -->
 
 <div style="margin-bottom: 1em; margin-top: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.business"></span>
-  <br /><span jhiTranslate="pageImpress.businessName"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.business'"></span>
+  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.businessName'"></span>
 </div>
 
 <div style="margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.district"></span>
-  <br /><span jhiTranslate="pageImpress.districtName"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.district'"></span>
+  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.districtName'"></span>
 </div>
 
 <div style="margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.address"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.address'"></span>
   <br />Musterstraße<br />D-xxxxx Musterstadt
 </div>
 
 <div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.leaders"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.leaders'"></span>
   <br />Ihr Name <br />ggf. Teilhaber
 </div>
 <div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.register"></span>
-  <br /><span jhiTranslate="pageImpress.registerSitz"></span> <br /><span jhiTranslate="pageImpress.registerGericht"></span> <br />HRB
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.register'"></span>
+  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerSitz'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerGericht'"></span> <br />HRB
   xxxxxx
 </div>
 <div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.ustId"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.ustId'"></span>
   <br />DExxxxxxxxx
 </div>
 <div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" jhiTranslate="pageImpress.versicherung"></span>
-  <br /><span jhiTranslate="pageImpress.versicherungName"></span> <br /><span jhiTranslate="pageImpress.versicherungArt"></span>
+  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherung'"></span>
+  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungName'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungArt'"></span>
 </div>
-
-<!--
-<span class="gradientText blue" style="font-size: xx-small; text-align: right">Angaben gemäß § 5 TMG</span>
-<br />
-<p>DiWiDi UG (haftungsbeschränkt)<br /></p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Sitz:</span><br />München</p>
-<p><span class="gradientText blue">Geschäftsanschrift:</span><br />Feringastraße 6<br />85774 Unterföhring</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Vertreten durch:</span><br />Manuela Wallner & Patrice Perrin<br /></p>
-<p><span class="gradientText blue">Kontakt:</span><br />Telefon | +49 (0)8137 996190-1<br />E-Mail | info@diwidi.net</p>
-<p>
-  <span class="gradientText blue">Handelsregister:</span><br />Amtsgericht München<br /><small> - Registergericht - </small><br />HRB
-  276350<br />
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Steuer-ID:</span><br /><small>
-    - Steuer-Identifikationsnummer gemäß §§ 139a, b Abgabeordnung (AO)7 - </small
-  ><br />143 130 020 13
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Umsatzsteuer-ID:</span><br /><small>
-    - Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz - </small
-  ><br />DE353424316
-</p>
-
-<span class="gradientText blue" style="font-size: xx-small; text-align: right">Information according to § 5 TMG</span> <br />
-<p>DiWiDi UG (limited liability)<br /></p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Headquarters:</span><br />Munich</p>
-<p><span class="gradientText blue">Business address:</span><br />Feringastrasse 6<br />85774 Unterföhring</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Represented by:</span><br />Manuela Wallner & Patrice Perrin<br /></p>
-<p>
-  <span class="gradientText blue">Contact:</span><br />Phone | +49 (0)8137 996190-1<br />
-  Email | info@diwidi.net
-</p>
-<p>
-  <span class="gradientText blue">Commercial Register:</span><br />Munich District Court<br /><small> - Register Court - </small><br />HRB
-  276350<br />
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Tax ID:</span><br /><small>
-    - Tax identification number according to §§ 139a, b Fiscal Code (AO)7 - </small
-  ><br />143 130 020 13
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Sales tax ID:</span><br /><small>
-    - Sales tax identification number according to §27 a sales tax law - </small
-  ><br />DE353424316
-</p>
-
-<span class="gradientText blue" style="font-size: xx-small; text-align: right">Selon § 5 TMG</span><br />
-<p>DiWiDi UG (responsabilité limitée)<br /></p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Siège:</span><br />Munich</p>
-<p><span class="gradientText blue">Adresse de travail:</span><br />Feringastraße 6<br />85774 Unterföhring</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p><span class="gradientText blue">Représenter à travers:</span><br />Manuela Wallner & Patrice Perrin<br /></p>
-<p><span class="gradientText blue">Contact:</span><br />Téléphoner | +49 (0)8137 996190-1<br />E-Mail | info@diwidi.net</p>
-<p>
-  <span class="gradientText blue">Registre du commerce:</span><br />Tribunal de grande instance de Munich<br /><small>
-    - Tribunal d'enregistrement - </small
-  ><br />HRB 276350<br />
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Numéro d'identification fiscale:</span><br /><small>
-    - Numéro d'identification fiscale selon §§ 139 a, b Code fiscal (AO)7 - </small
-  ><br />143 130 020 13
-</p>
-<hr style="width: 50%; margin: 20px auto" />
-<p>
-  <span class="gradientText blue">Numéro d'identification fiscale:</span><br /><small>
-    - Numéro d'identification de la taxe de vente conformément au §27 a de la loi sur la taxe de vente - </small
-  ><br />DE353424316
-</p>
--->

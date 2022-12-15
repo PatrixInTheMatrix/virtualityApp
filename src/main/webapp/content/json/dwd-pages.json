@@ -1,175 +1,404 @@
 {
-  "wcmsPages": [
+  "wcmsThemeForPages": [
     {
-      "id": "pageOne",
-      "image1": {
-        "show": true,
-        "url": "../../content/images/page-one/welcome.svg",
-        "width": "45%",
-        "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": ""
-      },
-      "image2": {
-        "show": true,
-        "url": "../../content/images/page-one/new-product-icon.svg",
-        "width": "45%",
-        "height": "auto",
-        "border": "none",
-        "borderRadius": "10px",
-        "boxShadow": ""
-      },
-      "gallery": {
-        "width": "45%",
-        "height": "auto",
-        "border": "solid 5px",
-        "borderRadius": "2em",
-        "boxShadow": "",
-        "images":
-          [
-            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt": "DiWiDi"},
-            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt": "Dream it"},
-            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt": "Wish it"},
-            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt": "Do it"}
-          ]
+      "id": "demo",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/client/demo/page-one/welcome.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/demo/page-one/new-product-icon.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "",
+            "images": [
+              {
+                "scr": "../../../content/images/client/demo/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": "DiWiDi"
+              },
+              {
+                "scr": "../../../content/images/client/demo/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": "Dream it"
+              },
+              {
+                "scr": "../../../content/images/client/demo/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": "Wish it"
+              },
+              {
+                "scr": "../../../content/images/client/demo/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": "Do it"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/wish.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "images": [
+            ]
+          },
+          "list": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "products": [
+              {
+                "scr": "../../../content/images/client/demo/page-two/surprise-icon.svg",
+                "alt": "Seite2",
+                "title": "sortiment.product1.title",
+                "description": "sortiment.product1.description",
+                "special": "sortiment.product1.special",
+                "price": "10"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "alt": "Dream it",
+                "title": "sortiment.product2.title",
+                "description": "sortiment.product2.description",
+                "special": "sortiment.product2.special",
+                "price": "15"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/return-product-icon.svg",
+                "alt": "Wish it",
+                "title": "sortiment.product3.title",
+                "description": "sortiment.product3.description",
+                "special": "sortiment.product3.special",
+                "price": "5"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "alt": "Do it",
+                "title": "sortiment.product4.title",
+                "description": "sortiment.product4.description",
+                "special": "sortiment.product4.special",
+                "price": "200"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
+                "alt": "Seite2",
+                "title": "sortiment.product5.title",
+                "description": "sortiment.product5.description",
+                "special": "sortiment.product5.special",
+                "price": "10"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "alt": "Dream it",
+                "title": "sortiment.product6.title",
+                "description": "sortiment.product6.description",
+                "special": "sortiment.product6.special",
+                "price": "15"
+              },
+              {
+                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "alt": "Wish it",
+                "title": "sortiment.product7.title",
+                "description": "sortiment.product7.description",
+                "special": "sortiment.product7.special",
+                "price": "5"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/demo/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/demo/sketch1665068586440_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/demo/sketch1665068608806_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/demo/sketch1665068658206_600x600_antik07orig.png",
+                "alt": ""
+              }
+            ]
+          }
         }
-      },
-      {
-        "id": "pageTwo",
-        "image1": {
-          "show": true,
-          "url": "../../content/images/wish.svg",
-          "width": "35%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "grey 0px 8px 8px"
+      ]
+    },
+    {
+      "id": "kebab",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/client/kebab/page-one/welcome.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/kebab/page-one/new-product-icon.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(50%)",
+            "images": [
+              {
+                "scr": "../../../content/images/client/kebab/gallery/Kebab-1-2019-07-12.jpg",
+                "alt": "Yaman"
+              },
+              {
+                "scr": "../../../content/images/client/kebab/gallery/Kebab-2-2019-07-12.jpg",
+                "alt": "Kebap"
+              },
+              {
+                "scr": "../../../content/images/client/kebab/gallery/Kebab-3-2020-02-29.jpg",
+                "alt": "Pizza"
+              }
+            ]
+          }
         },
-        "image2": {
-          "show": true,
-          "url": "../../content/images/page-three/cloth-store-icon.svg",
-          "width": "35%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "grey 0px 8px 8px"
+        {
+          "id": "pageTwo",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/wish.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": "Seite2"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": "Dream it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": "Wish it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": "Do it"
+              }
+            ]
+          },
+          "list": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "products": [
+              {
+                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "alt": "Seite2",
+                "title": "sortiment.product1.title",
+                "description": "sortiment.product1.description",
+                "special": "sortiment.product1.special",
+                "price": "10"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/pizza-demo.jpg",
+                "alt": "Dream it",
+                "title": "sortiment.product2.title",
+                "description": "sortiment.product2.description",
+                "special": "sortiment.product2.special",
+                "price": "15"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
+                "alt": "Wish it",
+                "title": "sortiment.product3.title",
+                "description": "sortiment.product3.description",
+                "special": "sortiment.product3.special",
+                "price": "5"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "alt": "Do it",
+                "title": "sortiment.product4.title",
+                "description": "sortiment.product4.description",
+                "special": "sortiment.product4.special",
+                "price": "200"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "alt": "Seite2",
+                "title": "sortiment.product5.title",
+                "description": "sortiment.product5.description",
+                "special": "sortiment.product5.special",
+                "price": "10"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "alt": "Dream it",
+                "title": "sortiment.product6.title",
+                "description": "sortiment.product6.description",
+                "special": "sortiment.product6.special",
+                "price": "15"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "alt": "Wish it",
+                "title": "sortiment.product7.title",
+                "description": "sortiment.product7.description",
+                "special": "sortiment.product7.special",
+                "price": "5"
+              }
+            ]
+          }
         },
-        "gallery": {
-          "width": "45%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "",
-          "images":
-          [
-            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt": "Seite2"},
-            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt": "Dream it"},
-            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt": "Wish it"},
-            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt": "Do it"}
-          ]
-        },
-        "list": {
-          "width": "45%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "",
-          "products":
-          [
-            {
-              "scr": "../../../content/images/page-two/surprise-icon.svg",
-              "alt": "Seite2",
-              "title": "sortiment.product1.title",
-              "description": "sortiment.product1.description",
-              "special": "sortiment.product1.special",
-              "price": "10"
-            },
-            {
-              "scr" : "../../../content/images/page-two/box-package-icon.svg",
-              "alt": "Dream it",
-              "title": "sortiment.product2.title",
-              "description": "sortiment.product2.description",
-              "special": "sortiment.product2.special",
-              "price": "15"
-            },
-            {
-              "scr" : "../../../content/images/page-two/return-product-icon.svg",
-              "alt": "Wish it",
-              "title": "sortiment.product3.title",
-              "description": "sortiment.product3.description",
-              "special": "sortiment.product3.special",
-              "price": "5"
-            },
-            {
-              "scr" : "../../../content/images/page-two/box-package-icon.svg",
-              "alt": "Do it",
-              "title": "sortiment.product4.title",
-              "description": "sortiment.product4.description",
-              "special": "sortiment.product4.special",
-              "price": "200"
-            },
-            {
-              "scr": "../../../content/images/page-two/package-cancelled-icon.svg",
-              "alt": "Seite2",
-              "title": "sortiment.product5.title",
-              "description": "sortiment.product5.description",
-              "special": "sortiment.product5.special",
-              "price": "10"
-            },
-            {
-              "scr" : "../../../content/images/page-two/box-package-icon.svg",
-              "alt": "Dream it",
-              "title": "sortiment.product6.title",
-              "description": "sortiment.product6.description",
-              "special": "sortiment.product6.special",
-              "price": "15"
-            },
-            {
-              "scr" : "../../../content/images/page-two/box-package-icon.svg",
-              "alt": "Wish it",
-              "title": "sortiment.product7.title",
-              "description": "sortiment.product7.description",
-              "special": "sortiment.product7.special",
-              "price": "5"
-            }
-          ]
+        {
+          "id": "pageThree",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": ""
+              }
+            ]
+          }
         }
-      },
-      {
-        "id": "pageThree",
-        "image1": {
-          "show": true,
-          "url": "../../content/images/page-three/cloth-store-icon.svg",
-          "width": "50%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "grey 0px 8px 8px"
-        },
-        "image2": {
-          "show": true,
-          "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-          "width": "50%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "grey 0px 8px 8px"
-        },
-        "gallery": {
-          "width": "45%",
-          "height": "auto",
-          "border": "none",
-          "borderRadius": "10px",
-          "boxShadow": "",
-          "images":
-          [
-            {"scr" : "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png", "alt" : ""},
-            {"scr" : "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png", "alt" : ""},
-            {"scr" : "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png", "alt" : ""},
-            {"scr" : "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png", "alt" : ""}
-          ]
-        }
-      }
+      ]
+    }
   ]
 }

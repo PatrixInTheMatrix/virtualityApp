@@ -8,9 +8,65 @@
         "fontWeight": "100",
         "color": "#333333",
         "backgroundColor": "#EEE9E2",
+        "backgroundImage": "",
         "lineHeight": "normal",
         "letterSpacing": "normal",
         "filter": ""
+      },
+      "business": {
+        "tel": {
+          "number": "+49123456789",
+          "description": "+49 12345678-9"
+        },
+        "email": {
+          "address": "email@email.com"
+        }
+      },
+      "logo": {
+        "src": "../../content/images/client/demo/logo/template-store.svg",
+        "alt": "LOGO"
+      },
+      "flipCard": {
+        "logoStyle": {
+          "width": "250",
+          "border": "solid 1px",
+          "borderRadius": "10px",
+          "filter": "drop-shadow(-5px 5px 4px grey)",
+          "padding": "10px",
+          "opacity": "0.7"
+        }
+      },
+      "navigation": {
+        "pageOne": {
+          "src": "../../content/images/client/demo/navigation/dream.svg",
+          "alt": "pageOne"
+        },
+        "pageTwo": {
+          "src": "../../content/images/client/demo/navigation/wish.svg",
+          "alt": "pageTwo"
+        },
+        "pageThree": {
+          "src": "../../content/images/client/demo/navigation/do.svg",
+          "alt": "pageThree"
+        }
+      },
+      "language": {
+        "nl": {
+          "src": "../../content/images/language/bavaria-flag-round-circle-icon.svg",
+          "alt": "by"
+        },
+        "de": {
+          "src": "../../content/images/language/germany-flag-round-circle-icon.svg",
+          "alt": "de"
+        },
+        "en": {
+          "src": "../../content/images/language/uk-flag-round-circle-icon.svg",
+          "alt": "en"
+        },
+        "fr": {
+          "src": "../../content/images/language/france-flag-round-circle-icon.svg",
+          "alt": "fr"
+        }
       },
       "title": {
         "fontFamily": "Arial",
@@ -56,34 +112,233 @@
           "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
-      "socialMedia": {
-        "url": {
-          "facebook": "#",
-          "instagram": "",
-          "twitter": "",
-          "tikTok": "#",
-          "snapchat": "",
-          "linkedIn": "#",
-          "pinterest": "",
-          "youtube": "#",
-          "vimeo": "",
-          "reddit": "",
-          "xing": "https://www.xing.com/"
+      "socialMedia":[
+        {
+          "src": "../../content/images/social-media/facebook-app-icon.svg",
+          "alt": "facebook",
+          "url": "www.facebook.com"
         },
-        "src": {
-          "facebook": "../../content/images/social-media/facebook-app-icon.svg",
-          "instagram": "../../content/images/social-media/ig-instagram-icon.svg",
-          "twitter": "../../content/images/social-media/twitter-app-icon.svg",
-          "tikTok": "../../content/images/social-media/tiktok-app-icon.svg",
-          "snapchat": "../../content/images/social-media/snapchat-square-color-icon.svg",
-          "linkedIn": "../../content/images/social-media/linkedin-app-icon.svg",
-          "pinterest": "../../content/images/social-media/pinterest-app-icon.svg",
-          "youtube": "../../content/images/social-media/youtube-app-icon.svg",
-          "vimeo": "../../content/images/social-media/vimeo-square-color-icon.svg",
-          "reddit": "../../content/images/social-media/reddit-square-color-icon.svg",
-          "xing": "../../content/images/social-media/xing-icon.svg"
+        {
+          "src": "../../content/images/social-media/ig-instagram-icon.svg",
+          "alt": "instagram",
+          "url": "www.instagram.com"
+        },
+        {
+          "src": "../../content/images/social-media/twitter-app-icon.svg",
+          "alt": "twitter",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/tiktok-app-icon.svg",
+          "alt": "tiktok",
+          "url": "www.tiktok.com"
+        },
+        {
+          "src": "../../content/images/social-media/snapchat-square-color-icon.svg",
+          "alt": "snapchat",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/linkedin-app-icon.svg",
+          "alt": "linkedIn",
+          "url": "www.linkedin.com"
+        },
+        {
+          "src": "../../content/images/social-media/pinterest-app-icon.svg",
+          "alt": "pinterest",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/youtube-app-icon.svg",
+          "alt": "youtube",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/vimeo-square-color-icon.svg",
+          "alt": "vimeo",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/reddit-square-color-icon.svg",
+          "alt": "reddit",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/xing-icon.svg",
+          "alt": "xing",
+          "url": "www.xing.com"
         }
-      }
+      ]
+    },
+    {
+      "id": "kebab",
+      "theme": {
+        "fontFamily": "Arial",
+        "fontSize": "1em",
+        "fontWeight": "100",
+        "color": "white",
+        "backgroundColor": "navy",
+        "backgroundImage": "../../content/images/client/kebab/background/paper.jpg",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "filter": ""
+      },
+      "business": {
+        "tel": {
+          "number": "+49123456789",
+          "description": "+49 12345678-9"
+        },
+        "email": {
+          "address": "email@email.com"
+        }
+      },
+      "logo": {
+        "src": "../../content/images/client/kebab/logo/2018-08-05.jpg",
+        "alt": "LOGO"
+      },
+      "flipCard": {
+        "logoStyle": {
+          "width": "250",
+          "border": "dashed 3px",
+          "borderRadius": "10px",
+          "filter": "drop-shadow(-5px 5px 4px grey)",
+          "padding": "10px",
+          "opacity": "0.7"
+        }
+      },
+      "navigation": {
+        "pageOne": {
+          "src": "../../content/images/client/kebab/navigation/food-cart-icon.svg",
+          "alt": "pageOne"
+        },
+        "pageTwo": {
+          "src": "../../content/images/client/kebab/navigation/burger-fries-icon.svg",
+          "alt": "pageTwo"
+        },
+        "pageThree": {
+          "src": "../../content/images/client/kebab/navigation/fast-food-location-icon.svg",
+          "alt": "pageThree"
+        }
+      },
+      "language": {
+        "nl": {
+          "src": "../../content/images/language/bavaria-flag-round-circle-icon.svg",
+          "alt": "by"
+        },
+        "de": {
+          "src": "../../content/images/language/germany-flag-round-circle-icon.svg",
+          "alt": "de"
+        },
+        "en": {
+          "src": "../../content/images/language/uk-flag-round-circle-icon.svg",
+          "alt": "en"
+        },
+        "fr": {
+          "src": "../../content/images/language/france-flag-round-circle-icon.svg",
+          "alt": "fr"
+        }
+      },
+      "title": {
+        "fontFamily": "Arial",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
+        "color": "silver",
+        "backgroundColor": "grey",
+        "border": "solid 5px",
+        "borderRadius": "20px",
+        "boxShadow": "grey 0px 4px 4px",
+        "padding": "20px",
+        "marginBottom": "0"
+      },
+      "gMap": {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1251083.4689996284!2d9.596097691109282!3d50.9214425637295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1670421843753!5m2!1sde!2sde",
+        "width": "auto",
+        "height": "20em",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 2px 2px",
+        "filter": "grayscale(69%)"
+      },
+      "communication": {
+        "tel": {
+          "number": "+4981379961901",
+          "description": "+49 8137 9961901",
+          "src": "../../content/images/communication/telephone-icon.svg"
+        },
+        "email": {
+          "address": "info@diwidi.net",
+          "description": "info@diwidi.net",
+          "src": "../../content/images/communication/email-address-icon.svg"
+        }
+      },
+      "open": {
+        "open": {
+          "src": "../../content/images/open/open-icon.svg"
+        },
+        "close": {
+          "src": "../../content/images/open/closed-icon.svg"
+        },
+        "openAgain": {
+          "src": "../../content/images/open/coffee-break-time-icon.svg"
+        }
+      },
+      "socialMedia":[
+        {
+          "src": "../../content/images/social-media/facebook-app-icon.svg",
+          "alt": "facebook",
+          "url": "www.facebook.com"
+        },
+        {
+          "src": "../../content/images/social-media/ig-instagram-icon.svg",
+          "alt": "instagram",
+          "url": "www.instagram.com"
+        },
+        {
+          "src": "../../content/images/social-media/twitter-app-icon.svg",
+          "alt": "twitter",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/tiktok-app-icon.svg",
+          "alt": "tiktok",
+          "url": "www.tiktok.com"
+        },
+        {
+          "src": "../../content/images/social-media/snapchat-square-color-icon.svg",
+          "alt": "snapchat",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/linkedin-app-icon.svg",
+          "alt": "linkedIn",
+          "url": "www.linkedin.com"
+        },
+        {
+          "src": "../../content/images/social-media/pinterest-app-icon.svg",
+          "alt": "pinterest",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/youtube-app-icon.svg",
+          "alt": "youtube",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/vimeo-square-color-icon.svg",
+          "alt": "vimeo",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/reddit-square-color-icon.svg",
+          "alt": "reddit",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/xing-icon.svg",
+          "alt": "xing",
+          "url": "www.xing.com"
+        }
+      ]
     }
   ]
 }

@@ -8,3 +8,10 @@
     height: 30vh;
   }
 }
+
+.zoom-product{
+  height: 50vh;
+  @media (max-width: 767.98px) {
+    height: 30vh;
+  }
+}

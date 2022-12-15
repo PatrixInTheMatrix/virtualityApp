@@ -1,21 +1,22 @@
 <div id="table" class="container">
 
-  <div *ngFor="let product of wcmsService.JsonWcmsPages[wcmsService.getIndex(pageName)].list.products; let i = index"
+  <div *ngFor="let product of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.products; let i = index"
        class="box"
   >
 
     <div class="row" (click)="zoomProduct(i)">
 
-      <div class="col-3" style="display: flex; justify-content: center">
+      <div class="col-6" style="display: flex; justify-content: center">
         <div style="width: 100%">
-          <img [style.opacity]="selectedProduct=== i ? '0.3' : '1'"
+          <img [style.opacity]="selectedProduct=== i ? '1' : '0.6'"
                [src]="getTrustResourceUrl(product.scr)"
                [alt]="product.alt"
+               style="max-width: 100%"
                >
         </div>
       </div>
 
-      <div class="col-7">
+      <div class="col-6">
         <div class="row" style="margin: .5em"><span>{{product.title | translate}}</span></div>
         <div class="row"><code>{{product.description | translate}}</code></div>
         <div class="row" style="text-align: center"><span class="special">{{product.special | translate}}</span></div>
