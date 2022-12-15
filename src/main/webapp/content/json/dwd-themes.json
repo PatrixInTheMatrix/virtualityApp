@@ -193,7 +193,7 @@
         }
       },
       "logo": {
-        "src": "../../content/images/client/kebab/logo/2018-08-05.jpg",
+        "src": "../../content/images/client/kebab/logo/burger-logo-demo.png",
         "alt": "LOGO"
       },
       "flipCard": {
@@ -242,9 +242,9 @@
         "fontFamily": "Arial",
         "fontSize": "1.5em",
         "fontWeight": "100",
-        "color": "silver",
-        "backgroundColor": "grey",
-        "border": "solid 5px",
+        "color": "grey",
+        "backgroundColor": "transparent",
+        "border": "solid 5px silver",
         "borderRadius": "20px",
         "boxShadow": "grey 0px 4px 4px",
         "padding": "20px",

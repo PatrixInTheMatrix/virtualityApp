@@ -1,7 +1,18 @@
-<div style="overflow-x: hidden">
+<div *ngIf="wcmsService.wcmsClient === 'demo'" style="overflow-x: hidden">
+
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
   <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
+
+  <jhi-shop05 [pageName]="pageName"></jhi-shop05>
+
+</div>
+
+<div *ngIf="wcmsService.wcmsClient === 'kebab'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+
+  <jhi-separator></jhi-separator>
 
   <jhi-shop05 [pageName]="pageName"></jhi-shop05>
 

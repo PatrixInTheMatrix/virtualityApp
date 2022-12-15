@@ -53,29 +53,29 @@
     },
     "kebab": {
       "global": {
-        "title": "kebab",
+        "title": "Lecker GmbH'ammm",
         "service": "IT Dienstleitung",
-        "description": "Was bieten Sie Ihren Kunden an?",
-        "banner": "Ihr Firmenspruch oder Motto",
+        "description": "Zusammen isst man weniger allein",
+        "banner": "ESSEN IST FERTIG ;)",
         "bannerLogo": "Hier & Jetzt",
         "bannerHome": "Wenn du es träumen kannst, kannst du es schaffen",
         "bannerSwitchApp": "Die Individualität ist unsere Spezialität"
       },
       "pageOne": {
-        "title": "Wenn Sie möchten, entsteht hier Ihr Zuhause im Internet",
-        "quote": "Ihre Botschaft oder Ihr Zitat für Ihre Kunden",
+        "title": "Tritt ein, bring Glück herein",
+        "quote": "Kochen macht glücklich, essen auch!",
         "description1": "Hier können Sie Ihr Unternehmen kurz vorstellen oder beschreiben. <br /> Geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen",
         "description2": "pageOne-description2 >>> Fügen Sie als Nächstes eine kurze Beschreibung Ihres Unternehmens ein und geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen."
       },
       "pageTwo": {
-        "title": "Stichwort für Ihre Leistung, ihr Angebot",
-        "quote": "Sie können hier ein motivierendes Zitate oder eine Botschaft einfügen",
+        "title": "Kochen... Leidenschaft, Ausgleich und Inspiration in einem.",
+        "quote": "",
         "description1": "Wenn Sie möchten können Sie hier Ihre Leistung oder Ihr Angebot beschreiben bzw. aufzählen.",
         "description2": "Sie können mehrere Leistung oder Angebote aufzählen."
       },
       "pageThree": {
-        "title": "Ihre Kontaktdaten und Öffnungszeiten bekannt geben",
-        "quote": "Ich freue mich über Ihren Anruf oder Ihre Email",
+        "title": "Es gibt immer einem Weg...",
+        "quote": "",
         "description1": "pageThree-description1 >>> Fügen Sie als Nächstes eine kurze Beschreibung Ihres Unternehmens ein und geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen.",
         "description2": "pageThree-description2 >>> Fügen Sie als Nächstes eine kurze Beschreibung Ihres Unternehmens ein und geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen.",
         "open": {

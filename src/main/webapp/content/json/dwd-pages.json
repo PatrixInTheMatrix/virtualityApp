@@ -225,16 +225,16 @@
             "filter": "grayscale(50%)",
             "images": [
               {
-                "scr": "../../../content/images/client/kebab/gallery/Kebab-1-2019-07-12.jpg",
-                "alt": "Yaman"
+                "scr": "../../../content/images/client/kebab/gallery/snack-bar-demo.jpg",
+                "alt": "Imbiss"
               },
               {
-                "scr": "../../../content/images/client/kebab/gallery/Kebab-2-2019-07-12.jpg",
-                "alt": "Kebap"
+                "scr": "../../../content/images/client/kebab/gallery/food-local-demo.jpg",
+                "alt": "Lecker"
               },
               {
-                "scr": "../../../content/images/client/kebab/gallery/Kebab-3-2020-02-29.jpg",
-                "alt": "Pizza"
+                "scr": "../../../content/images/client/kebab/gallery/people-local-demo.jpg",
+                "alt": "Zusammen"
               }
             ]
           }
@@ -301,7 +301,7 @@
                 "price": "10"
               },
               {
-                "scr": "../../content/images/client/kebab/products/pizza-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/kebab-teller-demo.jpg",
                 "alt": "Dream it",
                 "title": "sortiment.product2.title",
                 "description": "sortiment.product2.description",
@@ -309,7 +309,7 @@
                 "price": "15"
               },
               {
-                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/cheese-pizza-demo.jpg",
                 "alt": "Wish it",
                 "title": "sortiment.product3.title",
                 "description": "sortiment.product3.description",
@@ -317,7 +317,7 @@
                 "price": "5"
               },
               {
-                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/double-cheese-pizza-demo.jpg",
                 "alt": "Do it",
                 "title": "sortiment.product4.title",
                 "description": "sortiment.product4.description",
@@ -325,7 +325,15 @@
                 "price": "200"
               },
               {
-                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/olive-pizza-demo.jpg",
+                "alt": "Do it",
+                "title": "sortiment.product4.title",
+                "description": "sortiment.product4.description",
+                "special": "sortiment.product4.special",
+                "price": "200"
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
                 "alt": "Seite2",
                 "title": "sortiment.product5.title",
                 "description": "sortiment.product5.description",
@@ -333,7 +341,7 @@
                 "price": "10"
               },
               {
-                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
                 "alt": "Dream it",
                 "title": "sortiment.product6.title",
                 "description": "sortiment.product6.description",
@@ -341,7 +349,7 @@
                 "price": "15"
               },
               {
-                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "scr": "../../content/images/client/kebab/products/lasagna-demo.jpg",
                 "alt": "Wish it",
                 "title": "sortiment.product7.title",
                 "description": "sortiment.product7.description",
