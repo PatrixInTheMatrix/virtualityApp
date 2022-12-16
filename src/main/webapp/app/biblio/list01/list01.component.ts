@@ -10,6 +10,7 @@ import {translate} from "@angular/localize/tools";
 })
 export class List01Component implements OnInit, AfterViewInit {
   @Input() pageName = 'pageOne';
+
   selectedProduct = 0;
 
   constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}

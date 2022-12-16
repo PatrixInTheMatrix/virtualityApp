@@ -348,7 +348,8 @@
                 "title": "sortiment.product7.title",
                 "description": "sortiment.product7.description",
                 "special": "sortiment.product7.special",
-                "price": 6
+                "price": 6,
+                "reducedPrice": 4
               },
               {
                 "scr": "../../content/images/client/kebab/products/lasagne-demo.jpg",
