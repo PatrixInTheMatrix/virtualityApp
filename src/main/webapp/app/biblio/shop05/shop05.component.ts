@@ -8,10 +8,15 @@ import {WcmsService} from "../../services/wcms.service";
 })
 export class Shop05Component implements OnInit {
   @Input() pageName = 'pageOne';
+  isZoomedProduct = true;
 
   constructor(public wcmsService: WcmsService) {}
 
   ngOnInit(): void {
     console.warn('Shop05Component');
+  }
+
+  switchView() : void {
+    this.isZoomedProduct = !this.isZoomedProduct;
   }
 }

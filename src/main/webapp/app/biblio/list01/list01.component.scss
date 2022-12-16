@@ -1,16 +1,110 @@
 .box{
-  margin:1px;
+  margin-bottom:10px;
   background-color: silver;
   border-radius: 10px;
   cursor: pointer;
+  height: 10vh;
+  max-height: 10vh;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  &.selected{
+    margin-left: -2em;
+    padding-left: 2em;
+  }
 }
 
-code{
-  color: grey;
+.product-preview{
+  width: 100%;
+  min-height: 10vh;
+  // height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-title{
+  position: relative;
+  background-color: white;
+  border-radius: 10px 0;
+  color: #666666;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  padding: 2px;
+  &.selected {
+    top: -1.3em;
+    left: -.5em;
+    font-size: 1.3em;
+  }
+}
+
+.selected-product{
+  background-color: grey;
+  margin: 20px 5px;
 }
 
 .special{
   margin: .5em;
   color: #555555;
   font-style: italic;
+}
+
+.is-special{
+  position: absolute;
+  left: 2em;
+  font-size: 1rem;
+  max-width: 20em;
+  max-height: 6em;
+}
+
+.is-price {
+  position: absolute;
+  left: 2em;
+
+  color: #666666;
+  border: 0.5rem double grey;
+  transform: rotate(23deg);
+  -webkit-mask-position: 2rem 2rem;
+  font-size: 1rem;
+  max-width: 6em;
+  max-height: 6em;
+  @media (max-width: 767.98px) {
+    font-size: .7rem;
+    max-width: 10em;
+  }
+}
+
+.is-reduced-price {
+  position: absolute;
+  left: 2em;
+
+  color: #e0e0e0;
+  border: 0.5rem double #e0e0e0;
+  transform: rotate(23deg);
+  -webkit-mask-position: 2rem 2rem;
+  font-size: 1rem;
+  text-decoration: line-through;
+  max-width: 6em;
+  max-height: 6em;
+  @media (max-width: 767.98px) {
+    font-size: .7rem;
+    max-width: 10em;
+  }
+}
+
+.is-special-price {
+  position: absolute;
+  right: 6em;
+
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  border-radius: 0;
+  padding: 0.5rem;
+
+  color: #666666;
+  transform: rotate(0deg);
+  -webkit-mask-position: 2rem 2rem;
+  font-size: 1rem;
+  max-width: 6em;
+  max-height: 4em;
+  @media (max-width: 767.98px) {
+    font-size: .7rem;
+    max-width: 10em;
+  }
 }

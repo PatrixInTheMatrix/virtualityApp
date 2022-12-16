@@ -1,17 +1,29 @@
-.techno-list {
-  // filter: drop-shadow(-5px 5px 4px grey);
-  opacity: 1;
-  // max-width: 100%;
+.simple-list {
   overflow-y: scroll;
-  height: 50vh;
+  height: 55vh;
+  @media (max-width: 767.98px) {
+    height: 30vh;
+  }
+}
+
+.techno-list {
+  filter: drop-shadow(-5px 5px 4px grey);
+  // opacity: 1;
+  overflow-y: scroll;
+  height: 55vh;
   @media (max-width: 767.98px) {
     height: 30vh;
   }
 }
 
 .zoom-product{
-  height: 50vh;
+  display: flex;
+  align-items: end;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  max-height: 55vh;
   @media (max-width: 767.98px) {
-    height: 30vh;
+    max-height: 30vh;
   }
 }

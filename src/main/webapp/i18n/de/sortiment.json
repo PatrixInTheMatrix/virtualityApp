@@ -1,39 +1,44 @@
 {
  "sortiment": {
    "product1": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
-     "special": "Angebote der Woche !!!"
+     "title": "Döner",
+     "description": "Döner Salat, Tzatziki 3, 14, 17, Aa, B, E, G, I, K, M",
+     "special": ""
    },
    "product2": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "title": "Kebab-Teller",
+     "description": "Döner Salat, Tzatziki 3, 14, 17, Aa, B, E, G, I, K, M",
      "special": ""
    },
    "product3": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
-     "special": "Versandkosten frei !!!"
+     "title": "Pizza Käse Oliven",
+     "description": "Tomatensauce, Käse, frische Tomaten, Oliven, 3, Aa, F, I",
+     "special": "Angebot der Woche!"
    },
    "product4": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "title": "Pizza Quattro Formaggi",
+     "description": "Tomatensauce, 4 x Käse-Sorten 3, Aa, I",
      "special": ""
    },
    "product5": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
-     "special": "Leider ausverkauft !!!"
+     "title": "Pizza Jalapeño",
+     "description": "Jalapeños, Zwiebeln, Spitzpaprika, Champignons und Mais",
+     "special": ""
    },
    "product6": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "title": "Hot-Dog XXL",
+     "description": "Brötchen Würstchen, Ketchup, Senf, Majo",
      "special": ""
- },
+   },
    "product7": {
-     "title": "Produkt / Dienstleistung",
-     "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+     "title": "Pommes",
+     "description": "Pommes rot weiß ist der Klassiker unter den Pommes frites Gerichten, wobei rot für Ketchup und weiß für Mayonnaise steht",
+     "special": ""
+   },
+   "product8": {
+     "title": "Lasagne al Forno",
+     "description": "Schinken, Ei, Parmesan, Käse und Bolognese-Bechamelsauce 3, 6, 9, 16, Aa, I, K",
      "special": ""
    }
-}
+ }
 }

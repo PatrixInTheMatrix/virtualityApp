@@ -1,29 +1,40 @@
 <div id="table" class="container">
 
   <div *ngFor="let product of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.products; let i = index"
-       class="box"
+       [class]="selectedProduct=== i ? 'box selected' : 'box'"
   >
 
     <div class="row" (click)="zoomProduct(i)">
+      <div class="col-2 mt-4" >
+        <div  [id]="'productPrice'+i"[hidden]="selectedProduct=== i" [class]="(product.reducedPrice! > 0) ? 'stamp is-reduced-price' : 'stamp is-price'">
+          {{product.price}} €
+        </div>
 
-      <div class="col-6" style="display: flex; justify-content: center">
-        <div style="width: 100%">
-          <img [style.opacity]="selectedProduct=== i ? '1' : '0.6'"
-               [src]="getTrustResourceUrl(product.scr)"
-               [alt]="product.alt"
-               style="max-width: 100%"
-               >
+        <div *ngIf="product.reducedPrice! > 0" class="stamp is-special-price">
+          Jetzt nur {{product.reducedPrice}} €
+        </div>
+      </div>
+      <div class="col-4" style="display: flex; justify-content: center;">
+        <div class="product-preview"
+             [style.opacity]="selectedProduct=== i ? '1' : '0.6'"
+             [hidden]="selectedProduct=== i"
+             [style.background-image]="getBgUrl(product.scr)"
+          >
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="row" style="margin: .5em"><span>{{product.title | translate}}</span></div>
-        <div class="row"><code>{{product.description | translate}}</code></div>
-        <div class="row" style="text-align: center"><span class="special">{{product.special | translate}}</span></div>
-      </div>
+      <div [class]="selectedProduct=== i ? 'col-12 selected-product' : 'col-6'">
+        <div class="row">
+          <div class="col-12">
+            <span [class]="selectedProduct=== i ? 'product-title selected' : 'product-title'">{{product.title | translate}}</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div [id]="'productDescription'+i">{{product.description | translate}}</div>
+          </div>
+        </div>
 
-      <div class="col-2" style="vertical-align: center">
-        <span>{{product.price}} €</span>
       </div>
 
     </div>

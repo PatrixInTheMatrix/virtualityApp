@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'jhi-separator',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./separator.component.scss']
 })
 export class SeparatorComponent implements OnInit {
+  @Input() factor = 1;
 
-  constructor() { }
+  // constructor() { }
 
   ngOnInit(): void {
+    console.warn('SeparatorComponent');
   }
 
 }

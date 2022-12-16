@@ -1,9 +1,30 @@
+
 <div style="overflow: hidden">
 
-  <div class="row" style="display: flex; justify-content: center; align-items: center">
+  <div class="row" style="margin: 0">
 
-    <div class="col-5" style="display: flex; justify-content: center; align-items: start">
-      <img class="zoom-product" id="zoomProduct" src="">
+    <div class="col-5">
+    </div>
+
+    <div class="col-7" style="display: flex; justify-content: end">
+      <button style="background-color: transparent;
+                position: relative;
+                border-radius: 5px;
+                margin-right: 1em"
+              (click)="switchView()">* Allergene und Zusatzstoffe
+      </button>
+    </div>
+
+  </div>
+
+  <div class="row" style="margin: 0">
+
+    <div [hidden]="!isZoomedProduct" id="zoomProduct" class="col-5 zoom-product">
+      <div id="zoomProductDescription" class="stamp is-price"></div>
+    </div>
+
+    <div [hidden]="isZoomedProduct" class="row" class="col-5 simple-list">
+      <jhi-additive></jhi-additive>
     </div>
 
     <div class="col-7 techno-list">
@@ -11,4 +32,5 @@
     </div>
 
   </div>
+
 </div>

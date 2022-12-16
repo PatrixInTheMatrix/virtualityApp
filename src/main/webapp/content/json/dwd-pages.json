@@ -92,7 +92,7 @@
                 "title": "sortiment.product1.title",
                 "description": "sortiment.product1.description",
                 "special": "sortiment.product1.special",
-                "price": "10"
+                "price": 10
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
@@ -100,7 +100,7 @@
                 "title": "sortiment.product2.title",
                 "description": "sortiment.product2.description",
                 "special": "sortiment.product2.special",
-                "price": "15"
+                "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/return-product-icon.svg",
@@ -108,7 +108,7 @@
                 "title": "sortiment.product3.title",
                 "description": "sortiment.product3.description",
                 "special": "sortiment.product3.special",
-                "price": "5"
+                "price": 5
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
@@ -116,7 +116,7 @@
                 "title": "sortiment.product4.title",
                 "description": "sortiment.product4.description",
                 "special": "sortiment.product4.special",
-                "price": "200"
+                "price": 200
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
@@ -124,7 +124,7 @@
                 "title": "sortiment.product5.title",
                 "description": "sortiment.product5.description",
                 "special": "sortiment.product5.special",
-                "price": "10"
+                "price": 10
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
@@ -132,7 +132,7 @@
                 "title": "sortiment.product6.title",
                 "description": "sortiment.product6.description",
                 "special": "sortiment.product6.special",
-                "price": "15"
+                "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
@@ -140,7 +140,7 @@
                 "title": "sortiment.product7.title",
                 "description": "sortiment.product7.description",
                 "special": "sortiment.product7.special",
-                "price": "5"
+                "price": 5
               }
             ]
           }
@@ -294,67 +294,69 @@
             "products": [
               {
                 "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
-                "alt": "Seite2",
+                "alt": "Döner",
                 "title": "sortiment.product1.title",
                 "description": "sortiment.product1.description",
                 "special": "sortiment.product1.special",
-                "price": "10"
+                "price": 8,
+                "reducedPrice": -1
               },
               {
                 "scr": "../../content/images/client/kebab/products/kebab-teller-demo.jpg",
-                "alt": "Dream it",
+                "alt": "kebab-teller",
                 "title": "sortiment.product2.title",
                 "description": "sortiment.product2.description",
                 "special": "sortiment.product2.special",
-                "price": "15"
+                "price": 15
               },
               {
                 "scr": "../../content/images/client/kebab/products/cheese-pizza-demo.jpg",
-                "alt": "Wish it",
+                "alt": "cheese-pizza",
                 "title": "sortiment.product3.title",
                 "description": "sortiment.product3.description",
                 "special": "sortiment.product3.special",
-                "price": "5"
+                "price": 13
               },
               {
                 "scr": "../../content/images/client/kebab/products/double-cheese-pizza-demo.jpg",
-                "alt": "Do it",
+                "alt": "double-cheese-pizza",
                 "title": "sortiment.product4.title",
                 "description": "sortiment.product4.description",
                 "special": "sortiment.product4.special",
-                "price": "200"
+                "price": 15,
+                "reducedPrice": 11
               },
               {
-                "scr": "../../content/images/client/kebab/products/olive-pizza-demo.jpg",
-                "alt": "Do it",
-                "title": "sortiment.product4.title",
-                "description": "sortiment.product4.description",
-                "special": "sortiment.product4.special",
-                "price": "200"
-              },
-              {
-                "scr": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
-                "alt": "Seite2",
+                "scr": "../../content/images/client/kebab/products/jalapeno-pizza-demo.jpg",
+                "alt": "Jalapeño-pizza",
                 "title": "sortiment.product5.title",
                 "description": "sortiment.product5.description",
                 "special": "sortiment.product5.special",
-                "price": "10"
+                "price": 15
               },
               {
-                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
-                "alt": "Dream it",
+                "scr": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
+                "alt": "hot-dog",
                 "title": "sortiment.product6.title",
                 "description": "sortiment.product6.description",
                 "special": "sortiment.product6.special",
-                "price": "15"
+                "price": 13
               },
               {
-                "scr": "../../content/images/client/kebab/products/lasagna-demo.jpg",
-                "alt": "Wish it",
+                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
+                "alt": "frites",
                 "title": "sortiment.product7.title",
                 "description": "sortiment.product7.description",
                 "special": "sortiment.product7.special",
-                "price": "5"
+                "price": 6
+              },
+              {
+                "scr": "../../content/images/client/kebab/products/lasagne-demo.jpg",
+                "alt": "lasagne",
+                "title": "sortiment.product8.title",
+                "description": "sortiment.product8.description",
+                "special": "sortiment.product8.special",
+                "price": 16
               }
             ]
           }
