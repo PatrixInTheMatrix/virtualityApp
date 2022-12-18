@@ -114,7 +114,7 @@ Main page styles
   cursor: pointer;
   background-color: transparent;
   transition: opacity 0.6s ease;
-  opacity: 0.3;
+  opacity: var(--nav-icon-inactive-opacity);
   transform: scale(0.9);
 }
 @media (prefers-reduced-motion: reduce) {
@@ -213,4 +213,63 @@ button {
   transform: rotate(23deg);
   -webkit-mask-position: 2rem 3rem;
   font-size: 2rem;
+}
+
+// DEMO AUSWAHL
+.demo-choice{
+
+
+  // display: block;
+  // width: 100%;
+  // padding: $form-select-padding-y $form-select-indicator-padding $form-select-padding-y $form-select-padding-x;
+  // -moz-padding-start: subtract($form-select-padding-x, 3px); // See https://github.com/twbs/bootstrap/issues/32636
+  font-family: var(--bs-body-font-family);
+  font-size: 1.5em;
+  font-weight: var(--bs-body-font-weight);
+  // color: var(--bs-body-color);
+  /*
+    document.documentElement.style.setProperty('--bs-body-font-family', this.wcmsSelectedTheme.fontFamily);
+    document.documentElement.style.setProperty('--bs-body-font-size', this.wcmsSelectedTheme.fontSize);
+    document.documentElement.style.setProperty('--bs-body-font-weight', this.wcmsSelectedTheme.fontWeight);
+    document.documentElement.style.setProperty('--bs-body-image', "url('" + this.wcmsSelectedTheme.backgroundImage + "')");
+    document.documentElement.style.setProperty('--bs-body-color', this.wcmsSelectedTheme.color);
+    document.documentElement.style.setProperty('--bs-body-bgColor', this.wcmsSelectedTheme.backgroundColor);
+   */
+
+  // line-height: $form-select-line-height;
+  // color: $form-select-color;
+  background-color: transparent;
+  // background-image: escape-svg($form-select-indicator);
+  // background-repeat: no-repeat;
+  // background-position: $form-select-bg-position;
+  // background-size: $form-select-bg-size;
+  // border: $form-select-border-width solid $form-select-border-color;
+  // @include border-radius($form-select-border-radius, 0);
+  // @include box-shadow($form-select-box-shadow);
+  // @include transition($form-select-transition);
+  // appearance: none;
+
+  cursor: auto;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px 0px inset;
+  border-radius: 10px;
+
+}
+
+.blink-on-focus {
+  width: 3em;
+  margin-top: -1em;
+  margin-left: 10em;
+  transform: rotate(-30deg);
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

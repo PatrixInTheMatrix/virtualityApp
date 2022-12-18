@@ -1,44 +1,66 @@
 {
  "sortiment": {
-   "product1": {
-     "title": "Döner",
-     "description": "Döner Salat, Tzatziki 3, 14, 17, Aa, B, E, G, I, K, M",
-     "special": ""
+   "kebab": {
+     "product001": {
+       "title": "Döner",
+       "description": "Döner Salat, Tzatziki",
+       "additive": "3, 14, 17, Aa, B, E, G, I, K, M",
+       "special": ""
+     },
+     "product002": {
+       "title": "Kebab-Teller",
+       "description": "Döner Salat, Tzatziki",
+       "additive": "3, 14, 17, Aa, B, E, G, I, K, M",
+       "special": ""
+     },
+     "product003": {
+       "title": "Pizza Käse Oliven",
+       "description": "Tomatensauce, Käse, frische Tomaten, Oliven",
+       "special": "Angebot der Woche!"
+     },
+     "product004": {
+       "title": "Pizza Quattro Formaggi",
+       "description": "Tomatensauce, 4 x Käse-Sorten",
+       "special": ""
+     },
+     "product005": {
+       "title": "Pizza Jalapeño",
+       "description": "Jalapeños, Zwiebeln, Spitzpaprika, Champignons und Mais",
+       "special": ""
+     },
+     "product006": {
+       "title": "Hot-Dog XXL",
+       "description": "Brötchen Würstchen, Ketchup, Senf, Majo",
+       "special": ""
+     },
+     "product007": {
+       "title": "Pommes",
+       "description": "Pommes rot weiß ist der Klassiker unter den Pommes frites Gerichten, wobei rot für Ketchup und weiß für Mayonnaise steht",
+       "special": ""
+     },
+     "product008": {
+       "title": "Lasagne al Forno",
+       "description": "Schinken, Ei, Parmesan, Käse und Bolognese-Bechamelsauce",
+       "special": ""
+     }
    },
-   "product2": {
-     "title": "Kebab-Teller",
-     "description": "Döner Salat, Tzatziki 3, 14, 17, Aa, B, E, G, I, K, M",
-     "special": ""
-   },
-   "product3": {
-     "title": "Pizza Käse Oliven",
-     "description": "Tomatensauce, Käse, frische Tomaten, Oliven, 3, Aa, F, I",
-     "special": "Angebot der Woche!"
-   },
-   "product4": {
-     "title": "Pizza Quattro Formaggi",
-     "description": "Tomatensauce, 4 x Käse-Sorten 3, Aa, I",
-     "special": ""
-   },
-   "product5": {
-     "title": "Pizza Jalapeño",
-     "description": "Jalapeños, Zwiebeln, Spitzpaprika, Champignons und Mais",
-     "special": ""
-   },
-   "product6": {
-     "title": "Hot-Dog XXL",
-     "description": "Brötchen Würstchen, Ketchup, Senf, Majo",
-     "special": ""
-   },
-   "product7": {
-     "title": "Pommes",
-     "description": "Pommes rot weiß ist der Klassiker unter den Pommes frites Gerichten, wobei rot für Ketchup und weiß für Mayonnaise steht",
-     "special": ""
-   },
-   "product8": {
-     "title": "Lasagne al Forno",
-     "description": "Schinken, Ei, Parmesan, Käse und Bolognese-Bechamelsauce 3, 6, 9, 16, Aa, I, K",
-     "special": ""
+   "foot": {
+     "product001": {
+       "title": "Fußpflege",
+       "description": "Hornhaut entfernen, Nagelfalz reinigen, Hühneraugen behandeln, Eingewachsene Fußnägel behandeln"
+     },
+     "product002": {
+       "title": "Nagellack",
+       "description": "Nägel lackieren, aus hygienischen Gründen nur mit Ihrem eigenen Lack."
+     },
+     "product003": {
+       "title": "Pediküre",
+       "description": "Fussnägel schneiden, fräsen und formen"
+     },
+     "product004": {
+       "title": "Wellnessmassage",
+       "description": "Wohltuende Fuß- und Wadenmassage mit einem Pflegeprodukt"
+     }
    }
  }
 }

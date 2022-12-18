@@ -5,6 +5,8 @@ export interface Theme {
   color: string;
   backgroundColor: string;
   backgroundImage: string;
+  backgroundImagePosition: string;
+  backgroundImageSize: string;
   lineHeight: string;
   letterSpacing: string;
   filter: string;
@@ -58,6 +60,7 @@ export interface PageThree {
 }
 
 export interface Navigation {
+  navIconInactiveOpacity?: number;
   pageOne: PageOne;
   pageTwo: PageTwo;
   pageThree: PageThree;

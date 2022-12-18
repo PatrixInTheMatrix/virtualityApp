@@ -76,10 +76,16 @@
       <div [hidden]="showImpressum">
         <h4 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"></h4>
         <hr />
-        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"></div>
-        <h2 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h2>
 
-        <hr />
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"></div>
+
+        <!-- <h3 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3> -->
+        <select class="form-select form-select-sm demo-choice" [(ngModel)]="client" (change)="this.wcmsService.setSelectedTheme(client); hideTheFocus();">
+          <!-- <option selected>Demo auswählen</option> -->
+          <option *ngFor="let theme of wcmsService.JsonWcmsThemes" [value]="theme.id">{{'virtuality.' + theme.id.toLowerCase() + '.global.title' | translate}}</option>
+        </select>
+        <img [hidden]="!blinkOnFocus" class="blink-on-focus" src="../../content/images/communication/hand-clicking-icon.svg">
+
         <jhi-social-media></jhi-social-media>
       </div>
       <div [hidden]="!showImpressum" class="leftContainer" style="overflow-y: scroll">
@@ -87,7 +93,7 @@
       </div>
     </div>
 
-    <jhi-media-balloon [hidden]="wcmsService.wcmsClient !== 'demo'"></jhi-media-balloon>
+    <jhi-media-balloon></jhi-media-balloon>
 
   </div>
 
@@ -132,6 +138,7 @@
 
       </div>
       <!-- END:NAVIGATION -->
+
       <!-- INNER -->
       <div class="carousel-inner">
         <!--  PAGE-ONE -->

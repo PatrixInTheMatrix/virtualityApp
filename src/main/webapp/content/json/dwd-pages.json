@@ -89,57 +89,57 @@
               {
                 "scr": "../../../content/images/client/demo/page-two/surprise-icon.svg",
                 "alt": "Seite2",
-                "title": "sortiment.product1.title",
-                "description": "sortiment.product1.description",
-                "special": "sortiment.product1.special",
+                "title": "sortiment.kebab.product001.title",
+                "description": "sortiment.kebab.product001.description",
+                "special": "sortiment.kebab.product001.special",
                 "price": 10
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
-                "title": "sortiment.product2.title",
-                "description": "sortiment.product2.description",
-                "special": "sortiment.product2.special",
+                "title": "sortiment.kebab.product002.title",
+                "description": "sortiment.kebab.product002.description",
+                "special": "sortiment.kebab.product002.special",
                 "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/return-product-icon.svg",
                 "alt": "Wish it",
-                "title": "sortiment.product3.title",
-                "description": "sortiment.product3.description",
-                "special": "sortiment.product3.special",
+                "title": "sortiment.kebab.product003.title",
+                "description": "sortiment.kebab.product003.description",
+                "special": "sortiment.kebab.product003.special",
                 "price": 5
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Do it",
-                "title": "sortiment.product4.title",
-                "description": "sortiment.product4.description",
-                "special": "sortiment.product4.special",
+                "title": "sortiment.kebab.product004.title",
+                "description": "sortiment.kebab.product004.description",
+                "special": "sortiment.kebab.product004.special",
                 "price": 200
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
                 "alt": "Seite2",
-                "title": "sortiment.product5.title",
-                "description": "sortiment.product5.description",
-                "special": "sortiment.product5.special",
+                "title": "sortiment.kebab.product005.title",
+                "description": "sortiment.kebab.product005.description",
+                "special": "sortiment.kebab.product005.special",
                 "price": 10
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
-                "title": "sortiment.product6.title",
-                "description": "sortiment.product6.description",
-                "special": "sortiment.product6.special",
+                "title": "sortiment.kebab.product006.title",
+                "description": "sortiment.kebab.product006.description",
+                "special": "sortiment.kebab.product006.special",
                 "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Wish it",
-                "title": "sortiment.product7.title",
-                "description": "sortiment.product7.description",
-                "special": "sortiment.product7.special",
+                "title": "sortiment.kebab.product007.title",
+                "description": "sortiment.kebab.product007.description",
+                "special": "sortiment.kebab.product007.special",
                 "price": 5
               }
             ]
@@ -295,69 +295,269 @@
               {
                 "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
                 "alt": "Döner",
-                "title": "sortiment.product1.title",
-                "description": "sortiment.product1.description",
-                "special": "sortiment.product1.special",
+                "title": "sortiment.kebab.product001.title",
+                "description": "sortiment.kebab.product001.description",
+                "special": "sortiment.kebab.product001.special",
+                "additive":"3, Aa, F, I",
                 "price": 8,
                 "reducedPrice": -1
               },
               {
                 "scr": "../../content/images/client/kebab/products/kebab-teller-demo.jpg",
                 "alt": "kebab-teller",
-                "title": "sortiment.product2.title",
-                "description": "sortiment.product2.description",
-                "special": "sortiment.product2.special",
+                "title": "sortiment.kebab.product002.title",
+                "description": "sortiment.kebab.product002.description",
+                "special": "sortiment.kebab.product002.special",
+                "additive":"3, Aa, F, I",
                 "price": 15
               },
               {
                 "scr": "../../content/images/client/kebab/products/cheese-pizza-demo.jpg",
                 "alt": "cheese-pizza",
-                "title": "sortiment.product3.title",
-                "description": "sortiment.product3.description",
-                "special": "sortiment.product3.special",
+                "title": "sortiment.kebab.product003.title",
+                "description": "sortiment.kebab.product003.description",
+                "special": "sortiment.kebab.product003.special",
+                "additive":"3, Aa, F, I",
                 "price": 13
               },
               {
                 "scr": "../../content/images/client/kebab/products/double-cheese-pizza-demo.jpg",
                 "alt": "double-cheese-pizza",
-                "title": "sortiment.product4.title",
-                "description": "sortiment.product4.description",
-                "special": "sortiment.product4.special",
+                "title": "sortiment.kebab.product004.title",
+                "description": "sortiment.kebab.product004.description",
+                "special": "sortiment.kebab.product004.special",
+                "additive":"3, Aa, F, I",
                 "price": 15,
                 "reducedPrice": 11
               },
               {
                 "scr": "../../content/images/client/kebab/products/jalapeno-pizza-demo.jpg",
                 "alt": "Jalapeño-pizza",
-                "title": "sortiment.product5.title",
-                "description": "sortiment.product5.description",
-                "special": "sortiment.product5.special",
+                "title": "sortiment.kebab.product005.title",
+                "description": "sortiment.kebab.product005.description",
+                "special": "sortiment.kebab.product005.special",
+                "additive":"3, Aa, F, I",
                 "price": 15
               },
               {
                 "scr": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
                 "alt": "hot-dog",
-                "title": "sortiment.product6.title",
-                "description": "sortiment.product6.description",
-                "special": "sortiment.product6.special",
+                "title": "sortiment.kebab.product006.title",
+                "description": "sortiment.kebab.product006.description",
+                "special": "sortiment.kebab.product006.special",
+                "additive":"3, Aa, F, I",
                 "price": 13
               },
               {
                 "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
                 "alt": "frites",
-                "title": "sortiment.product7.title",
-                "description": "sortiment.product7.description",
-                "special": "sortiment.product7.special",
+                "title": "sortiment.kebab.product007.title",
+                "description": "sortiment.kebab.product007.description",
+                "special": "sortiment.kebab.product007.special",
+                "additive":"",
                 "price": 6,
                 "reducedPrice": 4
               },
               {
                 "scr": "../../content/images/client/kebab/products/lasagne-demo.jpg",
                 "alt": "lasagne",
-                "title": "sortiment.product8.title",
-                "description": "sortiment.product8.description",
-                "special": "sortiment.product8.special",
+                "title": "sortiment.kebab.product008.title",
+                "description": "sortiment.kebab.product008.description",
+                "special": "sortiment.kebab.product008.special",
+                "additive":"3, 6, 9, 16, Aa, I, K",
                 "price": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "foot",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/client/foot/page-one/welcome.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/foot/page-one/new-product-icon.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(50%)",
+            "images": [
+              {
+                "scr": "../../../content/images/client/foot/gallery/fusspflege.jpg",
+                "alt": "Fußpflege"
+              },
+              {
+                "scr": "../../../content/images/client/foot/gallery/pedikuere.jpg",
+                "alt": "Pediküre"
+              },
+              {
+                "scr": "../../../content/images/client/foot/gallery/nagellack.jpg",
+                "alt": "Nagellack"
+              },
+              {
+                "scr": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
+                "alt": "Wellnessmassage"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/wish.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": "Seite2"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": "Dream it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": "Wish it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": "Do it"
+              }
+            ]
+          },
+          "list": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "products": [
+              {
+                "scr": "../../content/images/client/foot/products/fusspflege.jpg",
+                "alt": "fusspflege",
+                "title": "sortiment.foot.product001.title",
+                "description": "sortiment.foot.product001.description",
+                "special": "sortiment.foot.product001.special",
+                "additive":"",
+                "price": 50
+              },
+              {
+                "scr": "../../content/images/client/foot/products/nagellack.jpg",
+                "alt": "nagellack",
+                "title": "sortiment.foot.product002.title",
+                "description": "sortiment.foot.product002.description",
+                "special": "sortiment.foot.product002.special",
+                "additive":"",
+                "price": 10,
+                "reducedPrice": 5
+              },
+              {
+                "scr": "../../content/images/client/foot/products/pedikuere.jpg",
+                "alt": "pedikuere",
+                "title": "sortiment.foot.product003.title",
+                "description": "sortiment.foot.product003.description",
+                "special": "sortiment.foot.product003.special",
+                "additive":"",
+                "price": 35
+              },
+              {
+                "scr": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "alt": "wellnessmassage",
+                "title": "sortiment.foot.product004.title",
+                "description": "sortiment.foot.product004.description",
+                "special": "sortiment.foot.product004.special",
+                "additive":"",
+                "price": 20
               }
             ]
           }

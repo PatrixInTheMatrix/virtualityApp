@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import {Component, OnInit, OnDestroy} from '@angular/core';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -17,8 +17,10 @@ import {WcmsService} from "../services/wcms.service";
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit, OnDestroy {
-
-  client = "kebab";
+  // INITIAL CLIENT
+  client = "foot";
+  // FOCUS TO CHOICE THE CLIENT
+  blinkOnFocus= true;
 
   languages = LANGUAGES;
   version = '';
@@ -81,4 +83,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     }
   }
 
+  hideTheFocus(): void {
+    this.blinkOnFocus = false;
+  }
 }

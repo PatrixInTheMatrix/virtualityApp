@@ -38,6 +38,7 @@ export interface Product {
   alt: string;
   title: string;
   description: string;
+  additive: string;
   special: string;
   price: number;
   reducedPrice?: number;

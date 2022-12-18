@@ -33,6 +33,8 @@ export class WcmsService {
 
   setSelectedTheme(client: string): void {
     let themeNr = 0;
+    let pageNr = 0;
+
     for(let i = 0; i < this.JsonWcmsThemes.length; i++){
       if(this.JsonWcmsThemes[i].id.toLowerCase() === client.toLowerCase()){
         themeNr = i;
@@ -53,13 +55,20 @@ export class WcmsService {
     this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;
     this.wcmsSelectedOpen = this.JsonWcmsThemes[themeNr].open;
 
-    this.wcmsSelectedPages = this.JsonWcmsPages[themeNr].wcmsPages;
+    for(let i = 0; i < this.JsonWcmsPages.length; i++){
+      if(this.JsonWcmsPages[i].id.toLowerCase() === client.toLowerCase()){
+        pageNr = i;
+      }
+    }
+    this.wcmsSelectedPages = this.JsonWcmsPages[pageNr].wcmsPages;
 
     document.documentElement.style.setProperty('--bs-body-font-family', this.wcmsSelectedTheme.fontFamily);
     document.documentElement.style.setProperty('--bs-body-font-size', this.wcmsSelectedTheme.fontSize);
     document.documentElement.style.setProperty('--bs-body-font-weight', this.wcmsSelectedTheme.fontWeight);
 
     document.documentElement.style.setProperty('--bs-body-image', "url('" + this.wcmsSelectedTheme.backgroundImage + "')");
+    document.documentElement.style.setProperty('--bs-body-image-position', this.wcmsSelectedTheme.backgroundImagePosition);
+    document.documentElement.style.setProperty('--bs-body-image-size', this.wcmsSelectedTheme.backgroundImageSize);
     document.documentElement.style.setProperty('--bs-body-color', this.wcmsSelectedTheme.color);
     document.documentElement.style.setProperty('--bs-body-bgColor', this.wcmsSelectedTheme.backgroundColor);
 
@@ -67,6 +76,11 @@ export class WcmsService {
     document.documentElement.style.setProperty('--bs-body-letter-spacing', this.wcmsSelectedTheme.letterSpacing);
 
     document.documentElement.style.setProperty('--dwd-placeholder-color', 'silver');
+
+    if(typeof this.wcmsSelectedNavigation.navIconInactiveOpacity === 'undefined'){
+      this.wcmsSelectedNavigation.navIconInactiveOpacity = .3;
+    }
+    document.documentElement.style.setProperty('--nav-icon-inactive-opacity', this.wcmsSelectedNavigation.navIconInactiveOpacity.toString());
   }
 
   getIndex(pageName: string) : number {

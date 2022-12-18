@@ -80,6 +80,8 @@ body {
   color: var(--bs-body-color);
   // background-color: var(--bs-body-bgColor);
   background-image: var(--bs-body-image);
+  background-position: var(--bs-body-image-position);
+  background-size: var(--bs-body-image-size);
   line-height: var(--bs-body-line-height);
   letter-spacing: var(--bs-body-letter-spacing);
 }

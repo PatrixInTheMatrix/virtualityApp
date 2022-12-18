@@ -33,10 +33,6 @@ export class List01Component implements OnInit, AfterViewInit {
     return prefix + url + suffix;
   }
 
-  isPair(num: number) : boolean{
-    return ( num & 1 ) ? false : true;
-  }
-
   zoomProduct(index: number) : void {
     this.selectedProduct = index;
     const zoomProduct = document.getElementById('zoomProduct') as HTMLElement;
@@ -45,5 +41,11 @@ export class List01Component implements OnInit, AfterViewInit {
 
     zoomProduct.setAttribute('style', 'background-image:' + this.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].scr));
     zoomProductDescription.innerText = productPrice.innerText;
+    if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice! > 0){
+      zoomProductDescription.setAttribute('style', 'text-decoration:line-through');
+    }else
+    {
+      zoomProductDescription.setAttribute('style', 'text-decoration:none');
+    }
   }
 }

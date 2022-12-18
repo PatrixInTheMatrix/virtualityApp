@@ -5,7 +5,7 @@
 
   <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
 
-  <jhi-gallery03 [pageName]="pageName" style="display: flex; justify-content: center"></jhi-gallery03>
+  <jhi-gallery03 [pageName]="pageName"></jhi-gallery03>
 
   <span style="margin-top: 1em">
     Hier können Sie Ihr Unternehmen kurz vorstellen oder beschreiben.
@@ -21,6 +21,18 @@
 
   <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
 
-  <jhi-gallery03 [pageName]="pageName" style="display: flex; justify-content: center"></jhi-gallery03>
+  <jhi-gallery03 [pageName]="pageName"></jhi-gallery03>
+
+</div>
+
+<div *ngIf="wcmsService.wcmsClient === 'foot'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+
+  <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
+
+  <jhi-separator></jhi-separator>
+
+  <jhi-gallery02 [pageName]="pageName"></jhi-gallery02>
 
 </div>

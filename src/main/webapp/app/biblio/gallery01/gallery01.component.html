@@ -1,5 +1,27 @@
-<div class="gallery">
-    <img *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
+<div style="display: flex; justify-content: center">
+  <div class="col-1"></div>
+
+  <div class="col-4" style="text-align: end">
+    <h3>
+      <ul *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images; let i = index">
+        <li [id]="'galleryLi'+i"
+            (click)="makeMeHover(i)">
+            {{image.alt}}</li>
+      </ul>
+    </h3>
+  </div>
+
+  <div class="col-1"></div>
+
+  <div class="col-5 gallery">
+    <img *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images; let i = index"
+         [id]="'galleryItem'+i"
+         active = 'false'
          [src]="getTrustResourceUrl(image.scr)"
-         [alt]="image.alt">
+         [alt]="image.alt"
+         (click)="makeMeHover(i)">
+  </div>
+
+  <div class="col-1"></div>
+
 </div>

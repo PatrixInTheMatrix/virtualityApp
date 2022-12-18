@@ -5,15 +5,23 @@
   >
 
     <div class="row" (click)="zoomProduct(i)">
-      <div class="col-2 mt-4" >
-        <div  [id]="'productPrice'+i"[hidden]="selectedProduct=== i" [class]="(product.reducedPrice! > 0) ? 'stamp is-reduced-price' : 'stamp is-price'">
+
+      <div class="col-2 mt-4">
+        <!-- PRICE:REGULAR -->
+        <div  [id]="'productPrice'+i"
+              [hidden]="selectedProduct=== i"
+              [class]="(product.reducedPrice! > 0) ? 'stamp is-reduced-price' : 'stamp is-price'"
+        >
           {{product.price}} €
         </div>
-
-        <div *ngIf="product.reducedPrice! > 0" class="stamp is-special-price">
+        <!-- PRICE:REGULAR -->
+        <div *ngIf="product.reducedPrice! > 0"
+             class="stamp is-special-price">
           Jetzt nur {{product.reducedPrice}} €
         </div>
       </div>
+
+      <!-- IMAGE -->
       <div class="col-4" style="display: flex; justify-content: center;">
         <div class="product-preview"
              [style.opacity]="selectedProduct=== i ? '1' : '0.6'"
@@ -23,17 +31,26 @@
         </div>
       </div>
 
-      <div [class]="selectedProduct=== i ? 'col-12 selected-product' : 'col-6'">
-        <div class="row">
+      <!-- DESCRIPTION -->
+      <div [class]="selectedProduct=== i ? 'col-8 selected-product' : 'col-6'">
+        <!-- TITLE -->
           <div class="col-12">
-            <span [class]="selectedProduct=== i ? 'product-title selected' : 'product-title'">{{product.title | translate}}</span>
+            <div [id]="'productTitle'+i"
+                 [class]="selectedProduct=== i ? 'product-title selected' : 'product-title'">{{product.title | translate}}
+            </div>
           </div>
-        </div>
-        <div class="row">
+        <!-- TEXT -->
+          <div class="col-12" style="margin-top: -1em">
+            <div [id]="'productDescription'+i">
+              {{product.description | translate}}
+            </div>
+          </div>
+        <!-- ADDITIVE -->
           <div class="col-12">
-            <div [id]="'productDescription'+i">{{product.description | translate}}</div>
+            <div [id]="'productAdditive'+i">
+              {{product.additive }}
+            </div>
           </div>
-        </div>
 
       </div>
 

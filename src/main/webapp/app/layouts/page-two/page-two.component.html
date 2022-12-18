@@ -17,3 +17,14 @@
   <jhi-product-list01 [isGastro]="true" [pageName]="pageName"></jhi-product-list01>
 
 </div>
+
+<div *ngIf="wcmsService.wcmsClient === 'foot'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+
+  <jhi-separator [factor]=.7></jhi-separator>
+
+  <jhi-product-list01 [pageName]="pageName"></jhi-product-list01>
+
+</div>
+

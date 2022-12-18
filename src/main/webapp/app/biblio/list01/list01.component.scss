@@ -10,6 +10,7 @@
   &.selected{
     margin-left: -2em;
     padding-left: 2em;
+    background-color: transparent;
   }
 }
 
@@ -36,8 +37,7 @@
 }
 
 .selected-product{
-  background-color: grey;
-  margin: 20px 5px;
+  // background-color: grey;
 }
 
 .special{
