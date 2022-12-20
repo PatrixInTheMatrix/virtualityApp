@@ -9,7 +9,7 @@ import { RootObjectPages } from '../interfaces/page.interface';
 })
 export class WcmsService {
   // INITIAL CLIENT
-  wcmsClient = 'demo';
+  wcmsClient = 'flower';
   // PATH
   wcmsClientRoot = 'virtuality.' + this.wcmsClient.toLowerCase() + '.';
   // THEMES
@@ -17,7 +17,7 @@ export class WcmsService {
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
   wcmsSelectedTheme = this.JsonWcmsThemes[0].theme;
   wcmsSelectedLogo = this.JsonWcmsThemes[0].logo;
-  wcmsSelectedBusiness = this.JsonWcmsThemes[0].business
+  wcmsSelectedBusiness = this.JsonWcmsThemes[0].business;
   wcmsSelectedFlipCard = this.JsonWcmsThemes[0].flipCard;
   wcmsSelectedNavigation = this.JsonWcmsThemes[0].navigation;
   wcmsSelectedLanguage = this.JsonWcmsThemes[0].language;
@@ -40,8 +40,8 @@ export class WcmsService {
     let themeNr = 0;
     let pageNr = 0;
 
-    for(let i = 0; i < this.JsonWcmsThemes.length; i++){
-      if(this.JsonWcmsThemes[i].id.toLowerCase() === client.toLowerCase()){
+    for (let i = 0; i < this.JsonWcmsThemes.length; i++) {
+      if (this.JsonWcmsThemes[i].id.toLowerCase() === client.toLowerCase()) {
         themeNr = i;
         this.wcmsClient = client;
         this.wcmsClientRoot = 'virtuality.' + this.JsonWcmsThemes[i].id.toLowerCase() + '.';
@@ -63,8 +63,8 @@ export class WcmsService {
     this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;
     this.wcmsSelectedOpen = this.JsonWcmsThemes[themeNr].open;
 
-    for(let i = 0; i < this.JsonWcmsPages.length; i++){
-      if(this.JsonWcmsPages[i].id.toLowerCase() === client.toLowerCase()){
+    for (let i = 0; i < this.JsonWcmsPages.length; i++) {
+      if (this.JsonWcmsPages[i].id.toLowerCase() === client.toLowerCase()) {
         pageNr = i;
       }
     }
@@ -80,8 +80,8 @@ export class WcmsService {
     document.documentElement.style.setProperty('--bs-body-image-position', this.wcmsSelectedTheme.backgroundImagePosition);
     document.documentElement.style.setProperty('--bs-body-image-size', this.wcmsSelectedTheme.backgroundImageSize);
 
-    if(this.wcmsSelectedTheme.background){
-      document.documentElement.setAttribute('style' , 'background:' + this.wcmsSelectedTheme.background);
+    if (this.wcmsSelectedTheme.background) {
+      document.documentElement.setAttribute('style', 'background:' + this.wcmsSelectedTheme.background);
     }
 
     document.documentElement.style.setProperty('--bs-body-line-height', this.wcmsSelectedTheme.lineHeight);
@@ -89,20 +89,26 @@ export class WcmsService {
 
     document.documentElement.style.setProperty('--dwd-placeholder-color', 'silver');
 
-    if(typeof this.wcmsSelectedNavigation.navIconInactiveOpacity === 'undefined'){
-      this.wcmsSelectedNavigation.navIconInactiveOpacity = .3;
+    if (typeof this.wcmsSelectedNavigation.navIconInactiveOpacity === 'undefined') {
+      this.wcmsSelectedNavigation.navIconInactiveOpacity = 0.3;
     }
-    document.documentElement.style.setProperty('--nav-icon-inactive-opacity', this.wcmsSelectedNavigation.navIconInactiveOpacity.toString());
+    document.documentElement.style.setProperty(
+      '--nav-icon-inactive-opacity',
+      this.wcmsSelectedNavigation.navIconInactiveOpacity.toString()
+    );
   }
 
-  getIndex(pageName: string) : number {
+  getIndex(pageName: string): number {
     let index = 0;
-    switch(pageName){
-      case 'pageOne': index = 0;
+    switch (pageName) {
+      case 'pageOne':
+        index = 0;
         break;
-      case 'pageTwo': index = 1;
+      case 'pageTwo':
+        index = 1;
         break;
-      case 'pageThree': index = 2;
+      case 'pageThree':
+        index = 2;
         break;
     }
     return index;

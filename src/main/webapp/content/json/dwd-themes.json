@@ -151,7 +151,7 @@
           "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
-      "socialMedia":[
+      "socialMedia": [
         {
           "src": "../../content/images/social-media/facebook-app-icon.svg",
           "alt": "facebook",
@@ -360,7 +360,7 @@
           "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
-      "socialMedia":[
+      "socialMedia": [
         {
           "src": "../../content/images/social-media/facebook-app-icon.svg",
           "alt": "facebook",
@@ -570,7 +570,7 @@
           "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
-      "socialMedia":[
+      "socialMedia": [
         {
           "src": "../../content/images/social-media/facebook-app-icon.svg",
           "alt": "facebook",
@@ -635,9 +635,9 @@
         "fontSize": "1em",
         "fontWeight": "100",
         "color": "white",
-        "background": "",
-        "backgroundColor": "navy",
-        "backgroundImage": "../../content/images/client/flower/background/frame-4447480_1920.png",
+        "background": "linear-gradient(90deg, rgba(77,72,153,1) 0%, rgba(108,108,223,1) 23%, rgba(28,168,196,0.4058956916099773) 64%, rgba(129,199,213,0.3945578231292517) 94%)",
+        "backgroundColor": "silver",
+        "backgroundImage": "../../content/images/client/flower/background/frame-783955.png",
         "backgroundImagePosition": "center",
         "backgroundImageSize": "cover",
         "lineHeight": "normal",
@@ -654,7 +654,7 @@
         }
       },
       "logo": {
-        "src": "../../content/images/client/flower/logo/cartoon-678_256.gif",
+        "src": "../../content/images/client/flower/logo/woman-1032886.png",
         "alt": "LOGO"
       },
       "flipCard": {
@@ -670,7 +670,7 @@
       },
       "navigation": {
         "pageOne": {
-          "src": "../../content/images/client/flower/navigation/owl-158409.svg",
+          "src": "../../content/images/client/flower/navigation/mushroom-308071.svg",
           "alt": "pageOne"
         },
         "pageTwo": {
@@ -678,7 +678,7 @@
           "alt": "pageTwo"
         },
         "pageThree": {
-          "src": "../../content/images/client/flower/navigation/leaf-48530.svg",
+          "src": "../../content/images/client/flower/navigation/wooden-4000126_640.png",
           "alt": "pageThree"
         }
       },
@@ -780,7 +780,7 @@
           "src": "../../content/images/open/coffee-break-time-icon.svg"
         }
       },
-      "socialMedia":[
+      "socialMedia": [
         {
           "src": "../../content/images/social-media/facebook-app-icon.svg",
           "alt": "facebook",
