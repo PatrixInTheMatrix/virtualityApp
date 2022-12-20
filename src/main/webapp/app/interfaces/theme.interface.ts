@@ -3,6 +3,7 @@ export interface Theme {
   fontSize: string;
   fontWeight: string;
   color: string;
+  background: string;
   backgroundColor: string;
   backgroundImage: string;
   backgroundImagePosition: string;

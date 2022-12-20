@@ -76,12 +76,14 @@ body {
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
-
   color: var(--bs-body-color);
-  background-color: var(--bs-body-bgColor);
+
   background-image: var(--bs-body-image);
   background-position: var(--bs-body-image-position);
   background-size: var(--bs-body-image-size);
+
+  background-color: var(--bs-body-bgColor);
+
   line-height: var(--bs-body-line-height);
   letter-spacing: var(--bs-body-letter-spacing);
 }

@@ -67,12 +67,16 @@ export class WcmsService {
     document.documentElement.style.setProperty('--bs-body-font-family', this.wcmsSelectedTheme.fontFamily);
     document.documentElement.style.setProperty('--bs-body-font-size', this.wcmsSelectedTheme.fontSize);
     document.documentElement.style.setProperty('--bs-body-font-weight', this.wcmsSelectedTheme.fontWeight);
+    document.documentElement.style.setProperty('--bs-body-color', this.wcmsSelectedTheme.color);
 
+    document.documentElement.style.setProperty('--bs-body-bgColor', this.wcmsSelectedTheme.backgroundColor);
     document.documentElement.style.setProperty('--bs-body-image', "url('" + this.wcmsSelectedTheme.backgroundImage + "')");
     document.documentElement.style.setProperty('--bs-body-image-position', this.wcmsSelectedTheme.backgroundImagePosition);
     document.documentElement.style.setProperty('--bs-body-image-size', this.wcmsSelectedTheme.backgroundImageSize);
-    document.documentElement.style.setProperty('--bs-body-color', this.wcmsSelectedTheme.color);
-    document.documentElement.style.setProperty('--bs-body-bgColor', this.wcmsSelectedTheme.backgroundColor);
+
+    if(this.wcmsSelectedTheme.background){
+      document.documentElement.setAttribute('style' , 'background:' + this.wcmsSelectedTheme.background);
+    }
 
     document.documentElement.style.setProperty('--bs-body-line-height', this.wcmsSelectedTheme.lineHeight);
     document.documentElement.style.setProperty('--bs-body-letter-spacing', this.wcmsSelectedTheme.letterSpacing);
