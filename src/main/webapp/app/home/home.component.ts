@@ -17,8 +17,7 @@ import {WcmsService} from "../services/wcms.service";
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  // INITIAL CLIENT
-  client = "foot";
+
   // FOCUS TO CHOICE THE CLIENT
   blinkOnFocus= true;
 
@@ -48,7 +47,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe(account => (this.account = account));
 
-    this.wcmsService.setSelectedTheme(this.client);
+    this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient);
   }
 
   login(): void {

@@ -36,3 +36,22 @@
   <jhi-gallery02 [pageName]="pageName"></jhi-gallery02>
 
 </div>
+
+<div *ngIf="wcmsService.wcmsClient === 'flower'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+
+  <jhi-page-quote [pageName]="pageName"></jhi-page-quote>
+
+  <jhi-separator></jhi-separator>
+
+  <jhi-gallery03 [pageName]="pageName"></jhi-gallery03>
+
+  <span style="margin-top: 1em">
+    <h4>
+    Hier können Sie Ihr Unternehmen kurz vorstellen oder beschreiben.
+    Geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen
+      </h4>
+  </span>
+
+</div>

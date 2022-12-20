@@ -35,17 +35,26 @@ export class List01Component implements OnInit, AfterViewInit {
 
   zoomProduct(index: number) : void {
     this.selectedProduct = index;
+    // SOURCE
+    const productPrice = document.getElementById('productPrice'.concat(index.toString())) as HTMLElement;
+    const productDescription = document.getElementById('productDescription'.concat(index.toString())) as HTMLElement;
+    const productAdditive = document.getElementById('productAdditive'.concat(index.toString())) as HTMLElement;
+    // DESTINATION
     const zoomProduct = document.getElementById('zoomProduct') as HTMLElement;
     const zoomProductDescription = document.getElementById('zoomProductDescription') as HTMLElement;
-    const productPrice = document.getElementById('productPrice'.concat(index.toString())) as HTMLElement;
+    const zoomProductPrice = document.getElementById('zoomProductPrice') as HTMLElement;
 
+    // IMAGE
     zoomProduct.setAttribute('style', 'background-image:' + this.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].scr));
-    zoomProductDescription.innerText = productPrice.innerText;
+    // DESCRIPTION
+    zoomProductDescription.innerText = productAdditive.innerText;
+    // PRICE
+    zoomProductPrice.innerText = productPrice.innerText;
     if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice! > 0){
-      zoomProductDescription.setAttribute('style', 'text-decoration:line-through');
+      zoomProductPrice.setAttribute('style', 'text-decoration:line-through');
     }else
     {
-      zoomProductDescription.setAttribute('style', 'text-decoration:none');
+      zoomProductPrice.setAttribute('style', 'text-decoration:none');
     }
   }
 }

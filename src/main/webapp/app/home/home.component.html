@@ -9,6 +9,7 @@
           <div>
             <img id="imgLogo"
                  class="logo"
+                 [style.background-color]="wcmsService.wcmsSelectedFlipCard.logoStyle.backgroundColor"
                  [style.border]="wcmsService.wcmsSelectedFlipCard.logoStyle.border"
                  [style.border-radius]="wcmsService.wcmsSelectedFlipCard.logoStyle.borderRadius"
                  [style.filter]="wcmsService.wcmsSelectedFlipCard.logoStyle.filter"
@@ -80,7 +81,7 @@
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"></div>
 
         <!-- <h3 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3> -->
-        <select class="form-select form-select-sm demo-choice" [(ngModel)]="client" (change)="this.wcmsService.setSelectedTheme(client); hideTheFocus();">
+        <select class="form-select form-select-sm demo-choice" [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();">
           <!-- <option selected>Demo auswählen</option> -->
           <option *ngFor="let theme of wcmsService.JsonWcmsThemes" [value]="theme.id">{{'virtuality.' + theme.id.toLowerCase() + '.global.title' | translate}}</option>
         </select>

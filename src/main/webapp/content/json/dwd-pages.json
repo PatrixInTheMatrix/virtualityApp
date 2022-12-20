@@ -89,57 +89,58 @@
               {
                 "scr": "../../../content/images/client/demo/page-two/surprise-icon.svg",
                 "alt": "Seite2",
-                "title": "sortiment.kebab.product001.title",
-                "description": "sortiment.kebab.product001.description",
-                "special": "sortiment.kebab.product001.special",
-                "price": 10
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
-                "title": "sortiment.kebab.product002.title",
-                "description": "sortiment.kebab.product002.description",
-                "special": "sortiment.kebab.product002.special",
+                "title": "sortiment.demo.product002.title",
+                "description": "sortiment.demo.product002.description",
+                "special": "sortiment.demo.product002.special",
                 "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/return-product-icon.svg",
                 "alt": "Wish it",
-                "title": "sortiment.kebab.product003.title",
-                "description": "sortiment.kebab.product003.description",
-                "special": "sortiment.kebab.product003.special",
+                "title": "sortiment.demo.product003.title",
+                "description": "sortiment.demo.product003.description",
+                "special": "sortiment.demo.product003.special",
                 "price": 5
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Do it",
-                "title": "sortiment.kebab.product004.title",
-                "description": "sortiment.kebab.product004.description",
-                "special": "sortiment.kebab.product004.special",
-                "price": 200
+                "title": "sortiment.demo.product004.title",
+                "description": "sortiment.demo.product004.description",
+                "special": "sortiment.demo.product004.special",
+                "price": 20
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
                 "alt": "Seite2",
-                "title": "sortiment.kebab.product005.title",
-                "description": "sortiment.kebab.product005.description",
-                "special": "sortiment.kebab.product005.special",
+                "title": "sortiment.demo.product005.title",
+                "description": "sortiment.demo.product005.description",
+                "special": "sortiment.demo.product005.special",
                 "price": 10
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
-                "title": "sortiment.kebab.product006.title",
-                "description": "sortiment.kebab.product006.description",
-                "special": "sortiment.kebab.product006.special",
+                "title": "sortiment.demo.product006.title",
+                "description": "sortiment.demo.product006.description",
+                "special": "sortiment.demo.product006.special",
                 "price": 15
               },
               {
                 "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Wish it",
-                "title": "sortiment.kebab.product007.title",
-                "description": "sortiment.kebab.product007.description",
-                "special": "sortiment.kebab.product007.special",
+                "title": "sortiment.demo.product007.title",
+                "description": "sortiment.demo.product007.description",
+                "special": "sortiment.demo.product007.special",
                 "price": 5
               }
             ]
@@ -298,7 +299,7 @@
                 "title": "sortiment.kebab.product001.title",
                 "description": "sortiment.kebab.product001.description",
                 "special": "sortiment.kebab.product001.special",
-                "additive":"3, Aa, F, I",
+                "additive": "1, Aa, F, I",
                 "price": 8,
                 "reducedPrice": -1
               },
@@ -308,7 +309,7 @@
                 "title": "sortiment.kebab.product002.title",
                 "description": "sortiment.kebab.product002.description",
                 "special": "sortiment.kebab.product002.special",
-                "additive":"3, Aa, F, I",
+                "additive": "2, Aa, F, I",
                 "price": 15
               },
               {
@@ -317,7 +318,7 @@
                 "title": "sortiment.kebab.product003.title",
                 "description": "sortiment.kebab.product003.description",
                 "special": "sortiment.kebab.product003.special",
-                "additive":"3, Aa, F, I",
+                "additive": "3, Aa, F, I",
                 "price": 13
               },
               {
@@ -326,7 +327,7 @@
                 "title": "sortiment.kebab.product004.title",
                 "description": "sortiment.kebab.product004.description",
                 "special": "sortiment.kebab.product004.special",
-                "additive":"3, Aa, F, I",
+                "additive": "3, Aa, F, I",
                 "price": 15,
                 "reducedPrice": 11
               },
@@ -336,7 +337,7 @@
                 "title": "sortiment.kebab.product005.title",
                 "description": "sortiment.kebab.product005.description",
                 "special": "sortiment.kebab.product005.special",
-                "additive":"3, Aa, F, I",
+                "additive": "3, Aa, F, I",
                 "price": 15
               },
               {
@@ -345,7 +346,7 @@
                 "title": "sortiment.kebab.product006.title",
                 "description": "sortiment.kebab.product006.description",
                 "special": "sortiment.kebab.product006.special",
-                "additive":"3, Aa, F, I",
+                "additive": "3, Aa, F, I",
                 "price": 13
               },
               {
@@ -354,7 +355,7 @@
                 "title": "sortiment.kebab.product007.title",
                 "description": "sortiment.kebab.product007.description",
                 "special": "sortiment.kebab.product007.special",
-                "additive":"",
+                "additive": "",
                 "price": 6,
                 "reducedPrice": 4
               },
@@ -364,7 +365,7 @@
                 "title": "sortiment.kebab.product008.title",
                 "description": "sortiment.kebab.product008.description",
                 "special": "sortiment.kebab.product008.special",
-                "additive":"3, 6, 9, 16, Aa, I, K",
+                "additive": "3, 6, 9, 16, Aa, I, K",
                 "price": 16
               }
             ]
@@ -465,6 +466,198 @@
               {
                 "scr": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
                 "alt": "Wellnessmassage"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/wish.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": "Seite2"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": "Dream it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": "Wish it"
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": "Do it"
+              }
+            ]
+          },
+          "list": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "products": [
+              {
+                "scr": "../../content/images/client/foot/products/fusspflege.jpg",
+                "alt": "fusspflege",
+                "title": "sortiment.foot.product001.title",
+                "description": "sortiment.foot.product001.description",
+                "special": "sortiment.foot.product001.special",
+                "additive":"",
+                "price": 50
+              },
+              {
+                "scr": "../../content/images/client/foot/products/nagellack.jpg",
+                "alt": "nagellack",
+                "title": "sortiment.foot.product002.title",
+                "description": "sortiment.foot.product002.description",
+                "special": "sortiment.foot.product002.special",
+                "additive":"",
+                "price": 10,
+                "reducedPrice": 5
+              },
+              {
+                "scr": "../../content/images/client/foot/products/pedikuere.jpg",
+                "alt": "pedikuere",
+                "title": "sortiment.foot.product003.title",
+                "description": "sortiment.foot.product003.description",
+                "special": "sortiment.foot.product003.special",
+                "additive":"",
+                "price": 35
+              },
+              {
+                "scr": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "alt": "wellnessmassage",
+                "title": "sortiment.foot.product004.title",
+                "description": "sortiment.foot.product004.description",
+                "special": "sortiment.foot.product004.special",
+                "additive":"",
+                "price": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "flower",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "show": true,
+            "url": "../../content/images/client/foot/page-one/welcome.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "image2": {
+            "show": true,
+            "url": "../../content/images/client/foot/page-one/new-product-icon.svg",
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(50%)",
+            "images": [
+              {
+                "scr": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
+                "alt": ""
+              },
+              {
+                "scr": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
+                "alt": ""
               }
             ]
           }

@@ -1,16 +1,50 @@
 {
  "sortiment": {
+   "demo": {
+     "product001": {
+       "title": "Artikel A-REF001",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+       "special": "Angebot der Woche!"
+     },
+     "product002": {
+       "title": "Artikel A-REF002",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     },
+     "product003": {
+       "title": "Artikel A-REF003",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+       "special": "Angebot der Woche!"
+     },
+     "product004": {
+       "title": "Artikel A-REF004",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     },
+     "product005": {
+       "title": "Artikel A-REF005",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     },
+     "product006": {
+       "title": "Artikel A-REF006",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     },
+     "product007": {
+       "title": "Artikel A-REF007",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     },
+     "product008": {
+       "title": "Artikel A-REF008",
+       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+     }
+   },
    "kebab": {
      "product001": {
        "title": "Döner",
        "description": "Döner Salat, Tzatziki",
-       "additive": "3, 14, 17, Aa, B, E, G, I, K, M",
        "special": ""
      },
      "product002": {
        "title": "Kebab-Teller",
        "description": "Döner Salat, Tzatziki",
-       "additive": "3, 14, 17, Aa, B, E, G, I, K, M",
        "special": ""
      },
      "product003": {

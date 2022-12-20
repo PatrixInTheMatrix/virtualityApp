@@ -8,8 +8,9 @@ import { RootObjectPages } from '../interfaces/page.interface';
   providedIn: 'root',
 })
 export class WcmsService {
-  wcmsClient = 'demo';
-  wcmsClientRoot = 'virtuality.demo.';
+  // INITIAL CLIENT
+  wcmsClient = 'flower';
+  wcmsClientRoot = 'virtuality.flower.';
   // THEMES
   rootWcmsThemes = _JsonWcmsThemes as RootObjectThemes;
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;

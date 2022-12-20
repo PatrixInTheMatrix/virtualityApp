@@ -9,7 +9,7 @@
       <div class="col-2 mt-4">
         <!-- PRICE:REGULAR -->
         <div  [id]="'productPrice'+i"
-              [hidden]="selectedProduct=== i"
+              [hidden]="selectedProduct === i"
               [class]="(product.reducedPrice! > 0) ? 'stamp is-reduced-price' : 'stamp is-price'"
         >
           {{product.price}} €
@@ -24,30 +24,33 @@
       <!-- IMAGE -->
       <div class="col-4" style="display: flex; justify-content: center;">
         <div class="product-preview"
-             [style.opacity]="selectedProduct=== i ? '1' : '0.6'"
-             [hidden]="selectedProduct=== i"
+             [style.opacity]="selectedProduct === i ? '1' : '0.6'"
+             [hidden]="selectedProduct === i"
              [style.background-image]="getBgUrl(product.scr)"
           >
         </div>
       </div>
 
       <!-- DESCRIPTION -->
-      <div [class]="selectedProduct=== i ? 'col-8 selected-product' : 'col-6'">
+      <div [class]="selectedProduct=== i ? 'col-12 selected-product' : 'col-6'">
         <!-- TITLE -->
           <div class="col-12">
             <div [id]="'productTitle'+i"
-                 [class]="selectedProduct=== i ? 'product-title selected' : 'product-title'">{{product.title | translate}}
+                 [class]="selectedProduct === i ? 'product-title selected' : 'product-title'">
+              {{product.title | translate}}
             </div>
           </div>
         <!-- TEXT -->
-          <div class="col-12" style="margin-top: -1em">
-            <div [id]="'productDescription'+i">
+          <div class="col-12">
+            <div [id]="'productDescription'+i"
+                 [class]="selectedProduct === i ? 'product-description selected' : 'product-description'">
               {{product.description | translate}}
             </div>
           </div>
         <!-- ADDITIVE -->
-          <div class="col-12">
-            <div [id]="'productAdditive'+i">
+          <div [hidden]="selectedProduct === i" class="col-12">
+            <div [id]="'productAdditive'+i"
+                 [class]="selectedProduct === i ? 'product-additiv selected' : 'product-additiv'">
               {{product.additive }}
             </div>
           </div>

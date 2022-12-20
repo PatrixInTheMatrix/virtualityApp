@@ -32,6 +32,7 @@ export interface Logo {
 }
 
 export interface LogoStyle {
+  backgroundColor: string;
   width: string;
   border: string;
   borderRadius: string;
