@@ -22,6 +22,9 @@ export class WcmsService {
   wcmsSelectedNavigation = this.JsonWcmsThemes[0].navigation;
   wcmsSelectedLanguage = this.JsonWcmsThemes[0].language;
   wcmsSelectedTitle = this.JsonWcmsThemes[0].title;
+  wcmsSelectedDescription = this.JsonWcmsThemes[0].description;
+  wcmsSelectedBanner = this.JsonWcmsThemes[0].banner;
+  wcmsSelectedHeader = this.JsonWcmsThemes[0].header;
   wcmsSelectedGMap = this.JsonWcmsThemes[0].gMap;
   wcmsSelectedSocialMedia = this.JsonWcmsThemes[0].socialMedia;
   wcmsSelectedCommunication = this.JsonWcmsThemes[0].communication;
@@ -52,6 +55,9 @@ export class WcmsService {
     this.wcmsSelectedNavigation = this.JsonWcmsThemes[themeNr].navigation;
     this.wcmsSelectedLanguage = this.JsonWcmsThemes[themeNr].language;
     this.wcmsSelectedTitle = this.JsonWcmsThemes[themeNr].title;
+    this.wcmsSelectedDescription = this.JsonWcmsThemes[themeNr].description;
+    this.wcmsSelectedBanner = this.JsonWcmsThemes[themeNr].banner;
+    this.wcmsSelectedHeader = this.JsonWcmsThemes[themeNr].header;
     this.wcmsSelectedGMap = this.JsonWcmsThemes[themeNr].gMap;
     this.wcmsSelectedSocialMedia = this.JsonWcmsThemes[themeNr].socialMedia;
     this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;

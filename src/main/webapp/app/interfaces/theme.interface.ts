@@ -33,13 +33,13 @@ export interface Logo {
 }
 
 export interface LogoStyle {
-  backgroundColor: string;
   width: string;
   border: string;
   borderRadius: string;
   filter: string;
   padding: string;
   opacity: string;
+  backgroundColor: string;
 }
 
 export interface FlipCard {
@@ -62,10 +62,10 @@ export interface PageThree {
 }
 
 export interface Navigation {
-  navIconInactiveOpacity?: number;
   pageOne: PageOne;
   pageTwo: PageTwo;
   pageThree: PageThree;
+  navIconInactiveOpacity?: number;
 }
 
 export interface Nl {
@@ -96,6 +96,45 @@ export interface Language {
 }
 
 export interface Title {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: string;
+  color: string;
+  backgroundColor: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  padding: string;
+  marginBottom: string;
+}
+
+export interface Banner {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: string;
+  color: string;
+  backgroundColor: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  padding: string;
+  marginBottom: string;
+}
+
+export interface Description {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: string;
+  color: string;
+  backgroundColor: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  padding: string;
+  marginBottom: string;
+}
+
+export interface Header {
   fontFamily: string;
   fontSize: string;
   fontWeight: string;
@@ -168,6 +207,9 @@ export interface WcmsTheme {
   navigation: Navigation;
   language: Language;
   title: Title;
+  description: Description;
+  banner: Banner;
+  header: Header;
   gMap: GMap;
   communication: Communication;
   open: Open;

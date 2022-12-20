@@ -75,13 +75,40 @@
     </div>
     <div class="leftContainerDescription">
       <div [hidden]="showImpressum">
-        <h4 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"></h4>
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"
+            [style.font-family]="this.wcmsService.wcmsSelectedDescription.fontFamily"
+            [style.font-size]="this.wcmsService.wcmsSelectedDescription.fontSize"
+            [style.color]="this.wcmsService.wcmsSelectedDescription.color"
+            [style.background-color]="this.wcmsService.wcmsSelectedDescription.backgroundColor"
+            [style.border]="this.wcmsService.wcmsSelectedDescription.border"
+            [style.border-radius]="this.wcmsService.wcmsSelectedDescription.borderRadius"
+            [style.box-shadow]="this.wcmsService.wcmsSelectedDescription.boxShadow"
+            [style.padding]="this.wcmsService.wcmsSelectedDescription.padding"
+            [style.margin-bottom]="this.wcmsService.wcmsSelectedDescription.marginBottom"></div>
         <hr />
 
-        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"></div>
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"
+             [style.font-family]="this.wcmsService.wcmsSelectedBanner.fontFamily"
+             [style.font-size]="this.wcmsService.wcmsSelectedBanner.fontSize"
+             [style.color]="this.wcmsService.wcmsSelectedBanner.color"
+             [style.background-color]="this.wcmsService.wcmsSelectedBanner.backgroundColor"
+             [style.border]="this.wcmsService.wcmsSelectedBanner.border"
+             [style.border-radius]="this.wcmsService.wcmsSelectedBanner.borderRadius"
+             [style.box-shadow]="this.wcmsService.wcmsSelectedBanner.boxShadow"
+             [style.padding]="this.wcmsService.wcmsSelectedBanner.padding"
+             [style.margin-bottom]="this.wcmsService.wcmsSelectedBanner.marginBottom"></div>
 
         <!-- <h3 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3> -->
-        <select class="form-select form-select-sm demo-choice" [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();">
+        <select class="form-select form-select-sm demo-choice" [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();"
+                [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
+                [style.font-size]="this.wcmsService.wcmsSelectedTitle.fontSize"
+                [style.color]="this.wcmsService.wcmsSelectedTitle.color"
+                [style.background-color]="this.wcmsService.wcmsSelectedTitle.backgroundColor"
+                [style.border]="this.wcmsService.wcmsSelectedTitle.border"
+                [style.border-radius]="this.wcmsService.wcmsSelectedTitle.borderRadius"
+                [style.box-shadow]="this.wcmsService.wcmsSelectedTitle.boxShadow"
+                [style.padding]="this.wcmsService.wcmsSelectedTitle.padding"
+                [style.margin-bottom]="this.wcmsService.wcmsSelectedTitle.marginBottom">
           <!-- <option selected>Demo auswählen</option> -->
           <option *ngFor="let theme of wcmsService.JsonWcmsThemes" [value]="theme.id">{{'virtuality.' + theme.id.toLowerCase() + '.global.title' | translate}}</option>
         </select>
