@@ -9,8 +9,9 @@ import { RootObjectPages } from '../interfaces/page.interface';
 })
 export class WcmsService {
   // INITIAL CLIENT
-  wcmsClient = 'flower';
-  wcmsClientRoot = 'virtuality.flower.';
+  wcmsClient = 'demo';
+  // PATH
+  wcmsClientRoot = 'virtuality.' + this.wcmsClient.toLowerCase() + '.';
   // THEMES
   rootWcmsThemes = _JsonWcmsThemes as RootObjectThemes;
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
