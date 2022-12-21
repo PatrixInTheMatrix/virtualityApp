@@ -7,6 +7,7 @@
           "id": "pageOne",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/demo/page-one/welcome.svg",
             "width": "45%",
             "height": "auto",
@@ -16,6 +17,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/demo/page-one/new-product-icon.svg",
             "width": "45%",
             "height": "auto",
@@ -32,19 +34,19 @@
             "filter": "",
             "images": [
               {
-                "scr": "../../../content/images/client/demo/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/client/demo/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": "DiWiDi"
               },
               {
-                "scr": "../../../content/images/client/demo/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/client/demo/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": "Dream it"
               },
               {
-                "scr": "../../../content/images/client/demo/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/client/demo/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": "Wish it"
               },
               {
-                "scr": "../../../content/images/client/demo/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/client/demo/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": "Do it"
               }
             ]
@@ -54,6 +56,7 @@
           "id": "pageTwo",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/wish.svg",
             "width": "35%",
             "height": "auto",
@@ -63,6 +66,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
             "width": "35%",
             "height": "auto",
@@ -87,7 +91,7 @@
             "boxShadow": "",
             "products": [
               {
-                "scr": "../../../content/images/client/demo/page-two/surprise-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/surprise-icon.svg",
                 "alt": "Seite2",
                 "title": "sortiment.demo.product001.title",
                 "description": "sortiment.demo.product001.description",
@@ -96,7 +100,7 @@
                 "reducedPrice": 7
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
                 "title": "sortiment.demo.product002.title",
                 "description": "sortiment.demo.product002.description",
@@ -104,7 +108,7 @@
                 "price": 15
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/return-product-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/return-product-icon.svg",
                 "alt": "Wish it",
                 "title": "sortiment.demo.product003.title",
                 "description": "sortiment.demo.product003.description",
@@ -112,7 +116,7 @@
                 "price": 5
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Do it",
                 "title": "sortiment.demo.product004.title",
                 "description": "sortiment.demo.product004.description",
@@ -120,7 +124,7 @@
                 "price": 20
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
                 "alt": "Seite2",
                 "title": "sortiment.demo.product005.title",
                 "description": "sortiment.demo.product005.description",
@@ -128,7 +132,7 @@
                 "price": 10
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Dream it",
                 "title": "sortiment.demo.product006.title",
                 "description": "sortiment.demo.product006.description",
@@ -136,7 +140,7 @@
                 "price": 15
               },
               {
-                "scr": "../../../content/images/client/demo/page-two/box-package-icon.svg",
+                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
                 "alt": "Wish it",
                 "title": "sortiment.demo.product007.title",
                 "description": "sortiment.demo.product007.description",
@@ -150,6 +154,7 @@
           "id": "pageThree",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
             "width": "50%",
             "height": "auto",
@@ -159,6 +164,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png",
             "width": "50%",
             "height": "auto",
@@ -174,19 +180,19 @@
             "boxShadow": "",
             "images": [
               {
-                "scr": "../../../content/images/gallery/demo/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/demo/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/demo/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/demo/sketch1665068586440_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/demo/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/demo/sketch1665068608806_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/demo/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/demo/sketch1665068658206_600x600_antik07orig.png",
                 "alt": ""
               }
             ]
@@ -201,6 +207,7 @@
           "id": "pageOne",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/kebab/page-one/welcome.svg",
             "width": "45%",
             "height": "auto",
@@ -210,6 +217,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/kebab/page-one/new-product-icon.svg",
             "width": "45%",
             "height": "auto",
@@ -226,15 +234,15 @@
             "filter": "grayscale(50%)",
             "images": [
               {
-                "scr": "../../../content/images/client/kebab/gallery/snack-bar-demo.jpg",
+                "src": "../../../content/images/client/kebab/gallery/snack-bar-demo.jpg",
                 "alt": "Imbiss"
               },
               {
-                "scr": "../../../content/images/client/kebab/gallery/food-local-demo.jpg",
+                "src": "../../../content/images/client/kebab/gallery/food-local-demo.jpg",
                 "alt": "Lecker"
               },
               {
-                "scr": "../../../content/images/client/kebab/gallery/people-local-demo.jpg",
+                "src": "../../../content/images/client/kebab/gallery/people-local-demo.jpg",
                 "alt": "Zusammen"
               }
             ]
@@ -244,6 +252,7 @@
           "id": "pageTwo",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/wish.svg",
             "width": "35%",
             "height": "auto",
@@ -253,6 +262,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "35%",
             "height": "auto",
@@ -269,19 +279,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": "Seite2"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": "Dream it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": "Wish it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": "Do it"
               }
             ]
@@ -294,7 +304,7 @@
             "boxShadow": "",
             "products": [
               {
-                "scr": "../../content/images/client/kebab/products/kebap-demo.jpg",
+                "src": "../../content/images/client/kebab/products/kebap-demo.jpg",
                 "alt": "Döner",
                 "title": "sortiment.kebab.product001.title",
                 "description": "sortiment.kebab.product001.description",
@@ -304,7 +314,7 @@
                 "reducedPrice": -1
               },
               {
-                "scr": "../../content/images/client/kebab/products/kebab-teller-demo.jpg",
+                "src": "../../content/images/client/kebab/products/kebab-teller-demo.jpg",
                 "alt": "kebab-teller",
                 "title": "sortiment.kebab.product002.title",
                 "description": "sortiment.kebab.product002.description",
@@ -313,7 +323,7 @@
                 "price": 15
               },
               {
-                "scr": "../../content/images/client/kebab/products/cheese-pizza-demo.jpg",
+                "src": "../../content/images/client/kebab/products/cheese-pizza-demo.jpg",
                 "alt": "cheese-pizza",
                 "title": "sortiment.kebab.product003.title",
                 "description": "sortiment.kebab.product003.description",
@@ -322,7 +332,7 @@
                 "price": 13
               },
               {
-                "scr": "../../content/images/client/kebab/products/double-cheese-pizza-demo.jpg",
+                "src": "../../content/images/client/kebab/products/double-cheese-pizza-demo.jpg",
                 "alt": "double-cheese-pizza",
                 "title": "sortiment.kebab.product004.title",
                 "description": "sortiment.kebab.product004.description",
@@ -332,7 +342,7 @@
                 "reducedPrice": 11
               },
               {
-                "scr": "../../content/images/client/kebab/products/jalapeno-pizza-demo.jpg",
+                "src": "../../content/images/client/kebab/products/jalapeno-pizza-demo.jpg",
                 "alt": "Jalapeño-pizza",
                 "title": "sortiment.kebab.product005.title",
                 "description": "sortiment.kebab.product005.description",
@@ -341,7 +351,7 @@
                 "price": 15
               },
               {
-                "scr": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
+                "src": "../../content/images/client/kebab/products/hot-dog-demo.jpg",
                 "alt": "hot-dog",
                 "title": "sortiment.kebab.product006.title",
                 "description": "sortiment.kebab.product006.description",
@@ -350,7 +360,7 @@
                 "price": 13
               },
               {
-                "scr": "../../content/images/client/kebab/products/frites-demo.jpg",
+                "src": "../../content/images/client/kebab/products/frites-demo.jpg",
                 "alt": "frites",
                 "title": "sortiment.kebab.product007.title",
                 "description": "sortiment.kebab.product007.description",
@@ -360,7 +370,7 @@
                 "reducedPrice": 4
               },
               {
-                "scr": "../../content/images/client/kebab/products/lasagne-demo.jpg",
+                "src": "../../content/images/client/kebab/products/lasagne-demo.jpg",
                 "alt": "lasagne",
                 "title": "sortiment.kebab.product008.title",
                 "description": "sortiment.kebab.product008.description",
@@ -375,6 +385,7 @@
           "id": "pageThree",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "50%",
             "height": "auto",
@@ -384,6 +395,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
             "width": "50%",
             "height": "auto",
@@ -400,19 +412,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": ""
               }
             ]
@@ -427,6 +439,7 @@
           "id": "pageOne",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/foot/page-one/welcome.svg",
             "width": "45%",
             "height": "auto",
@@ -436,6 +449,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/client/foot/page-one/new-product-icon.svg",
             "width": "45%",
             "height": "auto",
@@ -452,19 +466,19 @@
             "filter": "grayscale(50%)",
             "images": [
               {
-                "scr": "../../../content/images/client/foot/gallery/fusspflege.jpg",
+                "src": "../../../content/images/client/foot/gallery/fusspflege.jpg",
                 "alt": "Fußpflege"
               },
               {
-                "scr": "../../../content/images/client/foot/gallery/pedikuere.jpg",
+                "src": "../../../content/images/client/foot/gallery/pedikuere.jpg",
                 "alt": "Pediküre"
               },
               {
-                "scr": "../../../content/images/client/foot/gallery/nagellack.jpg",
+                "src": "../../../content/images/client/foot/gallery/nagellack.jpg",
                 "alt": "Nagellack"
               },
               {
-                "scr": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
+                "src": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
                 "alt": "Wellnessmassage"
               }
             ]
@@ -474,6 +488,7 @@
           "id": "pageTwo",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/wish.svg",
             "width": "35%",
             "height": "auto",
@@ -483,6 +498,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "35%",
             "height": "auto",
@@ -499,19 +515,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": "Seite2"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": "Dream it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": "Wish it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": "Do it"
               }
             ]
@@ -524,7 +540,7 @@
             "boxShadow": "",
             "products": [
               {
-                "scr": "../../content/images/client/foot/products/fusspflege.jpg",
+                "src": "../../content/images/client/foot/products/fusspflege.jpg",
                 "alt": "fusspflege",
                 "title": "sortiment.foot.product001.title",
                 "description": "sortiment.foot.product001.description",
@@ -533,7 +549,7 @@
                 "price": 50
               },
               {
-                "scr": "../../content/images/client/foot/products/nagellack.jpg",
+                "src": "../../content/images/client/foot/products/nagellack.jpg",
                 "alt": "nagellack",
                 "title": "sortiment.foot.product002.title",
                 "description": "sortiment.foot.product002.description",
@@ -543,7 +559,7 @@
                 "reducedPrice": 5
               },
               {
-                "scr": "../../content/images/client/foot/products/pedikuere.jpg",
+                "src": "../../content/images/client/foot/products/pedikuere.jpg",
                 "alt": "pedikuere",
                 "title": "sortiment.foot.product003.title",
                 "description": "sortiment.foot.product003.description",
@@ -552,7 +568,7 @@
                 "price": 35
               },
               {
-                "scr": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
                 "alt": "wellnessmassage",
                 "title": "sortiment.foot.product004.title",
                 "description": "sortiment.foot.product004.description",
@@ -567,6 +583,7 @@
           "id": "pageThree",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "50%",
             "height": "auto",
@@ -576,6 +593,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
             "width": "50%",
             "height": "auto",
@@ -592,19 +610,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": ""
               }
             ]
@@ -619,20 +637,22 @@
           "id": "pageOne",
           "image1": {
             "show": true,
-            "url": "../../content/images/client/foot/page-one/welcome.svg",
-            "width": "45%",
+            "alt": "",
+            "url": ".../../../../content/images/client/flower/page-one/flower-7469396_640.jpg",
+            "width": "65%",
             "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
+            "border": "solid white 1em",
+            "borderRadius": "",
             "boxShadow": ""
           },
           "image2": {
             "show": true,
-            "url": "../../content/images/client/foot/page-one/new-product-icon.svg",
-            "width": "45%",
+            "alt": "",
+            "url": "../../../../content/images/client/flower/page-one/flower-shop-6763936_1920.jpg",
+            "width": "65%",
             "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
+            "border": "solid white 1em",
+            "borderRadius": "",
             "boxShadow": ""
           },
           "gallery": {
@@ -644,19 +664,19 @@
             "filter": "grayscale(50%)",
             "images": [
               {
-                "scr": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
+                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
+                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
+                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
+                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
                 "alt": ""
               }
             ]
@@ -666,6 +686,7 @@
           "id": "pageTwo",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/wish.svg",
             "width": "35%",
             "height": "auto",
@@ -675,6 +696,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "35%",
             "height": "auto",
@@ -691,19 +713,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": "Seite2"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": "Dream it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": "Wish it"
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": "Do it"
               }
             ]
@@ -716,7 +738,7 @@
             "boxShadow": "",
             "products": [
               {
-                "scr": "../../content/images/client/foot/products/fusspflege.jpg",
+                "src": "../../content/images/client/foot/products/fusspflege.jpg",
                 "alt": "fusspflege",
                 "title": "sortiment.foot.product001.title",
                 "description": "sortiment.foot.product001.description",
@@ -725,7 +747,7 @@
                 "price": 50
               },
               {
-                "scr": "../../content/images/client/foot/products/nagellack.jpg",
+                "src": "../../content/images/client/foot/products/nagellack.jpg",
                 "alt": "nagellack",
                 "title": "sortiment.foot.product002.title",
                 "description": "sortiment.foot.product002.description",
@@ -735,7 +757,7 @@
                 "reducedPrice": 5
               },
               {
-                "scr": "../../content/images/client/foot/products/pedikuere.jpg",
+                "src": "../../content/images/client/foot/products/pedikuere.jpg",
                 "alt": "pedikuere",
                 "title": "sortiment.foot.product003.title",
                 "description": "sortiment.foot.product003.description",
@@ -744,7 +766,7 @@
                 "price": 35
               },
               {
-                "scr": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
                 "alt": "wellnessmassage",
                 "title": "sortiment.foot.product004.title",
                 "description": "sortiment.foot.product004.description",
@@ -759,6 +781,7 @@
           "id": "pageThree",
           "image1": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/page-three/cloth-store-icon.svg",
             "width": "50%",
             "height": "auto",
@@ -768,6 +791,7 @@
           },
           "image2": {
             "show": true,
+            "alt": "",
             "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
             "width": "50%",
             "height": "auto",
@@ -784,19 +808,19 @@
             "filter": "greyscale(10%)",
             "images": [
               {
-                "scr": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
                 "alt": ""
               },
               {
-                "scr": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
                 "alt": ""
               }
             ]

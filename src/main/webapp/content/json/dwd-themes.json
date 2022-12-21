@@ -284,7 +284,7 @@
         "fontFamily": "",
         "fontSize": "",
         "fontWeight": "",
-        "color": "",
+        "color": "white",
         "backgroundColor": "",
         "border": "",
         "borderRadius": "",
@@ -294,8 +294,8 @@
       },
       "description": {
         "fontFamily": "",
-        "fontSize": "",
-        "fontWeight": "",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
         "color": "",
         "backgroundColor": "",
         "border": "",
@@ -504,8 +504,8 @@
       },
       "description": {
         "fontFamily": "",
-        "fontSize": "",
-        "fontWeight": "",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
         "color": "",
         "backgroundColor": "",
         "border": "",
@@ -660,7 +660,7 @@
       "flipCard": {
         "logoStyle": {
           "backgroundColor": "",
-          "width": "250",
+          "width": "210",
           "border": "solid 1px",
           "borderRadius": "10px",
           "filter": "drop-shadow(-5px 5px 4px grey)",
@@ -714,8 +714,8 @@
       },
       "description": {
         "fontFamily": "",
-        "fontSize": "",
-        "fontWeight": "",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
         "color": "",
         "backgroundColor": "",
         "border": "",

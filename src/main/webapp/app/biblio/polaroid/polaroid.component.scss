@@ -1,0 +1,31 @@
+.polaroid{
+  // box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  width: 31.40vh;
+  height: 30.0vh;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  overflow: visible;
+  @media (max-width: 767.98px) {
+    width: 21vh;
+    height: 20vh;
+  }
+}
+
+.polaroid-output{
+  max-width: 90%;
+  height: 18.0vh;
+  overflow: scroll;
+  position: relative;
+  top: 25.7vh;
+  @media (max-width: 767.98px) {
+    top: 16.9vh;
+  }
+}
+
+.polaroid-photo{
+  border: solid white 1em;
+  max-width: 100%;
+  transform: perspective(750px) translate3d(0px, 0px, -50px) rotateX(27deg);
+}

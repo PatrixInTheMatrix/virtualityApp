@@ -38,6 +38,7 @@ import { List01Component } from "../biblio/list01/list01.component";
 import { MediaBalloonComponent } from "../biblio/media-balloon/media-balloon.component";
 import { AdditiveComponent } from "../biblio/additive/additive.component";
 import { ProductList01Component } from "../biblio/product-list01/product-list01.component";
+import { PolaroidComponent } from "../biblio/polaroid/polaroid.component";
 
 @NgModule({
   imports: [SharedLibsModule],
@@ -79,6 +80,7 @@ import { ProductList01Component } from "../biblio/product-list01/product-list01.
     MediaBalloonComponent,
     AdditiveComponent,
     ProductList01Component,
+    PolaroidComponent,
   ],
   exports: [
     SharedLibsModule,
@@ -119,6 +121,7 @@ import { ProductList01Component } from "../biblio/product-list01/product-list01.
     MediaBalloonComponent,
     AdditiveComponent,
     ProductList01Component,
+    PolaroidComponent,
   ],
 })
 export class SharedModule {}

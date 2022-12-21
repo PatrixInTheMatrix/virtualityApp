@@ -1,20 +1,19 @@
-import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
+import {Component, Input, OnInit} from '@angular/core';
 import {WcmsService} from "../../services/wcms.service";
+import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 
 @Component({
-  selector: 'jhi-gallery04',
-  templateUrl: './gallery04.component.html',
-  styleUrls: ['./gallery04.component.scss']
+  selector: 'jhi-polaroid',
+  templateUrl: './polaroid.component.html',
+  styleUrls: ['./polaroid.component.scss']
 })
-export class Gallery04Component implements OnInit {
-
+export class PolaroidComponent implements OnInit {
   @Input() pageName = 'pageOne';
 
   constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
 
   ngOnInit(): void {
-    console.warn('Gallery04Component');
+    console.warn('PolaroidComponent');
   }
 
   getTrustResourceUrl(url: string): SafeResourceUrl {

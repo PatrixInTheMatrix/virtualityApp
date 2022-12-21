@@ -1,5 +1,6 @@
 export interface Image1 {
   show: boolean;
+  alt: string;
   url: string;
   width: string;
   height: string;
@@ -10,6 +11,7 @@ export interface Image1 {
 
 export interface Image2 {
   show: boolean;
+  alt: string;
   url: string;
   width: string;
   height: string;
@@ -19,7 +21,7 @@ export interface Image2 {
 }
 
 export interface Image {
-  scr: string;
+  src: string;
   alt: string;
 }
 
@@ -34,14 +36,14 @@ export interface Gallery {
 }
 
 export interface Product {
-  scr: string;
+  src: string;
   alt: string;
   title: string;
   description: string;
-  additive: string;
   special: string;
   price: number;
-  reducedPrice?: number;
+  reducedPrice: number;
+  additive: string;
 }
 
 export interface List {
@@ -65,7 +67,6 @@ export interface WcmsThemeForPage {
   id: string;
   wcmsPages: WcmsPage[];
 }
-
 
 export interface RootObjectPages {
     wcmsThemeForPages: WcmsThemeForPage[];

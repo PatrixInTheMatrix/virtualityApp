@@ -45,7 +45,7 @@ export class List01Component implements OnInit, AfterViewInit {
     const zoomProductPrice = document.getElementById('zoomProductPrice') as HTMLElement;
 
     // IMAGE
-    zoomProduct.setAttribute('style', 'background-image:' + this.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].scr));
+    zoomProduct.setAttribute('style', 'background-image:' + this.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].src));
     // DESCRIPTION
     zoomProductDescription.innerText = productAdditive.innerText;
     // PRICE
