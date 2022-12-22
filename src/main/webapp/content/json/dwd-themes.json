@@ -40,6 +40,10 @@
         }
       },
       "navigation": {
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
+        "navIconInactiveOpacity": 0.5,
         "pageOne": {
           "src": "../../content/images/client/demo/navigation/dream.svg",
           "alt": "pageOne"
@@ -249,6 +253,9 @@
         }
       },
       "navigation": {
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
         "pageOne": {
           "src": "../../content/images/client/kebab/navigation/food-cart-icon.svg",
           "alt": "pageOne"
@@ -458,6 +465,9 @@
         }
       },
       "navigation": {
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
         "navIconInactiveOpacity": 0.5,
         "pageOne": {
           "src": "../../content/images/client/foot/navigation/slippers-icon.svg",
@@ -669,6 +679,9 @@
         }
       },
       "navigation": {
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
         "pageOne": {
           "src": "../../content/images/client/flower/navigation/mushroom-308071.svg",
           "alt": "pageOne"
@@ -710,6 +723,219 @@
         "borderRadius": "",
         "boxShadow": "",
         "padding": "",
+        "marginBottom": ""
+      },
+      "description": {
+        "fontFamily": "",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
+        "color": "",
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "padding": "",
+        "marginBottom": ""
+      },
+      "banner": {
+        "fontFamily": "",
+        "fontSize": "",
+        "fontWeight": "",
+        "color": "",
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "padding": "",
+        "marginBottom": ""
+      },
+      "header": {
+        "fontFamily": "Arial",
+        "fontSize": "1.5em",
+        "fontWeight": "100",
+        "color": "silver",
+        "backgroundColor": "grey",
+        "border": "solid 5px",
+        "borderRadius": "20px",
+        "boxShadow": "grey 0px 4px 4px",
+        "padding": "20px",
+        "marginBottom": "0"
+      },
+      "gMap": {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1251083.4689996284!2d9.596097691109282!3d50.9214425637295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1670421843753!5m2!1sde!2sde",
+        "width": "auto",
+        "height": "20em",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 2px 2px",
+        "filter": "grayscale(69%)"
+      },
+      "communication": {
+        "tel": {
+          "number": "+4981379961901",
+          "description": "+49 8137 9961901",
+          "src": "../../content/images/communication/telephone-icon.svg"
+        },
+        "email": {
+          "address": "info@diwidi.net",
+          "description": "info@diwidi.net",
+          "src": "../../content/images/communication/email-address-icon.svg"
+        }
+      },
+      "open": {
+        "open": {
+          "src": "../../content/images/open/open-icon.svg"
+        },
+        "close": {
+          "src": "../../content/images/open/closed-icon.svg"
+        },
+        "openAgain": {
+          "src": "../../content/images/open/coffee-break-time-icon.svg"
+        }
+      },
+      "socialMedia": [
+        {
+          "src": "../../content/images/social-media/facebook-app-icon.svg",
+          "alt": "facebook",
+          "url": "www.facebook.com"
+        },
+        {
+          "src": "../../content/images/social-media/ig-instagram-icon.svg",
+          "alt": "instagram",
+          "url": "www.instagram.com"
+        },
+        {
+          "src": "../../content/images/social-media/twitter-app-icon.svg",
+          "alt": "twitter",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/tiktok-app-icon.svg",
+          "alt": "tiktok",
+          "url": "www.tiktok.com"
+        },
+        {
+          "src": "../../content/images/social-media/snapchat-square-color-icon.svg",
+          "alt": "snapchat",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/linkedin-app-icon.svg",
+          "alt": "linkedIn",
+          "url": "www.linkedin.com"
+        },
+        {
+          "src": "../../content/images/social-media/pinterest-app-icon.svg",
+          "alt": "pinterest",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/youtube-app-icon.svg",
+          "alt": "youtube",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/vimeo-square-color-icon.svg",
+          "alt": "vimeo",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/reddit-square-color-icon.svg",
+          "alt": "reddit",
+          "url": ""
+        },
+        {
+          "src": "../../content/images/social-media/xing-icon.svg",
+          "alt": "xing",
+          "url": "www.xing.com"
+        }
+      ]
+    },
+    {
+      "id": "animal",
+      "theme": {
+        "fontFamily": "Arial",
+        "fontSize": "1.3em",
+        "fontWeight": "100",
+        "color": "white",
+        "background": "",
+        "backgroundColor": "",
+        "backgroundImage": "../../content/images/client/animal/background/cat-gbdbc9a95c_1920.jpg",
+        "backgroundImagePosition": "center",
+        "backgroundImageSize": "cover",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "filter": ""
+      },
+      "business": {
+        "tel": {
+          "number": "+49123456789",
+          "description": "+49 12345678-9"
+        },
+        "email": {
+          "address": "animal@email.com"
+        }
+      },
+      "logo": {
+        "src": "../../content/images/client/animal/logo/paw-312322.svg",
+        "alt": "LOGO"
+      },
+      "flipCard": {
+        "logoStyle": {
+          "backgroundColor": "",
+          "width": "210",
+          "border": "solid 1px",
+          "borderRadius": "10px",
+          "filter": "drop-shadow(-5px 5px 4px grey)",
+          "padding": "10px",
+          "opacity": "0.7"
+        }
+      },
+      "navigation": {
+        "backgroundColor": "black",
+        "border": "solid 1px white",
+        "borderRadius": "10px",
+        "pageOne": {
+          "src": "../../content/images/client/animal/navigation/health.svg",
+          "alt": "pageOne"
+        },
+        "pageTwo": {
+          "src": "../../content/images/client/animal/navigation/food.svg",
+          "alt": "pageTwo"
+        },
+        "pageThree": {
+          "src": "../../content/images/client/animal/navigation/contact.svg",
+          "alt": "pageThree"
+        }
+      },
+      "language": {
+        "nl": {
+          "src": "../../content/images/language/bavaria-flag-round-circle-icon.svg",
+          "alt": "by"
+        },
+        "de": {
+          "src": "../../content/images/language/germany-flag-round-circle-icon.svg",
+          "alt": "de"
+        },
+        "en": {
+          "src": "../../content/images/language/uk-flag-round-circle-icon.svg",
+          "alt": "en"
+        },
+        "fr": {
+          "src": "../../content/images/language/france-flag-round-circle-icon.svg",
+          "alt": "fr"
+        }
+      },
+      "title": {
+        "fontFamily": "Helvetica Neue",
+        "fontSize": "",
+        "fontWeight": "",
+        "color": "white",
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "padding": "5px",
         "marginBottom": ""
       },
       "description": {

@@ -9,7 +9,7 @@ import { RootObjectPages } from '../interfaces/page.interface';
 })
 export class WcmsService {
   // INITIAL CLIENT
-  wcmsClient = 'flower';
+  wcmsClient = 'animal';
   // PATH
   wcmsClientRoot = 'virtuality.' + this.wcmsClient.toLowerCase() + '.';
   // THEMES

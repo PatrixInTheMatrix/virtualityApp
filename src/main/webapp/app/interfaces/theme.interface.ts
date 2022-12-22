@@ -62,6 +62,9 @@ export interface PageThree {
 }
 
 export interface Navigation {
+  backgroundColor: string;
+  border: string;
+  borderRadius: string;
   pageOne: PageOne;
   pageTwo: PageTwo;
   pageThree: PageThree;

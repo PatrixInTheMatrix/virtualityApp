@@ -1,5 +1,8 @@
 <div class="container">
-  <div class="card" *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images">
+  <div class="card" *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
+       [style.border]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.border"
+       [style.border-radius]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.borderRadius"
+       [style.box-shadow]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.boxShadow">
     <div class="image" [style.background-image]="getBgUrl(image.src)">
     </div>
     <div class="info">

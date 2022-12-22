@@ -827,6 +827,200 @@
           }
         }
       ]
+    },
+    {
+      "id": "animal",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "show": true,
+            "alt": "",
+            "url": ".../../../../content/images/client/animal/page-one/stretching-2747269b.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": ""
+          },
+          "image2": {
+            "show": true,
+            "alt": "",
+            "url": "../../../../content/images/client/animal/page-one/cat-151326.svg",
+            "width": "30%",
+            "height": "auto",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(50%)",
+            "images": [
+              {
+                "src": "../../../content/images/client/animal/gallery/vase-3204337_640.jpg",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/client/animal/gallery/roses-1867911_640.jpg",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/client/animal/gallery/bouquet-4323374_640.jpg",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/client/animal/gallery/happy-mothers-day-3462379_640.jpg",
+                "alt": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "show": true,
+            "alt": "",
+            "url": "../../content/images/wish.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "alt": "",
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "35%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "solid #FBB967 5px",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "src": "../../content/images/client/animal/gallery/felice-wolke.jpg",
+                "alt": "Taurin (fördert ein gesundes Herz und ein gutes Sehvermögen)"
+              },
+              {
+                "src": "../../content/images/client/animal/gallery/fernando-jorge.jpg",
+                "alt": "Arachidonsäure (fördert die Gesundheit von Haut und Fell)"
+              },
+              {
+                "src": "../../content/images/client/animal/gallery/anastasiia-rozumna.jpg",
+                "alt": "Vitamin A (für ein gesundes Fell und ein gutes Sehvermögen)"
+              }
+            ]
+          },
+          "list": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "products": [
+              {
+                "src": "../../content/images/client/foot/products/fusspflege.jpg",
+                "alt": "fusspflege",
+                "title": "sortiment.foot.product001.title",
+                "description": "sortiment.foot.product001.description",
+                "special": "sortiment.foot.product001.special",
+                "additive":"",
+                "price": 50
+              },
+              {
+                "src": "../../content/images/client/foot/products/nagellack.jpg",
+                "alt": "nagellack",
+                "title": "sortiment.foot.product002.title",
+                "description": "sortiment.foot.product002.description",
+                "special": "sortiment.foot.product002.special",
+                "additive":"",
+                "price": 10,
+                "reducedPrice": 5
+              },
+              {
+                "src": "../../content/images/client/foot/products/pedikuere.jpg",
+                "alt": "pedikuere",
+                "title": "sortiment.foot.product003.title",
+                "description": "sortiment.foot.product003.description",
+                "special": "sortiment.foot.product003.special",
+                "additive":"",
+                "price": 35
+              },
+              {
+                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "alt": "wellnessmassage",
+                "title": "sortiment.foot.product004.title",
+                "description": "sortiment.foot.product004.description",
+                "special": "sortiment.foot.product004.special",
+                "additive":"",
+                "price": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "show": true,
+            "alt": "",
+            "url": "../../content/images/page-three/cloth-store-icon.svg",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "image2": {
+            "show": true,
+            "alt": "",
+            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
+            "width": "50%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px"
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "greyscale(10%)",
+            "images": [
+              {
+                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": ""
+              },
+              {
+                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": ""
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

@@ -200,6 +200,55 @@
         "versicherungName": "Ihre Berufshaftplicht,<br/> Niederlassung für Musterland",
         "versicherungArt": "Versicherungsleistung,<br/> Versicherungsleistung,<br/> Versicherungsleistung"
       }
+    },
+    "animal": {
+      "global": {
+        "title": "Die gesunde Katze",
+        "service": "",
+        "description": "Alles rund um gesunde Katzen",
+        "banner": "Einfach lächeln"
+      },
+      "pageOne": {
+        "title": "Weil wir Freude teilen...",
+        "quote": "Nicht nur Liebe geht durch den Magen. Sondern auch Gesundheit",
+        "description1": "Wir unterstützen Sie dabei das richtige Futter für Ihren Liebling auszuwählen.",
+        "description2": "Alles was das Katzenherz begehrt finden Sie in unserer Katzenkategorie. Von artgerechter Nahrung über Ergänzungsfuttermittel bis hin zu medizinischem Zubehör und Pflegeartikeln - hier finden Sie das Passende für Ihre Samtpfoten. Viel Spaß beim Durchstöbern!"
+      },
+      "pageTwo": {
+        "title": "Nicht nur Liebe geht durch den Magen. Sondern auch Gesundheit.",
+        "quote": "",
+        "description1": "Wenn Sie möchten können Sie hier Ihre Leistung oder Ihr Angebot beschreiben bzw. aufzählen.",
+        "description2": "Sie können mehrere Leistung oder Angebote aufzählen."
+      },
+      "pageThree": {
+        "title": "Wertvolles Wissen rund um die Gesundheit Deines Tieres. Es gibt immer einem Weg...",
+        "quote": "",
+        "description1": "pageThree-description1 >>> Fügen Sie als Nächstes eine kurze Beschreibung Ihres Unternehmens ein und geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen.",
+        "description2": "pageThree-description2 >>> Fügen Sie als Nächstes eine kurze Beschreibung Ihres Unternehmens ein und geben Sie durch die Auswahl von Schlüsselwörtern einen Überblick über den Unternehmenstyp, die Branche und die Vorteile der Arbeit in Ihrem Unternehmen.",
+        "open": {
+          "title": {
+            "open": "Wir haben für Sie geöffnet",
+            "close": "leider gerade geschlossen",
+            "openAgain": "gleich wieder da ;)"
+          }
+        }
+      },
+      "pageImpress": {
+        "title": "Kebab",
+        "business": "Angaben gemäß § 5 TMG",
+        "businessName": "Ihre Firma",
+        "district": "Sitz:",
+        "districtName": "Musterstadt",
+        "address": "Geschäftsanschrift:",
+        "leaders": "Vertreten durch:",
+        "register": "Handelsregister:",
+        "registerSitz": "Amtsgericht Musterstadt",
+        "registerGericht": "-Registergericht-",
+        "ustId": "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:",
+        "versicherung": "Berufshaftpflichtversicherung:",
+        "versicherungName": "Ihre Berufshaftplicht,<br/> Niederlassung für Musterland",
+        "versicherungArt": "Versicherungsleistung,<br/> Versicherungsleistung,<br/> Versicherungsleistung"
+      }
     }
   }
 }

@@ -46,3 +46,13 @@
   <jhi-gallery04 [pageName]="pageName"></jhi-gallery04>
 
 </div>
+
+<div *ngIf="wcmsService.wcmsClient === 'animal'" style="overflow-x: hidden">
+
+  <jhi-page-header [pageName]="pageName"></jhi-page-header>
+
+  <jhi-separator></jhi-separator>
+
+  <jhi-shop04></jhi-shop04>
+
+</div>

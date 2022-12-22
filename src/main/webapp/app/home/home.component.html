@@ -130,7 +130,11 @@
 
     <div id="carouselNavigationCaptions" class="carousel slide" data-bs-ride="false">
       <!-- NAVIGATION -->
-      <div class="carousel-indicators">
+      <div class="carousel-indicators"
+           [style.background-color]="wcmsService.wcmsSelectedNavigation.backgroundColor"
+           [style.border]="wcmsService.wcmsSelectedNavigation.border"
+           [style.border-radius]="wcmsService.wcmsSelectedNavigation.borderRadius"
+      >
         <button
           *ngFor="let language of languages"
           (click)="changeLanguage(language)"
