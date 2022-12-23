@@ -17,7 +17,7 @@
     <img *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images; let i = index"
          [id]="'galleryItem'+i"
          active = 'false'
-         [src]="getTrustResourceUrl(image.src)"
+         [src]="utilsService.getTrustResourceUrl(image.src)"
          [alt]="image.alt"
          (click)="makeMeHover(i)">
   </div>

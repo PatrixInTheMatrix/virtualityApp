@@ -3,7 +3,7 @@
        [style.border]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.border"
        [style.border-radius]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.borderRadius"
        [style.box-shadow]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.boxShadow">
-    <div class="image" [style.background-image]="getBgUrl(image.src)">
+    <div class="image" [style.background-image]="utilsService.getBgUrl(image.src)">
     </div>
     <div class="info">
       <b>{{image.alt}}</b>

@@ -6,7 +6,7 @@
   >
 
     <img  *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
-          [src]="getTrustResourceUrl(image.src)" [alt]="image.alt"
+          [src]="utilsService.getTrustResourceUrl(image.src)" [alt]="image.alt"
           class="polaroid-photo">
 
   </div>

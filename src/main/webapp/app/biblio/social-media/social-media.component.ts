@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 import {WcmsService} from "../../services/wcms.service";
+import {UtilsService} from "../../services/utils.service";
 
 @Component({
   selector: 'jhi-social-media',
@@ -26,14 +26,11 @@ Die Top 10 Social Media Plattformen für Unternehmen
 
 export class SocialMediaComponent implements OnInit {
 
-  constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
+  constructor(public wcmsService: WcmsService,
+              public utilsService:UtilsService) {}
 
   ngOnInit(): void {
     console.warn('SocialMediaComponent');
-  }
-
-  getTrustResourceUrl(url: string) : SafeResourceUrl{
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
 }

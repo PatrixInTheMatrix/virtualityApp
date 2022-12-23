@@ -76,16 +76,19 @@ body {
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
+  font-stretch: var(--bs-body-font-stretch);
+  font-style: var(--bs-body-font-style);
+  font-variant: var(--bs-body-font-variant);
+  line-height: var(--bs-body-line-height);
+  letter-spacing: var(--bs-body-letter-spacing);
   color: var(--bs-body-color);
 
   background-image: var(--bs-body-image);
   background-position: var(--bs-body-image-position);
   background-size: var(--bs-body-image-size);
-
   background-color: var(--bs-body-bgColor);
 
-  line-height: var(--bs-body-line-height);
-  letter-spacing: var(--bs-body-letter-spacing);
+  filter: var(--bs-body-filter);
 }
 
 h1,

@@ -14,7 +14,8 @@ export class OpenComponent implements OnInit {
   currentDate = new Date();
   minDate = new Date();
   maxDate = new Date();
-  wcmsColor = this.wcmsService.wcmsSelectedTheme.color;
+  // To reset with original color
+  wcmsColor = this.wcmsService.wcmsSelectedTheme.font.color;
 
   constructor(public wcmsService: WcmsService) { }
 

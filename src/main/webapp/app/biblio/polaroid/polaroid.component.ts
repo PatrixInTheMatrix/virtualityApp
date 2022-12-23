@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {WcmsService} from "../../services/wcms.service";
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
+import {UtilsService} from "../../services/utils.service";
 
 @Component({
   selector: 'jhi-polaroid',
@@ -10,20 +10,11 @@ import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 export class PolaroidComponent implements OnInit {
   @Input() pageName = 'pageOne';
 
-  constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
+  constructor(public wcmsService: WcmsService,
+              public utilsService:UtilsService) {}
 
   ngOnInit(): void {
     console.warn('PolaroidComponent');
-  }
-
-  getTrustResourceUrl(url: string): SafeResourceUrl {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
-  getBgUrl(url: string): string {
-    const prefix = "url(";
-    const suffix = ")";
-    return prefix + url + suffix;
   }
 
 }

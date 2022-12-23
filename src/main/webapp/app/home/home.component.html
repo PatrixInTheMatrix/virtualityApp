@@ -1,6 +1,4 @@
-<div class="row content"
-     [style.filter]="wcmsService.wcmsSelectedTheme.filter"
->
+<div class="row content">
   <!-- HEADER -->
   <div class="leftContainer col-md-3">
     <div class="flip-card" (click)="makeMeHover(0.5)">
@@ -9,13 +7,15 @@
           <div>
             <img id="imgLogo"
                  class="logo"
-                 [style.background-color]="wcmsService.wcmsSelectedFlipCard.logoStyle.backgroundColor"
-                 [style.border]="wcmsService.wcmsSelectedFlipCard.logoStyle.border"
-                 [style.border-radius]="wcmsService.wcmsSelectedFlipCard.logoStyle.borderRadius"
-                 [style.filter]="wcmsService.wcmsSelectedFlipCard.logoStyle.filter"
-                 [style.padding]="wcmsService.wcmsSelectedFlipCard.logoStyle.padding"
-                 [style.opacity]="wcmsService.wcmsSelectedFlipCard.logoStyle.opacity"
-                 [width]="wcmsService.wcmsSelectedFlipCard.logoStyle.width"
+                 [style.background]="wcmsService.wcmsSelectedFlipCard.background"
+                 [style.opacity]="wcmsService.wcmsSelectedFlipCard.opacity"
+
+                 [style.border]="wcmsService.wcmsSelectedFlipCard.border"
+                 [style.border-radius]="wcmsService.wcmsSelectedFlipCard.borderRadius"
+
+                 [style.filter]="wcmsService.wcmsSelectedFlipCard.filter"
+                 [style.padding]="wcmsService.wcmsSelectedFlipCard.padding"
+                 [width]="wcmsService.wcmsSelectedFlipCard.width"
                  [src]="wcmsService.wcmsSelectedLogo.src"
                  [alt]="wcmsService.wcmsSelectedLogo.alt" />
           </div>
@@ -98,8 +98,10 @@
              [style.padding]="this.wcmsService.wcmsSelectedBanner.padding"
              [style.margin-bottom]="this.wcmsService.wcmsSelectedBanner.marginBottom"></div>
 
-        <!-- <h3 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3> -->
-        <select class="form-select form-select-sm demo-choice" [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();"
+        <h3 [hidden]="wcmsService.pub" [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3>
+        <select class="form-select form-select-sm demo-choice"
+                [hidden]="!wcmsService.pub"
+                [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();"
                 [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
                 [style.font-size]="this.wcmsService.wcmsSelectedTitle.fontSize"
                 [style.color]="this.wcmsService.wcmsSelectedTitle.color"
@@ -112,7 +114,7 @@
           <!-- <option selected>Demo auswählen</option> -->
           <option *ngFor="let theme of wcmsService.JsonWcmsThemes" [value]="theme.id">{{'virtuality.' + theme.id.toLowerCase() + '.global.title' | translate}}</option>
         </select>
-        <img [hidden]="!blinkOnFocus" class="blink-on-focus" src="../../content/images/communication/hand-clicking-icon.svg">
+        <img [hidden]="!blinkOnFocus || !wcmsService.pub" class="blink-on-focus" src="../../content/images/communication/hand-clicking-icon.svg">
 
         <jhi-social-media></jhi-social-media>
       </div>
@@ -121,7 +123,7 @@
       </div>
     </div>
 
-    <jhi-media-balloon></jhi-media-balloon>
+    <jhi-media-balloon [hidden]="!wcmsService.pub"></jhi-media-balloon>
 
   </div>
 
@@ -131,9 +133,9 @@
     <div id="carouselNavigationCaptions" class="carousel slide" data-bs-ride="false">
       <!-- NAVIGATION -->
       <div class="carousel-indicators"
-           [style.background-color]="wcmsService.wcmsSelectedNavigation.backgroundColor"
-           [style.border]="wcmsService.wcmsSelectedNavigation.border"
-           [style.border-radius]="wcmsService.wcmsSelectedNavigation.borderRadius"
+        [style.background]="wcmsService.wcmsSelectedNavigation.background"
+        [style.border]="wcmsService.wcmsSelectedNavigation.border"
+        [style.border-radius]="wcmsService.wcmsSelectedNavigation.borderRadius"
       >
         <button
           *ngFor="let language of languages"
@@ -141,10 +143,10 @@
           [ngClass]="language === translateService.currentLang ? 'activeLanguage' : 'noActivelanguage'"
         >
           <!-- {{ language }} -->
-          <img *ngIf="language === 'nl'" [src]="wcmsService.wcmsSelectedLanguage.nl.src" [alt]="wcmsService.wcmsSelectedLanguage.nl.alt" />
-          <img *ngIf="language === 'de'" [src]="wcmsService.wcmsSelectedLanguage.de.src" [alt]="wcmsService.wcmsSelectedLanguage.de.alt" />
-          <img *ngIf="language === 'en'" [src]="wcmsService.wcmsSelectedLanguage.en.src" [alt]="wcmsService.wcmsSelectedLanguage.en.alt" />
-          <img *ngIf="language === 'fr'" [src]="wcmsService.wcmsSelectedLanguage.fr.src" [alt]="wcmsService.wcmsSelectedLanguage.fr.alt" />
+          <img *ngIf="language === 'nl'" [src]="wcmsService.JsonWcmsGlobal.language.nl.src" [alt]="wcmsService.JsonWcmsGlobal.language.nl.alt" />
+          <img *ngIf="language === 'de'" [src]="wcmsService.JsonWcmsGlobal.language.de.src" [alt]="wcmsService.JsonWcmsGlobal.language.de.alt" />
+          <img *ngIf="language === 'en'" [src]="wcmsService.JsonWcmsGlobal.language.en.src" [alt]="wcmsService.JsonWcmsGlobal.language.en.alt" />
+          <img *ngIf="language === 'fr'" [src]="wcmsService.JsonWcmsGlobal.language.fr.src" [alt]="wcmsService.JsonWcmsGlobal.language.fr.alt" />
         </button>
 
         <img [src]="wcmsService.wcmsSelectedNavigation.pageOne.src"

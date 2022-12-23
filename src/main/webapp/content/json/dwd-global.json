@@ -1,0 +1,79 @@
+{
+  "wcmsGlobal": {
+    "language": {
+      "nl": {
+        "src": "../../content/images/language/bavaria-flag-round-circle-icon.svg",
+        "alt": "by"
+      },
+      "de": {
+        "src": "../../content/images/language/germany-flag-round-circle-icon.svg",
+        "alt": "de"
+      },
+      "en": {
+        "src": "../../content/images/language/uk-flag-round-circle-icon.svg",
+        "alt": "en"
+      },
+      "fr": {
+        "src": "../../content/images/language/france-flag-round-circle-icon.svg",
+        "alt": "fr"
+      }
+    },
+    "socialMedia": [
+      {
+        "src": "../../content/images/social-media/facebook-app-icon.svg",
+        "alt": "facebook",
+        "url": "www.facebook.com"
+      },
+      {
+        "src": "../../content/images/social-media/ig-instagram-icon.svg",
+        "alt": "instagram",
+        "url": "www.instagram.com"
+      },
+      {
+        "src": "../../content/images/social-media/twitter-app-icon.svg",
+        "alt": "twitter",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/tiktok-app-icon.svg",
+        "alt": "tiktok",
+        "url": "www.tiktok.com"
+      },
+      {
+        "src": "../../content/images/social-media/snapchat-square-color-icon.svg",
+        "alt": "snapchat",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/linkedin-app-icon.svg",
+        "alt": "linkedIn",
+        "url": "www.linkedin.com"
+      },
+      {
+        "src": "../../content/images/social-media/pinterest-app-icon.svg",
+        "alt": "pinterest",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/youtube-app-icon.svg",
+        "alt": "youtube",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/vimeo-square-color-icon.svg",
+        "alt": "vimeo",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/reddit-square-color-icon.svg",
+        "alt": "reddit",
+        "url": ""
+      },
+      {
+        "src": "../../content/images/social-media/xing-icon.svg",
+        "alt": "xing",
+        "url": "www.xing.com"
+      }
+    ]
+  }
+}

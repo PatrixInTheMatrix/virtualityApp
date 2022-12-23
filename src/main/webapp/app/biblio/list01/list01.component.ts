@@ -1,7 +1,6 @@
 import {AfterViewInit, Component, Input, OnInit} from '@angular/core';
 import {WcmsService} from "../../services/wcms.service";
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
-import {translate} from "@angular/localize/tools";
+import {UtilsService} from "../../services/utils.service";
 
 @Component({
   selector: 'jhi-list01',
@@ -13,7 +12,8 @@ export class List01Component implements OnInit, AfterViewInit {
 
   selectedProduct = 0;
 
-  constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
+  constructor(public wcmsService: WcmsService,
+              public utilsService:UtilsService) {}
 
   ngOnInit(): void {
     console.warn('List01Component');
@@ -21,16 +21,6 @@ export class List01Component implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     this.zoomProduct(this.selectedProduct);
-  }
-
-  getTrustResourceUrl(url: string): SafeResourceUrl {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
-  getBgUrl(url: string): string {
-    const prefix = "url(";
-    const suffix = ")";
-    return prefix + url + suffix;
   }
 
   zoomProduct(index: number) : void {
@@ -45,12 +35,12 @@ export class List01Component implements OnInit, AfterViewInit {
     const zoomProductPrice = document.getElementById('zoomProductPrice') as HTMLElement;
 
     // IMAGE
-    zoomProduct.setAttribute('style', 'background-image:' + this.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].src));
+    zoomProduct.setAttribute('style', 'background-image:' + this.utilsService.getBgUrl(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].src));
     // DESCRIPTION
     zoomProductDescription.innerText = productAdditive.innerText;
     // PRICE
     zoomProductPrice.innerText = productPrice.innerText;
-    if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice! > 0){
+    if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice > 0){
       zoomProductPrice.setAttribute('style', 'text-decoration:line-through');
     }else
     {

@@ -1,8 +1,8 @@
 <div class="container-social-media">
-  <a *ngFor="let media of wcmsService.wcmsSelectedSocialMedia"
+  <a *ngFor="let media of wcmsService.JsonWcmsGlobal.socialMedia"
      [hidden]="media.url === ''"
      target="_blank"
-     [href]="getTrustResourceUrl(media.url)">
+     [href]="utilsService.getTrustResourceUrl(media.url)">
     <img class="icon-social-media" [src]="media.src">
   </a>
 </div>

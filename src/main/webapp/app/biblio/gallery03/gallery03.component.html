@@ -4,7 +4,7 @@
   <div class="box" *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
         [style.border-radius]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.borderRadius"
         [style.box-shadow]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.boxShadow">
-    <img [src]="getTrustResourceUrl(image.src)"
+    <img [src]="utilsService.getTrustResourceUrl(image.src)"
          [alt]="image.alt">
     <span>{{image.alt}}</span>
   </div>

@@ -10,6 +10,7 @@ import { Account } from 'app/core/auth/account.model';
 import { TranslateService } from '@ngx-translate/core';
 import { SessionStorageService } from 'ngx-webstorage';
 import {WcmsService} from "../services/wcms.service";
+import {UtilsService} from "../services/utils.service";
 
 @Component({
   selector: 'jhi-home',
@@ -34,7 +35,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     private router: Router,
     public translateService: TranslateService,
     private sessionStorageService: SessionStorageService,
-    public wcmsService: WcmsService
+    public wcmsService: WcmsService,
+    public utilsService:UtilsService
   ) {
     if (VERSION) {
       this.version = VERSION.toLowerCase().startsWith('v') ? VERSION : `v${VERSION}`;

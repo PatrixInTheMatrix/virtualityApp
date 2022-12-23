@@ -1,15 +1,26 @@
-export interface Theme {
-  fontFamily: string;
-  fontSize: string;
-  fontWeight: string;
-  color: string;
-  background: string;
-  backgroundColor: string;
-  backgroundImage: string;
-  backgroundImagePosition: string;
-  backgroundImageSize: string;
+export interface Font {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
   lineHeight: string;
   letterSpacing: string;
+  color: string;
+}
+
+export interface Background {
+  background: string;
+  color: string;
+  image: string;
+  imagePosition: string;
+  ImageSize: string;
+}
+
+export interface Theme {
+  font: Font;
+  background: Background;
   filter: string;
 }
 
@@ -32,18 +43,14 @@ export interface Logo {
   alt: string;
 }
 
-export interface LogoStyle {
+export interface FlipCard {
   width: string;
   border: string;
   borderRadius: string;
   filter: string;
   padding: string;
   opacity: string;
-  backgroundColor: string;
-}
-
-export interface FlipCard {
-  logoStyle: LogoStyle;
+  background: string;
 }
 
 export interface PageOne {
@@ -62,40 +69,13 @@ export interface PageThree {
 }
 
 export interface Navigation {
-  backgroundColor: string;
   border: string;
   borderRadius: string;
+  navIconInactiveOpacity: number;
+  background: string;
   pageOne: PageOne;
   pageTwo: PageTwo;
   pageThree: PageThree;
-  navIconInactiveOpacity?: number;
-}
-
-export interface Nl {
-  src: string;
-  alt: string;
-}
-
-export interface De {
-  src: string;
-  alt: string;
-}
-
-export interface En {
-  src: string;
-  alt: string;
-}
-
-export interface Fr {
-  src: string;
-  alt: string;
-}
-
-export interface Language {
-  nl: Nl;
-  de: De;
-  en: En;
-  fr: Fr;
 }
 
 export interface Title {
@@ -111,7 +91,7 @@ export interface Title {
   marginBottom: string;
 }
 
-export interface Banner {
+export interface Description {
   fontFamily: string;
   fontSize: string;
   fontWeight: string;
@@ -124,7 +104,7 @@ export interface Banner {
   marginBottom: string;
 }
 
-export interface Description {
+export interface Banner {
   fontFamily: string;
   fontSize: string;
   fontWeight: string;
@@ -195,12 +175,6 @@ export interface Open {
   openAgain: OpenAgain;
 }
 
-export interface SocialMedia {
-  src: string;
-  alt: string;
-  url: string;
-}
-
 export interface WcmsTheme {
   id: string;
   theme: Theme;
@@ -208,7 +182,6 @@ export interface WcmsTheme {
   logo: Logo;
   flipCard: FlipCard;
   navigation: Navigation;
-  language: Language;
   title: Title;
   description: Description;
   banner: Banner;
@@ -216,7 +189,6 @@ export interface WcmsTheme {
   gMap: GMap;
   communication: Communication;
   open: Open;
-  socialMedia: SocialMedia[];
 }
 
 export interface RootObjectThemes {

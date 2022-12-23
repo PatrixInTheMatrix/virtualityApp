@@ -1,6 +1,6 @@
 import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 import {WcmsService} from "../../services/wcms.service";
+import {UtilsService} from "../../services/utils.service";
 
 @Component({
   selector: 'jhi-gallery04',
@@ -11,20 +11,11 @@ export class Gallery04Component implements OnInit {
 
   @Input() pageName = 'pageOne';
 
-  constructor(public wcmsService: WcmsService, public sanitizer:DomSanitizer) {}
+  constructor(public wcmsService: WcmsService,
+              public utilsService:UtilsService) {}
 
   ngOnInit(): void {
     console.warn('Gallery04Component');
-  }
-
-  getTrustResourceUrl(url: string): SafeResourceUrl {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
-  getBgUrl(url: string): string {
-    const prefix = "url(";
-    const suffix = ")";
-    return prefix + url + suffix;
   }
 
 }
