@@ -1,4 +1,12 @@
-<div class="container-social-media">
+<div class="container-social-media"
+     [style.background]="wcmsService.wcmsSelectedSocialMedia.background"
+     [style.border]="wcmsService.wcmsSelectedSocialMedia.border"
+     [style.borderRadius]="wcmsService.wcmsSelectedSocialMedia.borderRadius"
+     [style.boxShadow]="wcmsService.wcmsSelectedSocialMedia.boxShadow"
+     [style.filter]="wcmsService.wcmsSelectedSocialMedia.filter"
+     [style.padding]="wcmsService.wcmsSelectedSocialMedia.padding"
+     [style.margin]="wcmsService.wcmsSelectedSocialMedia.margin"
+  >
   <a *ngFor="let media of wcmsService.JsonWcmsGlobal.socialMedia"
      [hidden]="media.url === ''"
      target="_blank"

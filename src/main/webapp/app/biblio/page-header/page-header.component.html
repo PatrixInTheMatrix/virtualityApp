@@ -1,13 +1,22 @@
 <div style="display: flex; justify-content: center">
     <span class="display-6"
-          [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
-          [style.font-size]="this.wcmsService.wcmsSelectedTitle.fontSize"
-          [style.color]="this.wcmsService.wcmsSelectedTitle.color"
-          [style.background-color]="this.wcmsService.wcmsSelectedTitle.backgroundColor"
-          [style.border]="this.wcmsService.wcmsSelectedTitle.border"
-          [style.border-radius]="this.wcmsService.wcmsSelectedTitle.borderRadius"
-          [style.box-shadow]="this.wcmsService.wcmsSelectedTitle.boxShadow"
-          [style.padding]="this.wcmsService.wcmsSelectedTitle.padding"
-          [style.margin-bottom]="this.wcmsService.wcmsSelectedTitle.marginBottom"
+          [style.font-family]="wcmsService.wcmsSelectedHeader.font.family"
+          [style.font-size]="wcmsService.wcmsSelectedHeader.font.size"
+          [style.font-weight]="wcmsService.wcmsSelectedHeader.font.weight"
+          [style.font-stretch]="wcmsService.wcmsSelectedHeader.font.stretch"
+          [style.font-style]="wcmsService.wcmsSelectedHeader.font.style"
+          [style.font-variant]="wcmsService.wcmsSelectedHeader.font.variant"
+          [style.color]="wcmsService.wcmsSelectedHeader.font.color"
+          [style.lineHeight]="wcmsService.wcmsSelectedHeader.font.lineHeight"
+          [style.letterSpacing]="wcmsService.wcmsSelectedHeader.font.letterSpacing"
+
+          [style.background]="wcmsService.wcmsSelectedHeader.background"
+          [style.border]="wcmsService.wcmsSelectedHeader.border"
+          [style.borderRadius]="wcmsService.wcmsSelectedHeader.borderRadius"
+          [style.boxShadow]="wcmsService.wcmsSelectedHeader.boxShadow"
+          [style.filter]="wcmsService.wcmsSelectedHeader.filter"
+          [style.padding]="wcmsService.wcmsSelectedHeader.padding"
+          [style.margin]="wcmsService.wcmsSelectedHeader.margin"
+
           [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.title'"></span>
 </div><!-- END:TITEL -->

@@ -43,14 +43,69 @@ export interface Logo {
   alt: string;
 }
 
-export interface FlipCard {
-  width: string;
+export interface Font2 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface Title {
+  on: boolean;
+  font: Font2;
+  background: string;
   border: string;
   borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface Font3 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface Service {
+  on: boolean;
+  font: Font3;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface Back {
+  title: Title;
+  service: Service;
+}
+
+export interface FlipCard {
+  width: string;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
   filter: string;
   padding: string;
   opacity: string;
-  background: string;
+  back: Back;
 }
 
 export interface PageOne {
@@ -78,56 +133,135 @@ export interface Navigation {
   pageThree: PageThree;
 }
 
-export interface Title {
-  fontFamily: string;
-  fontSize: string;
-  fontWeight: string;
+export interface Font4 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
   color: string;
-  backgroundColor: string;
+}
+
+export interface Title2 {
+  on: boolean;
+  font: Font4;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
   padding: string;
-  marginBottom: string;
+  margin: string;
+}
+
+export interface Font5 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface Service2 {
+  on: boolean;
+  font: Font5;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface Font6 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
 }
 
 export interface Description {
-  fontFamily: string;
-  fontSize: string;
-  fontWeight: string;
-  color: string;
-  backgroundColor: string;
+  on: boolean;
+  font: Font6;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
   padding: string;
-  marginBottom: string;
+  margin: string;
+}
+
+export interface Font7 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
 }
 
 export interface Banner {
-  fontFamily: string;
-  fontSize: string;
-  fontWeight: string;
-  color: string;
-  backgroundColor: string;
+  on: boolean;
+  font: Font7;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
   padding: string;
-  marginBottom: string;
+  margin: string;
+}
+
+export interface Font8 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
 }
 
 export interface Header {
-  fontFamily: string;
-  fontSize: string;
-  fontWeight: string;
-  color: string;
-  backgroundColor: string;
+  on: boolean;
+  font: Font8;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
   padding: string;
-  marginBottom: string;
+  margin: string;
+}
+
+export interface SocialMedia {
+  on: boolean;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
 }
 
 export interface GMap {
@@ -182,10 +316,12 @@ export interface WcmsTheme {
   logo: Logo;
   flipCard: FlipCard;
   navigation: Navigation;
-  title: Title;
+  title: Title2;
+  service: Service2;
   description: Description;
   banner: Banner;
   header: Header;
+  socialMedia: SocialMedia;
   gMap: GMap;
   communication: Communication;
   open: Open;

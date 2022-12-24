@@ -14,6 +14,7 @@
                  [style.border-radius]="wcmsService.wcmsSelectedFlipCard.borderRadius"
 
                  [style.filter]="wcmsService.wcmsSelectedFlipCard.filter"
+                 [style.box-shadow]="wcmsService.wcmsSelectedFlipCard.boxShadow"
                  [style.padding]="wcmsService.wcmsSelectedFlipCard.padding"
                  [width]="wcmsService.wcmsSelectedFlipCard.width"
                  [src]="wcmsService.wcmsSelectedLogo.src"
@@ -23,8 +24,49 @@
         <div class="flip-card-back">
           <div id="flip-card" class="vcard">
             <address class="adr">
-              <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'">Dream it, Wish it, Do it</div>
-              <h2 [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'">DiWiDi</h2>
+              <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"
+                   [hidden]="!wcmsService.wcmsSelectedFlipCard.back.title.on"
+                   [style.font-family]="wcmsService.wcmsSelectedFlipCard.back.title.font.family"
+                   [style.font-size]="wcmsService.wcmsSelectedFlipCard.back.title.font.size"
+                   [style.font-weight]="wcmsService.wcmsSelectedFlipCard.back.title.font.weight"
+                   [style.font-stretch]="wcmsService.wcmsSelectedFlipCard.back.title.font.stretch"
+                   [style.font-style]="wcmsService.wcmsSelectedFlipCard.back.title.font.style"
+                   [style.font-variant]="wcmsService.wcmsSelectedFlipCard.back.title.font.variant"
+                   [style.color]="wcmsService.wcmsSelectedFlipCard.back.title.font.color"
+                   [style.lineHeight]="wcmsService.wcmsSelectedFlipCard.back.title.font.lineHeight"
+                   [style.letterSpacing]="wcmsService.wcmsSelectedFlipCard.back.title.font.letterSpacing"
+
+                   [style.background]="wcmsService.wcmsSelectedFlipCard.back.title.background"
+                   [style.border]="wcmsService.wcmsSelectedFlipCard.back.title.border"
+                   [style.borderRadius]="wcmsService.wcmsSelectedFlipCard.back.title.borderRadius"
+                   [style.boxShadow]="wcmsService.wcmsSelectedFlipCard.back.title.boxShadow"
+                   [style.filter]="wcmsService.wcmsSelectedFlipCard.back.title.filter"
+                   [style.padding]="wcmsService.wcmsSelectedFlipCard.back.title.padding"
+                   [style.margin]="wcmsService.wcmsSelectedFlipCard.back.title.margin"
+              ></div>
+
+              <jhi-label [text]="wcmsService.wcmsClientRoot+'global.service' | translate"
+                         [design]="'wcmsService.wcmsSelectedFlipCard.back.service'"></jhi-label>
+              <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.service'"
+                   [hidden]="!wcmsService.wcmsSelectedFlipCard.back.service.on"
+                   [style.font-family]="wcmsService.wcmsSelectedFlipCard.back.service.font.family"
+                   [style.font-size]="wcmsService.wcmsSelectedFlipCard.back.service.font.size"
+                   [style.font-weight]="wcmsService.wcmsSelectedFlipCard.back.service.font.weight"
+                   [style.font-stretch]="wcmsService.wcmsSelectedFlipCard.back.service.font.stretch"
+                   [style.font-style]="wcmsService.wcmsSelectedFlipCard.back.service.font.style"
+                   [style.font-variant]="wcmsService.wcmsSelectedFlipCard.back.service.font.variant"
+                   [style.color]="wcmsService.wcmsSelectedFlipCard.back.service.font.color"
+                   [style.lineHeight]="wcmsService.wcmsSelectedFlipCard.back.service.font.lineHeight"
+                   [style.letterSpacing]="wcmsService.wcmsSelectedFlipCard.back.service.font.letterSpacing"
+
+                   [style.background]="wcmsService.wcmsSelectedFlipCard.back.service.background"
+                   [style.border]="wcmsService.wcmsSelectedFlipCard.back.service.border"
+                   [style.borderRadius]="wcmsService.wcmsSelectedFlipCard.back.service.borderRadius"
+                   [style.boxShadow]="wcmsService.wcmsSelectedFlipCard.back.service.boxShadow"
+                   [style.filter]="wcmsService.wcmsSelectedFlipCard.back.service.filter"
+                   [style.padding]="wcmsService.wcmsSelectedFlipCard.back.service.padding"
+                   [style.margin]="wcmsService.wcmsSelectedFlipCard.back.service.margin"
+              ></div>
             </address>
 
             <div>
@@ -75,48 +117,103 @@
     </div>
     <div class="leftContainerDescription">
       <div [hidden]="showImpressum">
-        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"
-            [style.font-family]="this.wcmsService.wcmsSelectedDescription.fontFamily"
-            [style.font-size]="this.wcmsService.wcmsSelectedDescription.fontSize"
-            [style.color]="this.wcmsService.wcmsSelectedDescription.color"
-            [style.background-color]="this.wcmsService.wcmsSelectedDescription.backgroundColor"
-            [style.border]="this.wcmsService.wcmsSelectedDescription.border"
-            [style.border-radius]="this.wcmsService.wcmsSelectedDescription.borderRadius"
-            [style.box-shadow]="this.wcmsService.wcmsSelectedDescription.boxShadow"
-            [style.padding]="this.wcmsService.wcmsSelectedDescription.padding"
-            [style.margin-bottom]="this.wcmsService.wcmsSelectedDescription.marginBottom"></div>
-        <hr />
 
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"
-             [style.font-family]="this.wcmsService.wcmsSelectedBanner.fontFamily"
-             [style.font-size]="this.wcmsService.wcmsSelectedBanner.fontSize"
-             [style.color]="this.wcmsService.wcmsSelectedBanner.color"
-             [style.background-color]="this.wcmsService.wcmsSelectedBanner.backgroundColor"
-             [style.border]="this.wcmsService.wcmsSelectedBanner.border"
-             [style.border-radius]="this.wcmsService.wcmsSelectedBanner.borderRadius"
-             [style.box-shadow]="this.wcmsService.wcmsSelectedBanner.boxShadow"
-             [style.padding]="this.wcmsService.wcmsSelectedBanner.padding"
-             [style.margin-bottom]="this.wcmsService.wcmsSelectedBanner.marginBottom"></div>
+             [hidden]="!wcmsService.wcmsSelectedBanner.on"
+             [style.font-family]="wcmsService.wcmsSelectedBanner.font.family"
+             [style.font-size]="wcmsService.wcmsSelectedBanner.font.size"
+             [style.font-weight]="wcmsService.wcmsSelectedBanner.font.weight"
+             [style.font-stretch]="wcmsService.wcmsSelectedBanner.font.stretch"
+             [style.font-style]="wcmsService.wcmsSelectedBanner.font.style"
+             [style.font-variant]="wcmsService.wcmsSelectedBanner.font.variant"
+             [style.color]="wcmsService.wcmsSelectedBanner.font.color"
+             [style.lineHeight]="wcmsService.wcmsSelectedBanner.font.lineHeight"
+             [style.letterSpacing]="wcmsService.wcmsSelectedBanner.font.letterSpacing"
 
-        <h3 [hidden]="wcmsService.pub" [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"></h3>
+             [style.background]="wcmsService.wcmsSelectedBanner.background"
+             [style.border]="wcmsService.wcmsSelectedBanner.border"
+             [style.borderRadius]="wcmsService.wcmsSelectedBanner.borderRadius"
+             [style.boxShadow]="wcmsService.wcmsSelectedBanner.boxShadow"
+             [style.filter]="wcmsService.wcmsSelectedBanner.filter"
+             [style.padding]="wcmsService.wcmsSelectedBanner.padding"
+             [style.margin]="wcmsService.wcmsSelectedBanner.margin"
+        ></div>
+        <!-- TITLE WITH PUB -->
         <select class="form-select form-select-sm demo-choice"
                 [hidden]="!wcmsService.pub"
                 [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();"
-                [style.font-family]="this.wcmsService.wcmsSelectedTitle.fontFamily"
-                [style.font-size]="this.wcmsService.wcmsSelectedTitle.fontSize"
-                [style.color]="this.wcmsService.wcmsSelectedTitle.color"
-                [style.background-color]="this.wcmsService.wcmsSelectedTitle.backgroundColor"
-                [style.border]="this.wcmsService.wcmsSelectedTitle.border"
-                [style.border-radius]="this.wcmsService.wcmsSelectedTitle.borderRadius"
-                [style.box-shadow]="this.wcmsService.wcmsSelectedTitle.boxShadow"
-                [style.padding]="this.wcmsService.wcmsSelectedTitle.padding"
-                [style.margin-bottom]="this.wcmsService.wcmsSelectedTitle.marginBottom">
+        >
           <!-- <option selected>Demo auswählen</option> -->
           <option *ngFor="let theme of wcmsService.JsonWcmsThemes" [value]="theme.id">{{'virtuality.' + theme.id.toLowerCase() + '.global.title' | translate}}</option>
         </select>
         <img [hidden]="!blinkOnFocus || !wcmsService.pub" class="blink-on-focus" src="../../content/images/communication/hand-clicking-icon.svg">
 
+        <!-- TITLE WITHOUT PUB -->
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"
+             [hidden]="!wcmsService.wcmsSelectedTitle.on || wcmsService.pub"
+             [style.font-family]="wcmsService.wcmsSelectedTitle.font.family"
+             [style.font-size]="wcmsService.wcmsSelectedTitle.font.size"
+             [style.font-weight]="wcmsService.wcmsSelectedTitle.font.weight"
+             [style.font-stretch]="wcmsService.wcmsSelectedTitle.font.stretch"
+             [style.font-style]="wcmsService.wcmsSelectedTitle.font.style"
+             [style.font-variant]="wcmsService.wcmsSelectedTitle.font.variant"
+             [style.color]="wcmsService.wcmsSelectedTitle.font.color"
+             [style.lineHeight]="wcmsService.wcmsSelectedTitle.font.lineHeight"
+             [style.letterSpacing]="wcmsService.wcmsSelectedTitle.font.letterSpacing"
+
+             [style.background]="wcmsService.wcmsSelectedTitle.background"
+             [style.border]="wcmsService.wcmsSelectedTitle.border"
+             [style.borderRadius]="wcmsService.wcmsSelectedTitle.borderRadius"
+             [style.boxShadow]="wcmsService.wcmsSelectedTitle.boxShadow"
+             [style.filter]="wcmsService.wcmsSelectedTitle.filter"
+             [style.padding]="wcmsService.wcmsSelectedTitle.padding"
+             [style.margin]="wcmsService.wcmsSelectedTitle.margin"
+        ></div>
+
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.service'"
+             [hidden]="!wcmsService.wcmsSelectedService.on"
+             [style.font-family]="wcmsService.wcmsSelectedService.font.family"
+             [style.font-size]="wcmsService.wcmsSelectedService.font.size"
+             [style.font-weight]="wcmsService.wcmsSelectedService.font.weight"
+             [style.font-stretch]="wcmsService.wcmsSelectedService.font.stretch"
+             [style.font-style]="wcmsService.wcmsSelectedService.font.style"
+             [style.font-variant]="wcmsService.wcmsSelectedService.font.variant"
+             [style.color]="wcmsService.wcmsSelectedService.font.color"
+             [style.lineHeight]="wcmsService.wcmsSelectedService.font.lineHeight"
+             [style.letterSpacing]="wcmsService.wcmsSelectedService.font.letterSpacing"
+
+             [style.background]="wcmsService.wcmsSelectedService.background"
+             [style.border]="wcmsService.wcmsSelectedService.border"
+             [style.borderRadius]="wcmsService.wcmsSelectedService.borderRadius"
+             [style.boxShadow]="wcmsService.wcmsSelectedService.boxShadow"
+             [style.filter]="wcmsService.wcmsSelectedService.filter"
+             [style.padding]="wcmsService.wcmsSelectedService.padding"
+             [style.margin]="wcmsService.wcmsSelectedService.margin"
+        ></div>
+
+        <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"
+             [hidden]="!wcmsService.wcmsSelectedDescription.on"
+             [style.font-family]="wcmsService.wcmsSelectedDescription.font.family"
+             [style.font-size]="wcmsService.wcmsSelectedDescription.font.size"
+             [style.font-weight]="wcmsService.wcmsSelectedDescription.font.weight"
+             [style.font-stretch]="wcmsService.wcmsSelectedDescription.font.stretch"
+             [style.font-style]="wcmsService.wcmsSelectedDescription.font.style"
+             [style.font-variant]="wcmsService.wcmsSelectedDescription.font.variant"
+             [style.color]="wcmsService.wcmsSelectedDescription.font.color"
+             [style.lineHeight]="wcmsService.wcmsSelectedDescription.font.lineHeight"
+             [style.letterSpacing]="wcmsService.wcmsSelectedDescription.font.letterSpacing"
+
+             [style.background]="wcmsService.wcmsSelectedDescription.background"
+             [style.border]="wcmsService.wcmsSelectedDescription.border"
+             [style.borderRadius]="wcmsService.wcmsSelectedDescription.borderRadius"
+             [style.boxShadow]="wcmsService.wcmsSelectedDescription.boxShadow"
+             [style.filter]="wcmsService.wcmsSelectedDescription.filter"
+             [style.padding]="wcmsService.wcmsSelectedDescription.padding"
+             [style.margin]="wcmsService.wcmsSelectedDescription.margin"
+        ></div>
+
         <jhi-social-media></jhi-social-media>
+
       </div>
       <div [hidden]="!showImpressum" class="leftContainer" style="overflow-y: scroll">
         <jhi-page-impress></jhi-page-impress>

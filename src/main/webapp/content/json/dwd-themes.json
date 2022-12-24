@@ -38,12 +38,57 @@
       },
       "flipCard": {
         "width": "210",
+        "background": "linear-gradient(to left, black, silver)",
         "border": "solid 1px",
         "borderRadius": "10px",
+        "boxShadow": "",
         "filter": "drop-shadow(-5px 5px 4px grey)",
         "padding": "10px",
         "opacity": "0.7",
-        "background": "linear-gradient(to left, black, silver)"
+        "back": {
+          "title": {
+            "on": true,
+            "font": {
+              "family": "Arial",
+              "size": "1.3em",
+              "stretch": "normal",
+              "style": "normal",
+              "variant": "normal",
+              "weight": "100",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "color": "black"
+            },
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "service": {
+            "on": true,
+            "font": {
+              "family": "Arial",
+              "size": "1.3em",
+              "stretch": "normal",
+              "style": "normal",
+              "variant": "normal",
+              "weight": "100",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "color": "grey"
+            },
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          }
+        }
       },
       "navigation": {
         "border": "solid 1px white",
@@ -64,52 +109,119 @@
         }
       },
       "title": {
-        "fontFamily": "Helvetica Neue",
-        "fontSize": "",
-        "fontWeight": "",
-        "color": "white",
-        "backgroundColor": "",
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.3em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": "",
         "border": "",
         "borderRadius": "",
         "boxShadow": "",
-        "padding": "5px",
-        "marginBottom": ""
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "service": {
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": ".9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "#FBB967"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
       },
       "description": {
-        "fontFamily": "",
-        "fontSize": "1.5em",
-        "fontWeight": "100",
-        "color": "",
-        "backgroundColor": "",
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.3em",
+          "stretch": "normal",
+          "style": "italic",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
+        "background": "",
         "border": "",
         "borderRadius": "",
         "boxShadow": "",
+        "filter": "",
         "padding": "",
-        "marginBottom": ""
+        "margin": ""
       },
       "banner": {
-        "fontFamily": "",
-        "fontSize": "",
-        "fontWeight": "",
-        "color": "",
-        "backgroundColor": "",
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": ".9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "#FBB967"
+        },
+        "background": "",
         "border": "",
         "borderRadius": "",
         "boxShadow": "",
+        "filter": "",
         "padding": "",
-        "marginBottom": ""
+        "margin": ""
       },
       "header": {
-        "fontFamily": "Arial",
-        "fontSize": "1.5em",
-        "fontWeight": "100",
-        "color": "silver",
-        "backgroundColor": "grey",
-        "border": "solid 5px",
-        "borderRadius": "20px",
-        "boxShadow": "grey 0px 4px 4px",
-        "padding": "20px",
-        "marginBottom": "0"
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.3em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": "linear-gradient(to left, black, #FBB967)",
+        "border": "",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": ".5em",
+        "margin": ""
+      },
+      "socialMedia":{
+        "on": true,
+        "background": "linear-gradient(to left, black, #FBB967)",
+        "border": "",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": ".5em",
+        "margin": ""
       },
       "gMap": {
         "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1251083.4689996284!2d9.596097691109282!3d50.9214425637295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1670421843753!5m2!1sde!2sde",
