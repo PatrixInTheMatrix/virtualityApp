@@ -25,7 +25,7 @@
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer;">
+    <div class="col-5" style="text-align: center; cursor: pointer;">
       <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
         <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
       </a>
@@ -70,48 +70,27 @@
 
     <div class="col-6">
 
-      <div class="mt-4">
-        <jhi-gmap></jhi-gmap>
+      <div class="row mt-4">
+        <div class="col-12">
+          <jhi-gmap></jhi-gmap>
+        </div>
       </div>
 
-    </div>
-  </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+            <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+          </a>
 
-  <div class="row mt-4">
-    <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
-      </a>
-    </div>
+          <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+            <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
+              <code>DiWiDi-Telefon: </code><br>
+              <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+            </button>
+          </a>
+        </div>
+      </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer;">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
-      </a>
-    </div>
-
-  </div>
-
-
-  <div class="row mt-4">
-    <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Telefon: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
-        </button>
-      </a>
-    </div>
-
-    <div class="col-5"style="text-align: center; cursor: pointer">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
-        <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Briefkasten: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
-        </button>
-      </a>
     </div>
 
   </div>

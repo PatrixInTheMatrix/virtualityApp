@@ -297,6 +297,15 @@
           "letterSpacing": "normal",
           "color": "grey"
         },
+        "width": "",
+        "height": "",
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": "",
         "open": {
           "src": "../../content/images/open/open-icon.svg"
         },
@@ -626,6 +635,15 @@
           "letterSpacing": "normal",
           "color": "grey"
         },
+        "width": "100%",
+        "height": "55vh",
+        "background": "url('../../../content/images/client/kebab/open/fast-food-6680748_640.jpg')  top center / auto 150% no-repeat",
+        "border": "solid 1px",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": ".7em",
+        "margin": "",
         "open": {
           "src": "../../content/images/open/open-icon.svg"
         },
@@ -672,19 +690,6 @@
             "textOnly": true,
             "text": "Samstag und Sonntag:",
             "days": "geschlossen",
-            "time": [
-              {
-                "minH": 8,
-                "minM": 0,
-                "maxH": 12,
-                "maxM": 0
-              }
-            ]
-          },
-          {
-            "textOnly": true,
-            "text": "Termine im Haus nur nach telefonischer Vereinbarung.",
-            "days": "",
             "time": [
               {
                 "minH": 8,

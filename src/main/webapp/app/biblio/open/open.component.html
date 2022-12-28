@@ -1,4 +1,13 @@
-<div style="text-align: center">
+<div style="text-align: center;"
+     [style.width]="wcmsService.wcmsSelectedOpen.width"
+     [style.height]="wcmsService.wcmsSelectedOpen.height"
+     [style.background]="wcmsService.wcmsSelectedOpen.background"
+     [style.border]="wcmsService.wcmsSelectedOpen.border"
+     [style.border-radius]="wcmsService.wcmsSelectedOpen.borderRadius"
+     [style.box-shadow]="wcmsService.wcmsSelectedOpen.boxShadow"
+     [style.filter]="wcmsService.wcmsSelectedOpen.filter"
+     [style.padding]="wcmsService.wcmsSelectedOpen.padding"
+     [style.margin]="wcmsService.wcmsSelectedOpen.margin">
 
   <!-- -------------- HEADER  -------------- -->
 
@@ -29,7 +38,9 @@
       <!-- ich bin kurz weg... bis ich wiederkomme ;) -->
     </div>
   </div>
-  <hr>
+
+  <div style="height: 1em"></div>
+
   <div class="mt-2" *ngFor="let block of wcmsService.wcmsSelectedOpen.block">
     <div [style.font-family]="wcmsService.wcmsSelectedOpen.font.family"
          [style.font-size]="wcmsService.wcmsSelectedOpen.font.size"

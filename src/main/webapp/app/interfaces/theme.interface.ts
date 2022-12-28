@@ -1,4 +1,3 @@
-
 export interface Font {
   family: string;
   size: string;
@@ -379,6 +378,15 @@ export interface Block {
 
 export interface Open {
   font: Font11;
+  width: string;
+  height: string;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
   open: Open2;
   close: Close;
   openAgain: OpenAgain;
