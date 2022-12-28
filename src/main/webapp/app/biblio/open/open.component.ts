@@ -20,7 +20,7 @@ export class OpenComponent implements OnInit {
   constructor(public wcmsService: WcmsService) { }
 
   ngOnInit(): void {
-    this.matchOpeningTime();
+    setTimeout(()=>{this.matchOpeningTime()}, 10);
   }
 
   getDayOfTheWeek(day: number): string{
@@ -61,13 +61,11 @@ export class OpenComponent implements OnInit {
           // OPEN
           this.isOpen = true;
           openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
-          alert('OPEN');
         } else {
           if(this.maxDate.getTime() >= this.currentDate.getTime()){
             // WILL BE OPEN AGAIN
             this.isOpenAgain = true;
             openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
-            alert('OPEN-AGAIN');
           }else{
             // TODAY BUT ALREADY PASSED
             openItems[i].setAttribute("style", "color:"+this.wcmsColor);

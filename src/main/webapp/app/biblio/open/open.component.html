@@ -29,12 +29,18 @@
       <!-- ich bin kurz weg... bis ich wiederkomme ;) -->
     </div>
   </div>
-
-  <!--  <div class="open" days="MonTueWedThu" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div> -->
-  Open:{{isOpen}} / OpenAgain:{{isOpenAgain}}
-  {{this.maxDate.getTime()}} {{this.currentDate.getTime()}}
-  <div *ngFor="let block of wcmsService.wcmsSelectedOpen.block">
-    <div class="days">{{block.text}}</div>
+  <hr>
+  <div class="mt-2" *ngFor="let block of wcmsService.wcmsSelectedOpen.block">
+    <div [style.font-family]="wcmsService.wcmsSelectedOpen.font.family"
+         [style.font-size]="wcmsService.wcmsSelectedOpen.font.size"
+         [style.font-weight]="wcmsService.wcmsSelectedOpen.font.weight"
+         [style.font-stretch]="wcmsService.wcmsSelectedOpen.font.stretch"
+         [style.font-style]="wcmsService.wcmsSelectedOpen.font.style"
+         [style.font-variant]="wcmsService.wcmsSelectedOpen.font.variant"
+         [style.color]="wcmsService.wcmsSelectedOpen.font.color"
+         [style.lineHeight]="wcmsService.wcmsSelectedOpen.font.lineHeight"
+         [style.letterSpacing]="wcmsService.wcmsSelectedOpen.font.letterSpacing"
+    >{{block.text}}</div>
     <div *ngIf="!block.textOnly">
       <div *ngFor="let time of block.time" class="open"
            [attr.days]="block.days"

@@ -286,6 +286,17 @@
         }
       },
       "open": {
+        "font": {
+          "family": "Arial",
+          "size": "1.3em",
+          "stretch": "normal",
+          "style": "italic",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
         "open": {
           "src": "../../content/images/open/open-icon.svg"
         },
@@ -604,6 +615,17 @@
         }
       },
       "open": {
+        "font": {
+          "family": "Arial",
+          "size": "1.0em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "bold",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
         "open": {
           "src": "../../content/images/open/open-icon.svg"
         },

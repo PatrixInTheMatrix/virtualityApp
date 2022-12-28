@@ -1,3 +1,4 @@
+
 export interface Font {
   family: string;
   size: string;
@@ -338,6 +339,18 @@ export interface Communication {
   email: Email2;
 }
 
+export interface Font11 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
 export interface Open2 {
   src: string;
 }
@@ -358,13 +371,14 @@ export interface Time {
 }
 
 export interface Block {
+  textOnly: boolean;
   text: string;
   days: string;
   time: Time[];
-  textOnly: boolean;
 }
 
 export interface Open {
+  font: Font11;
   open: Open2;
   close: Close;
   openAgain: OpenAgain;

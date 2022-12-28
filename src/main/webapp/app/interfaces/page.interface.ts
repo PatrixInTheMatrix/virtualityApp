@@ -51,7 +51,7 @@ export interface Product {
   description: string;
   special: string;
   price: number;
-  reducedPrice: number;
+  reducedPrice?: number;
   additive?: string;
 }
 
