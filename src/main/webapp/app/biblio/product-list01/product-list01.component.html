@@ -1,5 +1,14 @@
 
-<div style="overflow: hidden">
+<div style="overflow: hidden"
+     [style.width]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.width"
+     [style.height]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.height"
+     [style.background]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.background"
+     [style.border]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.border"
+     [style.border-radius]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.borderRadius"
+     [style.box-shadow]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.boxShadow"
+     [style.filter]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.filter"
+     [style.padding]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.padding"
+     [style.margin]="wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].list.margin">
 
   <div [hidden]="!isGastro" class="row" style="margin: 0">
 

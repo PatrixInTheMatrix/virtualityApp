@@ -1,23 +1,29 @@
 export interface Image1 {
-  show: boolean;
   alt: string;
   url: string;
   width: string;
   height: string;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
 }
 
 export interface Image2 {
-  show: boolean;
   alt: string;
   url: string;
   width: string;
   height: string;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
 }
 
 export interface Image {
@@ -28,10 +34,13 @@ export interface Image {
 export interface Gallery {
   width: string;
   height: string;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
   filter: string;
+  padding: string;
+  margin: string;
   images: Image[];
 }
 
@@ -43,15 +52,19 @@ export interface Product {
   special: string;
   price: number;
   reducedPrice: number;
-  additive: string;
+  additive?: string;
 }
 
 export interface List {
   width: string;
   height: string;
+  background: string;
   border: string;
   borderRadius: string;
   boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
   products: Product[];
 }
 

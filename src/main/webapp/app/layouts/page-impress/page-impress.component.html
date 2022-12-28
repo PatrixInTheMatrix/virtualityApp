@@ -1,39 +1,44 @@
-<!--
-  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.business">Angaben gemäß § 5 TMG DiWiDi UG (haftungsbeschränkt)</span>
-  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.district">Sitz:München</span>
-  <span  [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.address">Geschäftsanschrift:Feringastraße 6 85774 Unterföhring</span>
-  <span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.leaders">Vertreten durch:Manuela Wallner&Patrice Perrin</span>
--->
+<div
+  [style.background]="wcmsService.wcmsSelectedImpress.background"
+  [style.border]="wcmsService.wcmsSelectedImpress.border"
+  [style.borderRadius]="wcmsService.wcmsSelectedImpress.borderRadius"
+  [style.boxShadow]="wcmsService.wcmsSelectedImpress.boxShadow"
+  [style.filter]="wcmsService.wcmsSelectedImpress.filter"
+  [style.padding]="wcmsService.wcmsSelectedImpress.padding"
+  [style.margin]="wcmsService.wcmsSelectedImpress.margin"
+  >
 
-<div style="margin-bottom: 1em; margin-top: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.business'"></span>
-  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.businessName'"></span>
-</div>
+  <div style="margin-bottom: 1em; margin-top: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.business'"></span>
+    <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.businessName'"></span>
+  </div>
 
-<div style="margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.district'"></span>
-  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.districtName'"></span>
-</div>
+  <div style="margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.district'"></span>
+    <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.districtName'"></span>
+  </div>
 
-<div style="margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.address'"></span>
-  <br />Musterstraße<br />D-xxxxx Musterstadt
-</div>
+  <div style="margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.address'"></span>
+    <br />Musterstraße<br />D-xxxxx Musterstadt
+  </div>
 
-<div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.leaders'"></span>
-  <br />Ihr Name <br />ggf. Teilhaber
-</div>
-<div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.register'"></span>
-  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerSitz'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerGericht'"></span> <br />HRB
-  xxxxxx
-</div>
-<div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.ustId'"></span>
-  <br />DExxxxxxxxx
-</div>
-<div style="text-align: left; margin-bottom: 1em">
-  <span class="gradientText blue" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherung'"></span>
-  <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungName'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungArt'"></span>
+  <div style="text-align: left; margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.leaders'"></span>
+    <br />Ihr Name <br />ggf. Teilhaber
+  </div>
+  <div style="text-align: left; margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.register'"></span>
+    <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerSitz'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.registerGericht'"></span> <br />HRB
+    xxxxxx
+  </div>
+  <div style="text-align: left; margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.ustId'"></span>
+    <br />DExxxxxxxxx
+  </div>
+  <div style="text-align: left; margin-bottom: 1em">
+    <span class="impress-label" [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherung'"></span>
+    <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungName'"></span> <br /><span [jhiTranslate]="wcmsService.wcmsClientRoot+'pageImpress.versicherungArt'"></span>
+  </div>
+
 </div>

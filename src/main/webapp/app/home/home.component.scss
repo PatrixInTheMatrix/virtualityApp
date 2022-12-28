@@ -54,12 +54,25 @@ Main page styles
 
 .btn-symbol {
   width: 100%;
+  font-family: var(--bs-btn-symbol-family);
+  font-size: var(--bs-btn-symbol-font-size);
+  font-weight: var(--bs-btn-symbol-font-weight);
+  font-stretch: var(--bs-btn-symbol-font-stretch);
+  font-style: var(--bs-btn-symbol-font-style);
+  font-variant: var(--bs-btn-symbol-font-variant);
+  line-height: var(--bs-btn-symbol-line-height);
+  letter-spacing: var(--bs-btn-symbol-letter-spacing);
+  color: var(--bs-btn-symbol-color);
+
+  background: var(--bs-btn-symbol-background);
+  border: var(--bs-btn-symbol-border);
+  border-radius: var(--bs-btn-symbol-borderRadius);
+  box-shadow: var(--bs-btn-symbol-boxShadow);
+  filter: var(--bs-btn-symbol-filter);
+  padding: var(--bs-btn-symbol-padding);
+  margin: var(--bs-btn-symbol-margin);
 }
 
-.txt-symbol {
-  font-size: 0.8em;
-  height: 1.5em;
-}
 // NAVIGATION CAROUSEL
 .carousel {
   position: relative;

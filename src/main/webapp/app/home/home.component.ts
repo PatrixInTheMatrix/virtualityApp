@@ -87,4 +87,5 @@ export class HomeComponent implements OnInit, OnDestroy {
   hideTheFocus(): void {
     this.blinkOnFocus = false;
   }
+
 }

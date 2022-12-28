@@ -13,13 +13,14 @@ export class WcmsService {
   // PUBLICITÉ - WERBUNG
   pub = false;
   // INITIAL CLIENT
-  wcmsClient = 'animal';
+  wcmsClient = 'kebab';
+  // flag for activePage
+  navigationActivePage = 'pageOne';
   // PATH
   wcmsClientRoot = 'virtuality.' + this.wcmsClient.toLowerCase() + '.';
   // GLOBAL
   rootWcmsGlobal = _JsonWcmsGlobal as RootObjectGlobal
   JsonWcmsGlobal = this.rootWcmsGlobal.wcmsGlobal;
-
   // THEMES
   rootWcmsThemes = _JsonWcmsThemes as RootObjectThemes;
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
@@ -27,13 +28,15 @@ export class WcmsService {
   wcmsSelectedLogo = this.JsonWcmsThemes[0].logo;
   wcmsSelectedBusiness = this.JsonWcmsThemes[0].business;
   wcmsSelectedFlipCard = this.JsonWcmsThemes[0].flipCard;
+  wcmsSelectedButtonSymbol = this.JsonWcmsThemes[0].buttonSymbol;
   wcmsSelectedNavigation = this.JsonWcmsThemes[0].navigation;
   wcmsSelectedTitle = this.JsonWcmsThemes[0].title;
   wcmsSelectedService = this.JsonWcmsThemes[0].service;
   wcmsSelectedDescription = this.JsonWcmsThemes[0].description;
   wcmsSelectedBanner = this.JsonWcmsThemes[0].banner;
-  wcmsSelectedHeader = this.JsonWcmsThemes[0].header;
+  wcmsSelectedImpress = this.JsonWcmsThemes[0].impress;
   wcmsSelectedSocialMedia = this.JsonWcmsThemes[0].socialMedia;
+  wcmsSelectedHeader = this.JsonWcmsThemes[0].header;
   wcmsSelectedGMap = this.JsonWcmsThemes[0].gMap;
   wcmsSelectedCommunication = this.JsonWcmsThemes[0].communication;
   wcmsSelectedOpen = this.JsonWcmsThemes[0].open;
@@ -60,12 +63,14 @@ export class WcmsService {
     this.wcmsSelectedLogo = this.JsonWcmsThemes[themeNr].logo;
     this.wcmsSelectedBusiness = this.JsonWcmsThemes[themeNr].business;
     this.wcmsSelectedFlipCard = this.JsonWcmsThemes[themeNr].flipCard;
+    this.wcmsSelectedButtonSymbol = this.JsonWcmsThemes[themeNr].buttonSymbol;
     this.wcmsSelectedNavigation = this.JsonWcmsThemes[themeNr].navigation;
     this.wcmsSelectedTitle = this.JsonWcmsThemes[themeNr].title;
     this.wcmsSelectedService = this.JsonWcmsThemes[themeNr].service;
     this.wcmsSelectedDescription = this.JsonWcmsThemes[themeNr].description;
     this.wcmsSelectedBanner = this.JsonWcmsThemes[themeNr].banner;
     this.wcmsSelectedHeader = this.JsonWcmsThemes[themeNr].header;
+    this.wcmsSelectedImpress = this.JsonWcmsThemes[themeNr].impress;
     this.wcmsSelectedSocialMedia = this.JsonWcmsThemes[themeNr].socialMedia;
     this.wcmsSelectedGMap = this.JsonWcmsThemes[themeNr].gMap;
     this.wcmsSelectedCommunication = this.JsonWcmsThemes[themeNr].communication;
@@ -107,6 +112,35 @@ export class WcmsService {
     }
     document.documentElement.style.setProperty('--nav-icon-inactive-opacity', this.wcmsSelectedNavigation.navIconInactiveOpacity.toString());
 
+    // IMPRESS
+    document.documentElement.style.setProperty('--bs-impress-font-family', this.wcmsSelectedImpress.font.family);
+    document.documentElement.style.setProperty('--bs-impress-font-size', this.wcmsSelectedImpress.font.size);
+    document.documentElement.style.setProperty('--bs-impress-font-weight', this.wcmsSelectedImpress.font.weight);
+    document.documentElement.style.setProperty('--bs-impress-font-stretch', this.wcmsSelectedImpress.font.stretch);
+    document.documentElement.style.setProperty('--bs-impress-font-style', this.wcmsSelectedImpress.font.style);
+    document.documentElement.style.setProperty('--bs-impress-font-variant', this.wcmsSelectedImpress.font.variant);
+    document.documentElement.style.setProperty('--bs-impress-color', this.wcmsSelectedImpress.font.color);
+    document.documentElement.style.setProperty('--bs-impress-line-height', this.wcmsSelectedImpress.font.lineHeight);
+    document.documentElement.style.setProperty('--bs-impress-letter-spacing', this.wcmsSelectedImpress.font.letterSpacing);
+
+    //
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-family', this.wcmsSelectedButtonSymbol.font.family);
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-size', this.wcmsSelectedButtonSymbol.font.size);
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-weight', this.wcmsSelectedButtonSymbol.font.weight);
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-stretch', this.wcmsSelectedButtonSymbol.font.stretch);
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-style', this.wcmsSelectedButtonSymbol.font.style);
+    document.documentElement.style.setProperty('--bs-btn-symbol-font-variant', this.wcmsSelectedButtonSymbol.font.variant);
+    document.documentElement.style.setProperty('--bs-btn-symbol-color', this.wcmsSelectedButtonSymbol.font.color);
+    document.documentElement.style.setProperty('--bs-btn-symbol-line-height', this.wcmsSelectedButtonSymbol.font.lineHeight);
+    document.documentElement.style.setProperty('--bs-btn-symbol-letter-spacing', this.wcmsSelectedButtonSymbol.font.letterSpacing);
+    document.documentElement.style.setProperty('--bs-btn-symbol-background', this.wcmsSelectedButtonSymbol.background);
+    document.documentElement.style.setProperty('--bs-btn-symbol-border', this.wcmsSelectedButtonSymbol.border);
+    document.documentElement.style.setProperty('--bs-btn-symbol-borderRadius', this.wcmsSelectedButtonSymbol.borderRadius);
+    document.documentElement.style.setProperty('--bs-btn-symbol-boxShadow', this.wcmsSelectedButtonSymbol.boxShadow);
+    document.documentElement.style.setProperty('--bs-btn-symbol-filter', this.wcmsSelectedButtonSymbol.filter);
+    document.documentElement.style.setProperty('--bs-btn-symbol-padding', this.wcmsSelectedButtonSymbol.padding);
+    document.documentElement.style.setProperty('--bs-btn-symbol-margin', this.wcmsSelectedButtonSymbol.margin);
+
     // INPUT
     // document.documentElement.style.setProperty('--dwd-placeholder-color', 'silver');
   }
@@ -125,5 +159,9 @@ export class WcmsService {
         break;
     }
     return index;
+  }
+
+  makeMeActive(activePageName: string): void {
+    this.navigationActivePage = 'activePageName';
   }
 }

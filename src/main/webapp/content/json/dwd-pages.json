@@ -1,53 +1,67 @@
 {
   "wcmsThemeForPages": [
     {
-      "id": "demo",
+      "id": "animal",
       "wcmsPages": [
         {
           "id": "pageOne",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/demo/page-one/welcome.svg",
-            "width": "45%",
+            "url": "../../../../content/images/client/animal/page-one/stretching-2747269b.svg",
+            "width": "50%",
             "height": "auto",
-            "border": "none",
+            "background": "white",
+            "border": "solid 5px #FBB967",
             "borderRadius": "10px",
-            "boxShadow": ""
+            "boxShadow": "7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;",
+            "filter": "drop-shadow(5px 5px 3px rgba(0,0,0,0.7))",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/demo/page-one/new-product-icon.svg",
-            "width": "45%",
+            "url": "../../../../content/images/client/animal/page-one/cat-151326.svg",
+            "width": "30%",
             "height": "auto",
-            "border": "none",
+            "background": "white",
+            "border": "solid 5px #FBB967",
             "borderRadius": "10px",
-            "boxShadow": ""
+            "boxShadow": "7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;",
+            "filter": "drop-shadow(5px 5px 3px rgba(0,0,0,0.7))",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "solid 5px",
-            "borderRadius": "2em",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
             "boxShadow": "",
             "filter": "",
-            "images": [
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
               {
-                "src": "../../../content/images/client/demo/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": "DiWiDi"
-              },
-              {
-                "src": "../../../content/images/client/demo/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": "Dream it"
-              },
-              {
-                "src": "../../../content/images/client/demo/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": "Wish it"
-              },
-              {
-                "src": "../../../content/images/client/demo/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": "Do it"
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
               }
             ]
           }
@@ -55,97 +69,75 @@
         {
           "id": "pageTwo",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/wish.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "g",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
+            "width": "255px",
+            "height": "325px",
+            "background": "white",
+            "border": "solid 5px #FBB967",
             "borderRadius": "10px",
-            "boxShadow": "",
+            "boxShadow": "7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;",
+            "filter": "drop-shadow(5px 5px 3px rgba(0,0,0,0.7))",
+            "padding": "",
+            "margin": "",
             "images": [
+              {
+                "src": "../../content/images/client/animal/gallery/felice-wolke.jpg",
+                "alt": "Taurin (fördert ein gesundes Herz und ein gutes Sehvermögen)"
+              },
+              {
+                "src": "../../content/images/client/animal/gallery/fernando-jorge.jpg",
+                "alt": "Arachidonsäure (fördert die Gesundheit von Haut und Fell)"
+              },
+              {
+                "src": "../../content/images/client/animal/gallery/anastasiia-rozumna.jpg",
+                "alt": "Vitamin A (für ein gesundes Fell und ein gutes Sehvermögen)"
+              }
             ]
           },
           "list": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
             "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
             "products": [
               {
-                "src": "../../../content/images/client/demo/page-two/surprise-icon.svg",
-                "alt": "Seite2",
+                "src": "",
+                "alt": "Artikel001",
                 "title": "sortiment.demo.product001.title",
                 "description": "sortiment.demo.product001.description",
                 "special": "sortiment.demo.product001.special",
                 "price": 10,
                 "reducedPrice": 7
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
-                "alt": "Dream it",
-                "title": "sortiment.demo.product002.title",
-                "description": "sortiment.demo.product002.description",
-                "special": "sortiment.demo.product002.special",
-                "price": 15
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/return-product-icon.svg",
-                "alt": "Wish it",
-                "title": "sortiment.demo.product003.title",
-                "description": "sortiment.demo.product003.description",
-                "special": "sortiment.demo.product003.special",
-                "price": 5
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
-                "alt": "Do it",
-                "title": "sortiment.demo.product004.title",
-                "description": "sortiment.demo.product004.description",
-                "special": "sortiment.demo.product004.special",
-                "price": 20
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/package-cancelled-icon.svg",
-                "alt": "Seite2",
-                "title": "sortiment.demo.product005.title",
-                "description": "sortiment.demo.product005.description",
-                "special": "sortiment.demo.product005.special",
-                "price": 10
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
-                "alt": "Dream it",
-                "title": "sortiment.demo.product006.title",
-                "description": "sortiment.demo.product006.description",
-                "special": "sortiment.demo.product006.special",
-                "price": 15
-              },
-              {
-                "src": "../../../content/images/client/demo/page-two/box-package-icon.svg",
-                "alt": "Wish it",
-                "title": "sortiment.demo.product007.title",
-                "description": "sortiment.demo.product007.description",
-                "special": "sortiment.demo.product007.special",
-                "price": 5
               }
             ]
           }
@@ -153,47 +145,62 @@
         {
           "id": "pageThree",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/demo/page-three/cloth-store-icon.svg",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/diwidi/2nd_Logo_Concept_v3.5_5k_200px.png",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
             "boxShadow": "",
-            "images": [
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
               {
-                "src": "../../../content/images/gallery/demo/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/demo/sketch1665068586440_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/demo/sketch1665068608806_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/demo/sketch1665068658206_600x600_antik07orig.png",
-                "alt": ""
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
               }
             ]
           }
@@ -206,32 +213,41 @@
         {
           "id": "pageOne",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/kebab/page-one/welcome.svg",
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": ""
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/client/kebab/page-one/new-product-icon.svg",
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": ""
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
             "width": "45%",
             "height": "auto",
+            "background": "",
             "border": "solid 5px",
             "borderRadius": "2em",
             "boxShadow": "",
             "filter": "grayscale(50%)",
+            "padding": "",
+            "margin": "",
             "images": [
               {
                 "src": "../../../content/images/client/kebab/gallery/snack-bar-demo.jpg",
@@ -246,62 +262,93 @@
                 "alt": "Zusammen"
               }
             ]
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
           }
         },
         {
           "id": "pageTwo",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/wish.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "g",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
+            "width": "255px",
+            "height": "325px",
+            "background": "white",
+            "border": "solid 5px #FBB967",
             "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
+            "boxShadow": "7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;",
+            "filter": "drop-shadow(5px 5px 3px rgba(0,0,0,0.7))",
+            "padding": "",
+            "margin": "",
             "images": [
               {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": "Seite2"
+                "src": "../../content/images/client/animal/gallery/felice-wolke.jpg",
+                "alt": "Taurin (fördert ein gesundes Herz und ein gutes Sehvermögen)"
               },
               {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": "Dream it"
+                "src": "../../content/images/client/animal/gallery/fernando-jorge.jpg",
+                "alt": "Arachidonsäure (fördert die Gesundheit von Haut und Fell)"
               },
               {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": "Wish it"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": "Do it"
+                "src": "../../content/images/client/animal/gallery/anastasiia-rozumna.jpg",
+                "alt": "Vitamin A (für ein gesundes Fell und ein gutes Sehvermögen)"
               }
             ]
           },
           "list": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
+            "width": "",
+            "height": "",
+            "background": "linear-gradient(90deg, silver, grey, black)",
+            "border": "solid 2px white",
             "borderRadius": "10px",
             "boxShadow": "",
+            "filter": "drop-shadow(-5px 5px 4px grey)",
+            "padding": "",
+            "margin": "",
             "products": [
               {
                 "src": "../../content/images/client/kebab/products/kebap-demo.jpg",
@@ -384,638 +431,62 @@
         {
           "id": "pageThree",
           "image1": {
-            "show": true,
             "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": ""
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "foot",
-      "wcmsPages": [
-        {
-          "id": "pageOne",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/client/foot/page-one/welcome.svg",
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": ""
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/client/foot/page-one/new-product-icon.svg",
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": ""
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "solid 5px",
-            "borderRadius": "2em",
-            "boxShadow": "",
-            "filter": "grayscale(50%)",
-            "images": [
-              {
-                "src": "../../../content/images/client/foot/gallery/fusspflege.jpg",
-                "alt": "Fußpflege"
-              },
-              {
-                "src": "../../../content/images/client/foot/gallery/pedikuere.jpg",
-                "alt": "Pediküre"
-              },
-              {
-                "src": "../../../content/images/client/foot/gallery/nagellack.jpg",
-                "alt": "Nagellack"
-              },
-              {
-                "src": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
-                "alt": "Wellnessmassage"
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageTwo",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/wish.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": "Seite2"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": "Dream it"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": "Wish it"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": "Do it"
-              }
-            ]
-          },
-          "list": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "products": [
-              {
-                "src": "../../content/images/client/foot/products/fusspflege.jpg",
-                "alt": "fusspflege",
-                "title": "sortiment.foot.product001.title",
-                "description": "sortiment.foot.product001.description",
-                "special": "sortiment.foot.product001.special",
-                "additive":"",
-                "price": 50
-              },
-              {
-                "src": "../../content/images/client/foot/products/nagellack.jpg",
-                "alt": "nagellack",
-                "title": "sortiment.foot.product002.title",
-                "description": "sortiment.foot.product002.description",
-                "special": "sortiment.foot.product002.special",
-                "additive":"",
-                "price": 10,
-                "reducedPrice": 5
-              },
-              {
-                "src": "../../content/images/client/foot/products/pedikuere.jpg",
-                "alt": "pedikuere",
-                "title": "sortiment.foot.product003.title",
-                "description": "sortiment.foot.product003.description",
-                "special": "sortiment.foot.product003.special",
-                "additive":"",
-                "price": 35
-              },
-              {
-                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
-                "alt": "wellnessmassage",
-                "title": "sortiment.foot.product004.title",
-                "description": "sortiment.foot.product004.description",
-                "special": "sortiment.foot.product004.special",
-                "additive":"",
-                "price": 20
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageThree",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": ""
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "flower",
-      "wcmsPages": [
-        {
-          "id": "pageOne",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": ".../../../../content/images/client/flower/page-one/flower-7469396_640.jpg",
-            "width": "65%",
-            "height": "auto",
-            "border": "solid white 1em",
-            "borderRadius": "",
-            "boxShadow": ""
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../../../content/images/client/flower/page-one/flower-shop-6763936_1920.jpg",
-            "width": "65%",
-            "height": "auto",
-            "border": "solid white 1em",
-            "borderRadius": "",
-            "boxShadow": ""
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "solid 5px",
-            "borderRadius": "2em",
-            "boxShadow": "",
-            "filter": "grayscale(50%)",
-            "images": [
-              {
-                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
-                "alt": ""
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageTwo",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/wish.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": "Seite2"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": "Dream it"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": "Wish it"
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": "Do it"
-              }
-            ]
-          },
-          "list": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "products": [
-              {
-                "src": "../../content/images/client/foot/products/fusspflege.jpg",
-                "alt": "fusspflege",
-                "title": "sortiment.foot.product001.title",
-                "description": "sortiment.foot.product001.description",
-                "special": "sortiment.foot.product001.special",
-                "additive":"",
-                "price": 50
-              },
-              {
-                "src": "../../content/images/client/foot/products/nagellack.jpg",
-                "alt": "nagellack",
-                "title": "sortiment.foot.product002.title",
-                "description": "sortiment.foot.product002.description",
-                "special": "sortiment.foot.product002.special",
-                "additive":"",
-                "price": 10,
-                "reducedPrice": 5
-              },
-              {
-                "src": "../../content/images/client/foot/products/pedikuere.jpg",
-                "alt": "pedikuere",
-                "title": "sortiment.foot.product003.title",
-                "description": "sortiment.foot.product003.description",
-                "special": "sortiment.foot.product003.special",
-                "additive":"",
-                "price": 35
-              },
-              {
-                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
-                "alt": "wellnessmassage",
-                "title": "sortiment.foot.product004.title",
-                "description": "sortiment.foot.product004.description",
-                "special": "sortiment.foot.product004.special",
-                "additive":"",
-                "price": 20
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageThree",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": ""
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "animal",
-      "wcmsPages": [
-        {
-          "id": "pageOne",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": ".../../../../content/images/client/animal/page-one/stretching-2747269b.svg",
-            "width": "50%",
-            "height": "auto",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
             "border": "",
             "borderRadius": "",
-            "boxShadow": ""
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "image2": {
-            "show": true,
             "alt": "",
-            "url": "../../../../content/images/client/animal/page-one/cat-151326.svg",
-            "width": "30%",
-            "height": "auto",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
             "border": "",
             "borderRadius": "",
-            "boxShadow": ""
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
           },
           "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "solid 5px",
-            "borderRadius": "2em",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
             "boxShadow": "",
-            "filter": "grayscale(50%)",
-            "images": [
-              {
-                "src": "../../../content/images/client/animal/gallery/vase-3204337_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/animal/gallery/roses-1867911_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/animal/gallery/bouquet-4323374_640.jpg",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/client/animal/gallery/happy-mothers-day-3462379_640.jpg",
-                "alt": ""
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageTwo",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/wish.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "35%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "solid #FBB967 5px",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../content/images/client/animal/gallery/felice-wolke.jpg",
-                "alt": "Taurin (fördert ein gesundes Herz und ein gutes Sehvermögen)"
-              },
-              {
-                "src": "../../content/images/client/animal/gallery/fernando-jorge.jpg",
-                "alt": "Arachidonsäure (fördert die Gesundheit von Haut und Fell)"
-              },
-              {
-                "src": "../../content/images/client/animal/gallery/anastasiia-rozumna.jpg",
-                "alt": "Vitamin A (für ein gesundes Fell und ein gutes Sehvermögen)"
-              }
-            ]
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
           },
           "list": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
             "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
             "products": [
               {
-                "src": "../../content/images/client/foot/products/fusspflege.jpg",
-                "alt": "fusspflege",
-                "title": "sortiment.foot.product001.title",
-                "description": "sortiment.foot.product001.description",
-                "special": "sortiment.foot.product001.special",
-                "additive":"",
-                "price": 50
-              },
-              {
-                "src": "../../content/images/client/foot/products/nagellack.jpg",
-                "alt": "nagellack",
-                "title": "sortiment.foot.product002.title",
-                "description": "sortiment.foot.product002.description",
-                "special": "sortiment.foot.product002.special",
-                "additive":"",
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
                 "price": 10,
-                "reducedPrice": 5
-              },
-              {
-                "src": "../../content/images/client/foot/products/pedikuere.jpg",
-                "alt": "pedikuere",
-                "title": "sortiment.foot.product003.title",
-                "description": "sortiment.foot.product003.description",
-                "special": "sortiment.foot.product003.special",
-                "additive":"",
-                "price": 35
-              },
-              {
-                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
-                "alt": "wellnessmassage",
-                "title": "sortiment.foot.product004.title",
-                "description": "sortiment.foot.product004.description",
-                "special": "sortiment.foot.product004.special",
-                "additive":"",
-                "price": 20
-              }
-            ]
-          }
-        },
-        {
-          "id": "pageThree",
-          "image1": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/page-three/cloth-store-icon.svg",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "image2": {
-            "show": true,
-            "alt": "",
-            "url": "../../content/images/2nd_Logo_Concept_v3.5_5k_200px.png",
-            "width": "50%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "grey 0px 8px 8px"
-          },
-          "gallery": {
-            "width": "45%",
-            "height": "auto",
-            "border": "none",
-            "borderRadius": "10px",
-            "boxShadow": "",
-            "filter": "greyscale(10%)",
-            "images": [
-              {
-                "src": "../../../content/images/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068586440_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068608806_600x600_antik07orig.png",
-                "alt": ""
-              },
-              {
-                "src": "../../../content/images/gallery/sketch1665068658206_600x600_antik07orig.png",
-                "alt": ""
+                "reducedPrice": 7
               }
             ]
           }

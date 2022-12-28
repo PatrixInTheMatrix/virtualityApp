@@ -104,8 +104,32 @@ export interface FlipCard {
   boxShadow: string;
   filter: string;
   padding: string;
+  margin: string;
   opacity: string;
   back: Back;
+}
+
+export interface Font4 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface ButtonSymbol {
+  font: Font4;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
 }
 
 export interface PageOne {
@@ -133,30 +157,6 @@ export interface Navigation {
   pageThree: PageThree;
 }
 
-export interface Font4 {
-  family: string;
-  size: string;
-  stretch: string;
-  style: string;
-  variant: string;
-  weight: string;
-  lineHeight: string;
-  letterSpacing: string;
-  color: string;
-}
-
-export interface Title2 {
-  on: boolean;
-  font: Font4;
-  background: string;
-  border: string;
-  borderRadius: string;
-  boxShadow: string;
-  filter: string;
-  padding: string;
-  margin: string;
-}
-
 export interface Font5 {
   family: string;
   size: string;
@@ -169,7 +169,7 @@ export interface Font5 {
   color: string;
 }
 
-export interface Service2 {
+export interface Title2 {
   on: boolean;
   font: Font5;
   background: string;
@@ -193,7 +193,7 @@ export interface Font6 {
   color: string;
 }
 
-export interface Description {
+export interface Service2 {
   on: boolean;
   font: Font6;
   background: string;
@@ -217,7 +217,7 @@ export interface Font7 {
   color: string;
 }
 
-export interface Banner {
+export interface Description {
   on: boolean;
   font: Font7;
   background: string;
@@ -241,7 +241,7 @@ export interface Font8 {
   color: string;
 }
 
-export interface Header {
+export interface Banner {
   on: boolean;
   font: Font8;
   background: string;
@@ -253,8 +253,55 @@ export interface Header {
   margin: string;
 }
 
+export interface Font9 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface Impress {
+  font: Font9;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
 export interface SocialMedia {
   on: boolean;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface Font10 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
+export interface Header {
+  on: boolean;
+  font: Font10;
   background: string;
   border: string;
   borderRadius: string;
@@ -303,10 +350,25 @@ export interface OpenAgain {
   src: string;
 }
 
+export interface Time {
+  minH: number;
+  minM: number;
+  maxH: number;
+  maxM: number;
+}
+
+export interface Block {
+  text: string;
+  days: string;
+  time: Time[];
+  textOnly: boolean;
+}
+
 export interface Open {
   open: Open2;
   close: Close;
   openAgain: OpenAgain;
+  block: Block[];
 }
 
 export interface WcmsTheme {
@@ -315,13 +377,15 @@ export interface WcmsTheme {
   business: Business;
   logo: Logo;
   flipCard: FlipCard;
+  buttonSymbol: ButtonSymbol;
   navigation: Navigation;
   title: Title2;
   service: Service2;
   description: Description;
   banner: Banner;
-  header: Header;
+  impress: Impress;
   socialMedia: SocialMedia;
+  header: Header;
   gMap: GMap;
   communication: Communication;
   open: Open;

@@ -1,29 +1,40 @@
 <div class="row content">
   <!-- HEADER -->
   <div class="leftContainer col-md-3">
+    <!-- FLIP-CARD -->
     <div class="flip-card" (click)="makeMeHover(0.5)">
       <div class="flip-card-inner" id="flipMe">
         <div class="flip-card-front">
-          <div>
+          <div
+            [style.background]="wcmsService.wcmsSelectedFlipCard.background"
+            [style.opacity]="wcmsService.wcmsSelectedFlipCard.opacity"
+
+            [style.border]="wcmsService.wcmsSelectedFlipCard.border"
+            [style.border-radius]="wcmsService.wcmsSelectedFlipCard.borderRadius"
+
+            [style.filter]="wcmsService.wcmsSelectedFlipCard.filter"
+            [style.box-shadow]="wcmsService.wcmsSelectedFlipCard.boxShadow"
+            [style.padding]="wcmsService.wcmsSelectedFlipCard.padding"
+            [style.margin]="wcmsService.wcmsSelectedFlipCard.margin">
+            <!-- LOGO -->
             <img id="imgLogo"
                  class="logo"
-                 [style.background]="wcmsService.wcmsSelectedFlipCard.background"
-                 [style.opacity]="wcmsService.wcmsSelectedFlipCard.opacity"
-
-                 [style.border]="wcmsService.wcmsSelectedFlipCard.border"
-                 [style.border-radius]="wcmsService.wcmsSelectedFlipCard.borderRadius"
-
-                 [style.filter]="wcmsService.wcmsSelectedFlipCard.filter"
-                 [style.box-shadow]="wcmsService.wcmsSelectedFlipCard.boxShadow"
-                 [style.padding]="wcmsService.wcmsSelectedFlipCard.padding"
                  [width]="wcmsService.wcmsSelectedFlipCard.width"
                  [src]="wcmsService.wcmsSelectedLogo.src"
                  [alt]="wcmsService.wcmsSelectedLogo.alt" />
           </div>
         </div>
         <div class="flip-card-back">
-          <div id="flip-card" class="vcard">
+          <div id="flip-card" class="vcard"
+               [style.background]="wcmsService.wcmsSelectedFlipCard.back.title.background"
+               [style.border]="wcmsService.wcmsSelectedFlipCard.back.title.border"
+               [style.borderRadius]="wcmsService.wcmsSelectedFlipCard.back.title.borderRadius"
+               [style.boxShadow]="wcmsService.wcmsSelectedFlipCard.back.title.boxShadow"
+               [style.filter]="wcmsService.wcmsSelectedFlipCard.back.title.filter"
+               [style.padding]="wcmsService.wcmsSelectedFlipCard.back.title.padding"
+               [style.margin]="wcmsService.wcmsSelectedFlipCard.back.title.margin">
             <address class="adr">
+              <!-- FIRMA / TITLE -->
               <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"
                    [hidden]="!wcmsService.wcmsSelectedFlipCard.back.title.on"
                    [style.font-family]="wcmsService.wcmsSelectedFlipCard.back.title.font.family"
@@ -36,15 +47,9 @@
                    [style.lineHeight]="wcmsService.wcmsSelectedFlipCard.back.title.font.lineHeight"
                    [style.letterSpacing]="wcmsService.wcmsSelectedFlipCard.back.title.font.letterSpacing"
 
-                   [style.background]="wcmsService.wcmsSelectedFlipCard.back.title.background"
-                   [style.border]="wcmsService.wcmsSelectedFlipCard.back.title.border"
-                   [style.borderRadius]="wcmsService.wcmsSelectedFlipCard.back.title.borderRadius"
-                   [style.boxShadow]="wcmsService.wcmsSelectedFlipCard.back.title.boxShadow"
-                   [style.filter]="wcmsService.wcmsSelectedFlipCard.back.title.filter"
-                   [style.padding]="wcmsService.wcmsSelectedFlipCard.back.title.padding"
-                   [style.margin]="wcmsService.wcmsSelectedFlipCard.back.title.margin"
-              ></div>
 
+              ></div>
+              <!-- DIENSTLEISTUNG / SERVICE -->
               <jhi-label [text]="wcmsService.wcmsClientRoot+'global.service' | translate"
                          [design]="'wcmsService.wcmsSelectedFlipCard.back.service'"></jhi-label>
               <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.service'"
@@ -68,9 +73,11 @@
                    [style.margin]="wcmsService.wcmsSelectedFlipCard.back.service.margin"
               ></div>
             </address>
-
-            <div>
-              <a class="tel" [href]="'tel:'+wcmsService.wcmsSelectedBusiness.tel.number">
+            <!-- BUTTON - TELEFONNUMMER -->
+            <div class="row">
+              <div class="col-1">
+              </div>
+              <a class="col-10 tel" [href]="'tel:'+wcmsService.wcmsSelectedBusiness.tel.number">
                 <button class="btn-symbol">
                   <div class="row">
                     <div class="col-9" style="display: flex; justify-content: right">
@@ -82,34 +89,46 @@
                   </div>
                 </button>
               </a>
+              <div class="col-1">
+              </div>
             </div>
-
-            <div>
-              <a class="email" [href]="'mailto:'+wcmsService.wcmsSelectedBusiness.email.address">
-                <button class="btn-symbol">
+            <!-- BUTTON - EMAIL -->
+              <div class="row">
+                <div class="col-1">
+                </div>
+                <a class="col-10 email" [href]="'mailto:'+wcmsService.wcmsSelectedBusiness.email.address">
+                  <button class="btn-symbol">
+                    <div class="row">
+                      <div class="col-9" style="display: flex; justify-content: right">
+                        <span class="txt-symbol">{{wcmsService.wcmsSelectedBusiness.email.address}}</span>
+                      </div>
+                      <div class="col-3" style="display: flex; justify-content: left">
+                        <span class="txt-symbol">&#9993;</span>
+                      </div>
+                    </div>
+                  </button>
+                </a>
+                <div class="col-1">
+              </div>
+            </div>
+            <!-- BUTTON - IMPRESSUM -->
+            <div class="row">
+              <div class="col-1">
+              </div>
+              <div class="col-10">
+                <button class="btn-symbol" (click)="impressMe()">
                   <div class="row">
                     <div class="col-9" style="display: flex; justify-content: right">
-                      <span class="txt-symbol">{{wcmsService.wcmsSelectedBusiness.email.address}}</span>
+                      <span class="txt-symbol" jhiTranslate="home.impress">Impressum</span>
                     </div>
                     <div class="col-3" style="display: flex; justify-content: left">
-                      <span class="txt-symbol">&#9993;</span>
+                      <span class="txt-symbol">§</span>
                     </div>
                   </div>
                 </button>
-              </a>
-            </div>
-
-            <div>
-              <button class="btn-symbol" (click)="impressMe()">
-                <div class="row">
-                  <div class="col-9" style="display: flex; justify-content: right">
-                    <span class="txt-symbol" jhiTranslate="home.impress">Impressum</span>
-                  </div>
-                  <div class="col-3" style="display: flex; justify-content: left">
-                    <span class="txt-symbol">§</span>
-                  </div>
-                </div>
-              </button>
+              </div>
+              <div class="col-1">
+              </div>
             </div>
           </div>
         </div>
@@ -117,7 +136,7 @@
     </div>
     <div class="leftContainerDescription">
       <div [hidden]="showImpressum">
-
+        <!-- BANNER -->
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.banner'"
              [hidden]="!wcmsService.wcmsSelectedBanner.on"
              [style.font-family]="wcmsService.wcmsSelectedBanner.font.family"
@@ -138,7 +157,7 @@
              [style.padding]="wcmsService.wcmsSelectedBanner.padding"
              [style.margin]="wcmsService.wcmsSelectedBanner.margin"
         ></div>
-        <!-- TITLE WITH PUB -->
+        <!-- FIRMA / TITLE WITH PUB -->
         <select class="form-select form-select-sm demo-choice"
                 [hidden]="!wcmsService.pub"
                 [(ngModel)]="this.wcmsService.wcmsClient" (change)="this.wcmsService.setSelectedTheme(this.wcmsService.wcmsClient); hideTheFocus();"
@@ -148,7 +167,7 @@
         </select>
         <img [hidden]="!blinkOnFocus || !wcmsService.pub" class="blink-on-focus" src="../../content/images/communication/hand-clicking-icon.svg">
 
-        <!-- TITLE WITHOUT PUB -->
+        <!-- FIRMA / TITLE WITHOUT PUB -->
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.title'"
              [hidden]="!wcmsService.wcmsSelectedTitle.on || wcmsService.pub"
              [style.font-family]="wcmsService.wcmsSelectedTitle.font.family"
@@ -169,7 +188,7 @@
              [style.padding]="wcmsService.wcmsSelectedTitle.padding"
              [style.margin]="wcmsService.wcmsSelectedTitle.margin"
         ></div>
-
+        <!-- DIENSTLEISTUNG / SERVICE -->
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.service'"
              [hidden]="!wcmsService.wcmsSelectedService.on"
              [style.font-family]="wcmsService.wcmsSelectedService.font.family"
@@ -190,7 +209,7 @@
              [style.padding]="wcmsService.wcmsSelectedService.padding"
              [style.margin]="wcmsService.wcmsSelectedService.margin"
         ></div>
-
+        <!-- BESCHREIBUNG / DESCRIPTION -->
         <div [jhiTranslate]="wcmsService.wcmsClientRoot+'global.description'"
              [hidden]="!wcmsService.wcmsSelectedDescription.on"
              [style.font-family]="wcmsService.wcmsSelectedDescription.font.family"
@@ -211,15 +230,16 @@
              [style.padding]="wcmsService.wcmsSelectedDescription.padding"
              [style.margin]="wcmsService.wcmsSelectedDescription.margin"
         ></div>
-
-        <jhi-social-media></jhi-social-media>
+        <!-- BESCHREIBUNG / DESCRIPTION -->
+        <jhi-social-media [hidden]="!wcmsService.wcmsSelectedSocialMedia.on"></jhi-social-media>
 
       </div>
+      <!-- TELEFONNUMMER -->
       <div [hidden]="!showImpressum" class="leftContainer" style="overflow-y: scroll">
         <jhi-page-impress></jhi-page-impress>
       </div>
     </div>
-
+    <!-- WERBUNG-ANGEBOT / PUB -->
     <jhi-media-balloon [hidden]="!wcmsService.pub"></jhi-media-balloon>
 
   </div>
@@ -234,6 +254,7 @@
         [style.border]="wcmsService.wcmsSelectedNavigation.border"
         [style.border-radius]="wcmsService.wcmsSelectedNavigation.borderRadius"
       >
+        <!-- BUTTON - SPRACHE -->
         <button
           *ngFor="let language of languages"
           (click)="changeLanguage(language)"
@@ -246,7 +267,10 @@
           <img *ngIf="language === 'fr'" [src]="wcmsService.JsonWcmsGlobal.language.fr.src" [alt]="wcmsService.JsonWcmsGlobal.language.fr.alt" />
         </button>
 
-        <img [src]="wcmsService.wcmsSelectedNavigation.pageOne.src"
+        <!-- BUTTON - PAGE-ONE -->
+        <img id="carousel-indicator-pageOne"
+             (click)="wcmsService.makeMeActive('pageOne')"
+             [src]="wcmsService.wcmsSelectedNavigation.pageOne.src"
              [alt]="wcmsService.wcmsSelectedNavigation.pageOne.alt"
              data-bs-target="#carouselNavigationCaptions"
              class="active"
@@ -254,13 +278,18 @@
              data-bs-slide-to="0"
              aria-label="Slide 1" />
 
-        <img [src]="wcmsService.wcmsSelectedNavigation.pageTwo.src"
+        <!-- BUTTON - PAGE-TWO -->
+        <img id="carousel-indicator-pageTwo"
+             (click)="wcmsService.makeMeActive('pageTwo')"
+             [src]="wcmsService.wcmsSelectedNavigation.pageTwo.src"
              [alt]="wcmsService.wcmsSelectedNavigation.pageTwo.alt"
              data-bs-target="#carouselNavigationCaptions"
              data-bs-slide-to="1"
              aria-label="Slide 2" />
 
-        <img (click)="makeMeHover(1)"
+        <!-- BUTTON - PAGE-THREE -->
+        <img id="carousel-indicator-pageThree"
+             (click)="wcmsService.makeMeActive('pageThree'); makeMeHover(1)"
              [src]="wcmsService.wcmsSelectedNavigation.pageThree.src"
              [alt]="wcmsService.wcmsSelectedNavigation.pageThree.alt"
              data-bs-target="#carouselNavigationCaptions"
@@ -288,7 +317,6 @@
       <!-- END:INNER -->
     </div>
 
-    <!-- <img style="width: 30px; position: absolute; top: 30px; left: 28vw;transform: rotate(-20deg); z-index: 3;" src="../../content/images/hand-clicking-icon.svg"> -->
   </div>
 </div>
 

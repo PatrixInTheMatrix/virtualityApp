@@ -2,7 +2,7 @@
 
   <!-- -------------- HEADER  -------------- -->
 
-  <div class="row" [hidden]="!isOpen">
+  <div class="row" *ngIf="isOpen">
     <div class="col-6" style="text-align: right">
       <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.open.src">
     </div>
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="row" [hidden]="isOpen || isOpenAgain">
+  <div class="row" *ngIf="!isOpen && !isOpenAgain">
     <div class="col-6" style="text-align: right">
       <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.close.src">
     </div>
@@ -20,7 +20,7 @@
     </div>
   </div>
 
-  <div class="row" [hidden]="!isOpenAgain">
+  <div class="row" *ngIf="isOpenAgain">
     <div class="col-6" style="text-align: right">
       <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.openAgain.src">
     </div>
@@ -30,68 +30,25 @@
     </div>
   </div>
 
-  <!-- -------------- BLOCK  -------------- -->
-
-  <div class="row">
-    <div class="col-12">
-      <div class="days">Montag bis Donnerstag:</div>
+  <!--  <div class="open" days="MonTueWedThu" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div> -->
+  Open:{{isOpen}} / OpenAgain:{{isOpenAgain}}
+  {{this.maxDate.getTime()}} {{this.currentDate.getTime()}}
+  <div *ngFor="let block of wcmsService.wcmsSelectedOpen.block">
+    <div class="days">{{block.text}}</div>
+    <div *ngIf="!block.textOnly">
+      <div *ngFor="let time of block.time" class="open"
+           [attr.days]="block.days"
+           [attr.minH]="time.minH"
+           [attr.minM]="time.minM"
+           [attr.maxH]="time.maxH"
+           [attr.maxM]="time.maxM"
+            >
+        {{time.minH}}:{{time.minM | number:'2.'}} - {{time.maxH}}:{{time.maxM | number:'2.'}}
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <div class="open" days="MonTueWedThu" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div>
-      <!-- <div class="openText">Heute gleich wieder offen</div> -->
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div class="open" days="MonTueWedThu" minH="13" minM="30" maxH="16" maxM="30">13:30 – 16:30</div>
-      <!-- <div class="openText">Heute gleich wieder offen</div> -->
-    </div>
-  </div>
-
-  <!-- -------------- BLOCK  -------------- -->
-
-  <div class="row">
-    <div class="col-12">
-      <div class="days">Freitag:</div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <div class="open" days="Fri" minH="8" minM="0" maxH="12" maxM="0">08:00 – 12:00</div>
-      <!-- <div class="openText">Heute gleich wieder offen</div> -->
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div class="open" days="Fri" minH="17" minM="00" maxH="18" maxM="30">17:00 – 18:30</div>
-      <!-- <div class="openText">Heute gleich wieder offen</div> -->
-    </div>
-  </div>
-
-  <!-- -------------- BLOCK  -------------- -->
-
-  <div class="row">
-    <div class="col-12">
-      <div class="days">Samstag und Sonntag:</div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <span>geschlossen</span>
-    </div>
-  </div>
-
-
-  <!-- -------------- INFO  -------------- -->
-
-  <div class="row mt-2">
-    <div class="col-12">
-      <em class="days">Termine im Haus nur nach telefonischer Vereinbarung.</em>
+    <div *ngIf="block.textOnly">
+      <div class="open">{{block.days}}
+      </div>
     </div>
   </div>
 

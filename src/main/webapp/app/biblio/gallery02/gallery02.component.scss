@@ -7,8 +7,8 @@
 
 .container .card {
   position: relative;
-  width: 255px;
-  height: 325px;
+  width: var(--gallery-card-width);
+  height: var(--gallery-card-height);
   margin: 30px;
   border-radius: 10px;
   overflow: hidden;
@@ -27,23 +27,10 @@
   position: relative;
   width: 100%;
   height: 50%;
+  // border: solid 2px black;
+  border-radius: 10px;
   background-size: cover;
   transform: translate(10px, 10px);
-}
-
-.container .card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 255px;
-  height: 325px;
-  border: 3px solid #fff;
-  z-index: 1;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;
-  background: transparent;
-  filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.7));
 }
 
 .container .card .info {

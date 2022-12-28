@@ -61,12 +61,13 @@ export class OpenComponent implements OnInit {
           // OPEN
           this.isOpen = true;
           openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
-
+          alert('OPEN');
         } else {
           if(this.maxDate.getTime() >= this.currentDate.getTime()){
             // WILL BE OPEN AGAIN
             this.isOpenAgain = true;
             openItems[i].setAttribute("style", "font-style: italic; font-weight: 900;");
+            alert('OPEN-AGAIN');
           }else{
             // TODAY BUT ALREADY PASSED
             openItems[i].setAttribute("style", "color:"+this.wcmsColor);

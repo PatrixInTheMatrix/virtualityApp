@@ -44,6 +44,7 @@
         "boxShadow": "",
         "filter": "drop-shadow(-5px 5px 4px grey)",
         "padding": "10px",
+        "margin": "",
         "opacity": "0.7",
         "back": {
           "title": {
@@ -89,6 +90,26 @@
             "margin": ""
           }
         }
+      },
+      "buttonSymbol": {
+        "font": {
+          "family": "Arial",
+          "size": ".7em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "2em",
+          "letterSpacing": "normal",
+          "color": "#FBB967"
+        },
+        "background": "linear-gradient(to left, transparent, black, transparent)",
+        "border": "solid white 1px",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": "5px 0"
       },
       "navigation": {
         "border": "solid 1px white",
@@ -192,6 +213,36 @@
         "padding": "",
         "margin": ""
       },
+      "impress": {
+        "font": {
+          "family": "Arial",
+          "size": ".9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "#FBB967"
+        },
+        "background": "black",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "socialMedia":{
+        "on": true,
+        "background": "linear-gradient(to left, black, #FBB967)",
+        "border": "",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": ".5em",
+        "margin": ""
+      },
       "header": {
         "on": true,
         "font": {
@@ -205,16 +256,6 @@
           "letterSpacing": "normal",
           "color": "white"
         },
-        "background": "linear-gradient(to left, black, #FBB967)",
-        "border": "",
-        "borderRadius": "10px",
-        "boxShadow": "",
-        "filter": "",
-        "padding": ".5em",
-        "margin": ""
-      },
-      "socialMedia":{
-        "on": true,
         "background": "linear-gradient(to left, black, #FBB967)",
         "border": "",
         "borderRadius": "10px",
@@ -253,7 +294,385 @@
         },
         "openAgain": {
           "src": "../../content/images/open/coffee-break-time-icon.svg"
+        },
+        "block": [
+          {
+            "textOnly": true,
+            "text": "",
+            "days": "",
+            "time": [
+              {
+                "minH": 0,
+                "minM": 0,
+                "maxH": 0,
+                "maxM": 0
+              },
+              {
+                "minH": 0,
+                "minM": 0,
+                "maxH": 0,
+                "maxM": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kebab",
+      "theme": {
+        "font": {
+          "family": "Arial",
+          "size": "1em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": {
+          "background": "",
+          "color": "",
+          "image": "../../content/images/client/kebab/background/paper.jpg",
+          "imagePosition": "center",
+          "ImageSize": "cover"
+        },
+        "filter": ""
+      },
+      "business": {
+        "tel": {
+          "number": "+49123456789",
+          "description": "+49 12345678-9"
+        },
+        "email": {
+          "address": "animal@email.com"
         }
+      },
+      "logo": {
+        "src": "../../content/images/client/kebab/logo/burger-logo-demo.png",
+        "alt": "LOGO"
+      },
+      "flipCard": {
+        "width": "210",
+        "background": "linear-gradient(to left, black, silver)",
+        "border": "dashed 3px",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "drop-shadow(-5px 5px 4px grey)",
+        "padding": "10px",
+        "margin": "10px",
+        "opacity": "0.7",
+        "back": {
+          "title": {
+            "on": true,
+            "font": {
+              "family": "Arial",
+              "size": "1.3em",
+              "stretch": "normal",
+              "style": "normal",
+              "variant": "normal",
+              "weight": "100",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "color": "black"
+            },
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "service": {
+            "on": true,
+            "font": {
+              "family": "Arial",
+              "size": "1.3em",
+              "stretch": "normal",
+              "style": "normal",
+              "variant": "normal",
+              "weight": "100",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "color": "grey"
+            },
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          }
+        }
+      },
+      "buttonSymbol": {
+        "font": {
+          "family": "Arial",
+          "size": ".7em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "2em",
+          "letterSpacing": "normal",
+          "color": "black"
+        },
+        "background": "",
+        "border": "solid white 1px",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": "5px 0"
+      },
+      "navigation": {
+        "border": "solid 1px white",
+        "borderRadius": "10px",
+        "navIconInactiveOpacity": 0.5,
+        "background": "",
+        "pageOne": {
+          "src": "../../content/images/client/kebab/navigation/food-cart-icon.svg",
+          "alt": "pageOne"
+        },
+        "pageTwo": {
+          "src": "../../content/images/client/kebab/navigation/burger-fries-icon.svg",
+          "alt": "pageTwo"
+        },
+        "pageThree": {
+          "src": "../../content/images/client/kebab/navigation/fast-food-location-icon.svg",
+          "alt": "pageThree"
+        }
+      },
+      "title": {
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.5em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "service": {
+        "on": false,
+        "font": {
+          "family": "Arial",
+          "size": ".9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "description": {
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.3em",
+          "stretch": "normal",
+          "style": "italic",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "banner": {
+        "on": false,
+        "font": {
+          "family": "Arial",
+          "size": "1.9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "black"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "impress": {
+        "font": {
+          "family": "Arial",
+          "size": ".9em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "grey"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "socialMedia":{
+        "on": true,
+        "background": "linear-gradient(to left, transparent, white, transparent)",
+        "border": "",
+        "borderRadius": "10px",
+        "boxShadow": "",
+        "filter": "",
+        "padding": ".5em",
+        "margin": ""
+      },
+      "header": {
+        "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.5em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "silver"
+        },
+        "background": "grey",
+        "border": "solid 5px",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 4px 4px",
+        "filter": "",
+        "padding": ".7em",
+        "margin": ""
+      },
+      "gMap": {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1251083.4689996284!2d9.596097691109282!3d50.9214425637295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1670421843753!5m2!1sde!2sde",
+        "width": "auto",
+        "height": "20em",
+        "border": "none",
+        "borderRadius": "10px",
+        "boxShadow": "grey 0px 2px 2px",
+        "filter": "grayscale(69%)"
+      },
+      "communication": {
+        "tel": {
+          "number": "+4981379961901",
+          "description": "+49 8137 9961901",
+          "src": "../../content/images/communication/telephone-icon.svg"
+        },
+        "email": {
+          "address": "info@diwidi.net",
+          "description": "info@diwidi.net",
+          "src": "../../content/images/communication/email-address-icon.svg"
+        }
+      },
+      "open": {
+        "open": {
+          "src": "../../content/images/open/open-icon.svg"
+        },
+        "close": {
+          "src": "../../content/images/open/closed-icon.svg"
+        },
+        "openAgain": {
+          "src": "../../content/images/open/coffee-break-time-icon.svg"
+        },
+        "block": [
+          {
+            "textOnly": false,
+            "text": "Montag bis Donnerstag:",
+            "days": "MonTueWedThu",
+            "time": [
+              {
+                "minH": 8,
+                "minM": 0,
+                "maxH": 12,
+                "maxM": 0
+              },
+              {
+                "minH": 13,
+                "minM": 30,
+                "maxH": 19,
+                "maxM": 30
+              }
+            ]
+          },
+          {
+            "textOnly": false,
+            "text": "Freitag:",
+            "days": "Fri",
+            "time": [
+              {
+                "minH": 8,
+                "minM": 0,
+                "maxH": 12,
+                "maxM": 0
+              }
+            ]
+          },
+          {
+            "textOnly": true,
+            "text": "Samstag und Sonntag:",
+            "days": "geschlossen",
+            "time": [
+              {
+                "minH": 8,
+                "minM": 0,
+                "maxH": 12,
+                "maxM": 0
+              }
+            ]
+          },
+          {
+            "textOnly": true,
+            "text": "Termine im Haus nur nach telefonischer Vereinbarung.",
+            "days": "",
+            "time": [
+              {
+                "minH": 8,
+                "minM": 0,
+                "maxH": 12,
+                "maxM": 0
+              }
+            ]
+          }
+        ]
       }
     }
   ]

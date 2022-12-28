@@ -40,7 +40,7 @@ export class List01Component implements OnInit, AfterViewInit {
     zoomProductDescription.innerText = productAdditive.innerText;
     // PRICE
     zoomProductPrice.innerText = productPrice.innerText;
-    if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice > 0){
+    if(this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(this.pageName)].list.products[this.selectedProduct].reducedPrice! > 0){
       zoomProductPrice.setAttribute('style', 'text-decoration:line-through');
     }else
     {
