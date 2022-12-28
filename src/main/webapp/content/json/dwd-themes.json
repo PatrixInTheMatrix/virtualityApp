@@ -656,39 +656,39 @@
         "block": [
           {
             "textOnly": false,
-            "text": "Montag bis Donnerstag:",
-            "days": "MonTueWedThu",
+            "text": "Dienstag bis Freitag:",
+            "days": "TueWedThu ",
             "time": [
               {
-                "minH": 8,
+                "minH": 11,
                 "minM": 0,
-                "maxH": 12,
+                "maxH": 14,
                 "maxM": 0
               },
               {
-                "minH": 13,
+                "minH": 17,
                 "minM": 30,
-                "maxH": 19,
+                "maxH": 22,
                 "maxM": 30
               }
             ]
           },
           {
             "textOnly": false,
-            "text": "Freitag:",
+            "text": "Samstag und Sonntag:",
             "days": "Fri",
             "time": [
               {
-                "minH": 8,
+                "minH": 11,
                 "minM": 0,
-                "maxH": 12,
-                "maxM": 0
+                "maxH": 22,
+                "maxM": 30
               }
             ]
           },
           {
             "textOnly": true,
-            "text": "Samstag und Sonntag:",
+            "text": "Montag:",
             "days": "geschlossen",
             "time": [
               {
