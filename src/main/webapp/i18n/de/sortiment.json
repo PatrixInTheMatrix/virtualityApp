@@ -1,100 +1,118 @@
 {
- "sortiment": {
-   "demo": {
-     "product001": {
-       "title": "Artikel A-REF001",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
-       "special": "Angebot der Woche!"
-     },
-     "product002": {
-       "title": "Artikel A-REF002",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     },
-     "product003": {
-       "title": "Artikel A-REF003",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
-       "special": "Angebot der Woche!"
-     },
-     "product004": {
-       "title": "Artikel A-REF004",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     },
-     "product005": {
-       "title": "Artikel A-REF005",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     },
-     "product006": {
-       "title": "Artikel A-REF006",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     },
-     "product007": {
-       "title": "Artikel A-REF007",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     },
-     "product008": {
-       "title": "Artikel A-REF008",
-       "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
-     }
-   },
-   "kebab": {
-     "product001": {
-       "title": "Döner",
-       "description": "Döner Salat, Tzatziki",
-       "special": ""
-     },
-     "product002": {
-       "title": "Kebab-Teller",
-       "description": "Döner Salat, Tzatziki",
-       "special": ""
-     },
-     "product003": {
-       "title": "Pizza Käse Oliven",
-       "description": "Tomatensauce, Käse, frische Tomaten, Oliven",
-       "special": "Angebot der Woche!"
-     },
-     "product004": {
-       "title": "Pizza Quattro Formaggi",
-       "description": "Tomatensauce, 4 x Käse-Sorten",
-       "special": ""
-     },
-     "product005": {
-       "title": "Pizza Jalapeño",
-       "description": "Jalapeños, Zwiebeln, Spitzpaprika, Champignons und Mais",
-       "special": ""
-     },
-     "product006": {
-       "title": "Hot-Dog XXL",
-       "description": "Brötchen Würstchen, Ketchup, Senf, Majo",
-       "special": ""
-     },
-     "product007": {
-       "title": "Pommes",
-       "description": "Pommes rot weiß ist der Klassiker unter den Pommes frites Gerichten, wobei rot für Ketchup und weiß für Mayonnaise steht",
-       "special": ""
-     },
-     "product008": {
-       "title": "Lasagne al Forno",
-       "description": "Schinken, Ei, Parmesan, Käse und Bolognese-Bechamelsauce",
-       "special": ""
-     }
-   },
-   "foot": {
-     "product001": {
-       "title": "Fußpflege",
-       "description": "Hornhaut entfernen, Nagelfalz reinigen, Hühneraugen behandeln, Eingewachsene Fußnägel behandeln"
-     },
-     "product002": {
-       "title": "Nagellack",
-       "description": "Nägel lackieren, aus hygienischen Gründen nur mit Ihrem eigenen Lack."
-     },
-     "product003": {
-       "title": "Pediküre",
-       "description": "Fussnägel schneiden, fräsen und formen"
-     },
-     "product004": {
-       "title": "Wellnessmassage",
-       "description": "Wohltuende Fuß- und Wadenmassage mit einem Pflegeprodukt"
-     }
-   }
- }
+  "sortiment": {
+    "demo": {
+      "product001": {
+        "title": "Artikel A-REF001",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+        "special": "Angebot der Woche!"
+      },
+      "product002": {
+        "title": "Artikel A-REF002",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      },
+      "product003": {
+        "title": "Artikel A-REF003",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung",
+        "special": "Angebot der Woche!"
+      },
+      "product004": {
+        "title": "Artikel A-REF004",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      },
+      "product005": {
+        "title": "Artikel A-REF005",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      },
+      "product006": {
+        "title": "Artikel A-REF006",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      },
+      "product007": {
+        "title": "Artikel A-REF007",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      },
+      "product008": {
+        "title": "Artikel A-REF008",
+        "description": "Beschreibung ihres Produktes / ihrer Dienstleistung"
+      }
+    },
+    "kebab": {
+      "product001": {
+        "title": "Döner",
+        "description": "Döner Salat, Tzatziki",
+        "special": ""
+      },
+      "product002": {
+        "title": "Kebab-Teller",
+        "description": "Döner Salat, Tzatziki",
+        "special": ""
+      },
+      "product003": {
+        "title": "Pizza Käse Oliven",
+        "description": "Tomatensauce, Käse, frische Tomaten, Oliven",
+        "special": "Angebot der Woche!"
+      },
+      "product004": {
+        "title": "Pizza Quattro Formaggi",
+        "description": "Tomatensauce, 4 x Käse-Sorten",
+        "special": ""
+      },
+      "product005": {
+        "title": "Pizza Jalapeño",
+        "description": "Jalapeños, Zwiebeln, Spitzpaprika, Champignons und Mais",
+        "special": ""
+      },
+      "product006": {
+        "title": "Hot-Dog XXL",
+        "description": "Brötchen Würstchen, Ketchup, Senf, Majo",
+        "special": ""
+      },
+      "product007": {
+        "title": "Pommes",
+        "description": "Pommes rot weiß ist der Klassiker unter den Pommes frites Gerichten, wobei rot für Ketchup und weiß für Mayonnaise steht",
+        "special": ""
+      },
+      "product008": {
+        "title": "Lasagne al Forno",
+        "description": "Schinken, Ei, Parmesan, Käse und Bolognese-Bechamelsauce",
+        "special": ""
+      }
+    },
+    "foot": {
+      "product001": {
+        "title": "Fußpflege",
+        "description": "Hornhaut entfernen, Nagelfalz reinigen, Hühneraugen behandeln, Eingewachsene Fußnägel behandeln"
+      },
+      "product002": {
+        "title": "Nagellack",
+        "description": "Nägel lackieren, aus hygienischen Gründen nur mit Ihrem eigenen Lack."
+      },
+      "product003": {
+        "title": "Pediküre",
+        "description": "Fussnägel schneiden, fräsen und formen"
+      },
+      "product004": {
+        "title": "Wellnessmassage",
+        "description": "Wohltuende Fuß- und Wadenmassage mit einem Pflegeprodukt"
+      }
+    },
+    "flower": {
+      "product001": {
+        "title": "",
+        "description": ""
+      },
+      "product002": {
+        "title": "",
+        "description": ""
+      },
+      "product003": {
+        "title": "",
+        "description": ""
+      },
+      "product004": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
 }

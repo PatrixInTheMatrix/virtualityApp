@@ -492,6 +492,235 @@
           }
         }
       ]
+    },
+    {
+      "id": "flower",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "300px",
+            "height": "250px",
+            "background": "transparent",
+            "border": "",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(70%)",
+            "padding": "",
+            "margin": "",
+            "images": [
+              {
+                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
+                "alt": "Gesteck"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
+                "alt": "Strauß"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
+                "alt": "Rosenstrauß"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
+                "alt": "Tulpen"
+              }
+            ]
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "300px",
+            "height": "250px",
+            "background": "transparent",
+            "border": "",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(70%)",
+            "padding": "",
+            "margin": "",
+            "images": [
+              {
+                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
+                "alt": "Gesteck"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
+                "alt": "Strauß"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
+                "alt": "Rosenstrauß"
+              },
+              {
+                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
+                "alt": "Tulpen"
+              }
+            ]
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "linear-gradient(90deg, silver, grey, black)",
+            "border": "solid 2px white",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "drop-shadow(-5px 5px 4px grey)",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "../../content/images/client/flower/products/",
+                "alt": "Döner",
+                "title": "sortiment.kebab.product001.title",
+                "description": "sortiment.kebab.product001.description",
+                "special": "sortiment.kebab.product001.special",
+                "additive": "1, Aa, F, I",
+                "price": 8,
+                "reducedPrice": -1
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

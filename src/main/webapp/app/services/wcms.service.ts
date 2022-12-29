@@ -4,7 +4,7 @@ import _JsonWcmsThemes from '../../content/json/dwd-themes.json';
 import _JsonWcmsPages from '../../content/json/dwd-pages.json';
 import { RootObjectThemes } from '../interfaces/theme.interface';
 import { RootObjectPages } from '../interfaces/page.interface';
-import { RootObjectGlobal } from "../interfaces/global.interface";
+import { RootObjectGlobal } from '../interfaces/global.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -13,13 +13,13 @@ export class WcmsService {
   // PUBLICITÉ - WERBUNG
   pub = false;
   // INITIAL CLIENT
-  wcmsClient = 'kebab';
+  wcmsClient = 'flower';
   // flag for activePage
   navigationActivePage = 'pageOne';
   // PATH
   wcmsClientRoot = 'virtuality.' + this.wcmsClient.toLowerCase() + '.';
   // GLOBAL
-  rootWcmsGlobal = _JsonWcmsGlobal as RootObjectGlobal
+  rootWcmsGlobal = _JsonWcmsGlobal as RootObjectGlobal;
   JsonWcmsGlobal = this.rootWcmsGlobal.wcmsGlobal;
   // THEMES
   rootWcmsThemes = _JsonWcmsThemes as RootObjectThemes;
@@ -110,7 +110,10 @@ export class WcmsService {
     if (typeof this.wcmsSelectedNavigation.navIconInactiveOpacity === 'undefined') {
       this.wcmsSelectedNavigation.navIconInactiveOpacity = 0.3;
     }
-    document.documentElement.style.setProperty('--nav-icon-inactive-opacity', this.wcmsSelectedNavigation.navIconInactiveOpacity.toString());
+    document.documentElement.style.setProperty(
+      '--nav-icon-inactive-opacity',
+      this.wcmsSelectedNavigation.navIconInactiveOpacity.toString()
+    );
 
     // IMPRESS
     document.documentElement.style.setProperty('--bs-impress-font-family', this.wcmsSelectedImpress.font.family);
