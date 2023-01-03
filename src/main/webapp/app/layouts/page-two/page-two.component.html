@@ -1,60 +1,49 @@
 <div *ngIf="wcmsService.wcmsClient === 'demo'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
   <jhi-product-list01 [isGastro]="false" [pageName]="pageName"></jhi-product-list01>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'kebab'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
   <jhi-product-list01 [isGastro]="true" [pageName]="pageName"></jhi-product-list01>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'foot'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
   <jhi-product-list01 [pageName]="pageName"></jhi-product-list01>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'flower'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
-  <jhi-product-list01 [pageName]="pageName"></jhi-product-list01>
-
+  <jhi-gallery02 [pageName]="pageName"></jhi-gallery02>
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'animal'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
   <jhi-gallery02 [pageName]="pageName"></jhi-gallery02>
 
-  <div style="margin-top: .5em;  display: flex;  justify-content: center;">
-
-    <ul><span style="font-size: 1.5em">Beratung zum Thema "Katzenernährung entdecken"</span>
+  <div style="margin-top: 0.5em; display: flex; justify-content: center">
+    <ul>
+      <span style="font-size: 1.5em">Beratung zum Thema "Katzenernährung entdecken"</span>
       <li>Fütterungsempfehlung</li>
       <li>Was Katzen fressen dürfen</li>
       <li>Katzengesundheit</li>
       <li>Katzenverhalten</li>
     </ul>
-
   </div>
-
 </div>
