@@ -1,17 +1,12 @@
-<div class="polaroid"
-     style="background-image: url(../../../content/images/gallery/dwd-polaroid.svg)">
-
-  <div
-    class="polaroid-output"
-  >
-
-    <img  *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
-          [src]="utilsService.getTrustResourceUrl(image.src)" [alt]="image.alt"
-          class="polaroid-photo">
-
+<div class="polaroid" style="background-image: url(../../../content/images/gallery/dwd-polaroid.svg)">
+  <div class="polaroid-output">
+    <img
+      *ngFor="let image of wcmsService.wcmsSelectedPages[wcmsService.getIndex(pageName)].gallery.images"
+      [src]="utilsService.getTrustResourceUrl(image.src)"
+      [alt]="image.alt"
+      class="polaroid-photo"
+    />
   </div>
-
 </div>
 
-<div style="height: 15.0vh;">
-</div>
+<div style="height: 15vh"></div>
