@@ -19,7 +19,7 @@ export class WcmsService {
   pubSelect = true;
 
   // INITIAL CLIENT
-  wcmsClient = 'flower';
+  wcmsClient = 'demo';
   // flag for activePage
   navigationActivePage = 'pageOne';
   // PATH

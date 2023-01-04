@@ -960,6 +960,265 @@
           }
         }
       ]
+    },
+    {
+      "id": "demo",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "background": "linear-gradient(to bottom, silver, white)",
+            "border": "solid 5px",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(20%)",
+            "padding": "",
+            "margin": "",
+            "images": [
+              {
+                "src": "../../../content/images/client/demo/gallery/2nd_Logo_Concept_v3_5k_antik07orig.png",
+                "alt": "DiWiDi"
+              },
+              {
+                "src": "../../../content/images/client/demo/gallery/sketch1665068586440_600x600_antik07orig.png",
+                "alt": "Dream it"
+              },
+              {
+                "src": "../../../content/images/client/demo/gallery/sketch1665068608806_600x600_antik07orig.png",
+                "alt": "Wish it"
+              },
+              {
+                "src": "../../../content/images/client/demo/gallery/sketch1665068658206_600x600_antik07orig.png",
+                "alt": "Do it"
+              }
+            ]
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "",
+                "title": "",
+                "description": "",
+                "special": "",
+                "price": 0,
+                "reducedPrice": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "alt": "",
+            "url": "g",
+            "width": "35%",
+            "height": "auto",
+            "background": "",
+            "border": "",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "35%",
+            "height": "auto",
+            "background": "",
+            "border": "",
+            "borderRadius": "10px",
+            "boxShadow": "grey 0px 8px 8px",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "45%",
+            "height": "auto",
+            "background": "",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "100%",
+            "height": "auto",
+            "background": "",
+            "border": "none",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "../../../content/images/client/demo/products/surprise-icon.svg",
+                "alt": "Seite2",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              },
+              {
+                "src": "../../../content/images/client/demo/products/box-package-icon.svg",
+                "alt": "Dream it",
+                "title": "sortiment.demo.product002.title",
+                "description": "sortiment.demo.product002.description",
+                "special": "sortiment.demo.product002.special",
+                "price": 15
+              },
+              {
+                "src": "../../../content/images/client/demo/products/return-product-icon.svg",
+                "alt": "Wish it",
+                "title": "sortiment.demo.product003.title",
+                "description": "sortiment.demo.product003.description",
+                "special": "sortiment.demo.product003.special",
+                "price": 5
+              },
+              {
+                "src": "../../../content/images/client/demo/products/box-package-icon.svg",
+                "alt": "Do it",
+                "title": "sortiment.demo.product004.title",
+                "description": "sortiment.demo.product004.description",
+                "special": "sortiment.demo.product004.special",
+                "price": 20
+              },
+              {
+                "src": "../../../content/images/client/demo/products/package-cancelled-icon.svg",
+                "alt": "Seite2",
+                "title": "sortiment.demo.product005.title",
+                "description": "sortiment.demo.product005.description",
+                "special": "sortiment.demo.product005.special",
+                "price": 10
+              },
+              {
+                "src": "../../../content/images/client/demo/products/box-package-icon.svg",
+                "alt": "Dream it",
+                "title": "sortiment.demo.product006.title",
+                "description": "sortiment.demo.product006.description",
+                "special": "sortiment.demo.product006.special",
+                "price": 15
+              },
+              {
+                "src": "../../../content/images/client/demo/products/box-package-icon.svg",
+                "alt": "Wish it",
+                "title": "sortiment.demo.product007.title",
+                "description": "sortiment.demo.product007.description",
+                "special": "sortiment.demo.product007.special",
+                "price": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
