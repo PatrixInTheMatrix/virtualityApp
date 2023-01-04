@@ -340,7 +340,20 @@ export interface Header {
   margin: string;
 }
 
+export interface Frame {
+  width: string;
+  height: string;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
 export interface GMap {
+  frame: Frame;
   url: string;
   width: string;
   height: string;

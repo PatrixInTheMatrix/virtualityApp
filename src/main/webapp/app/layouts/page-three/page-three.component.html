@@ -1,5 +1,4 @@
 <div *ngIf="wcmsService.wcmsClient === 'demo'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
   <jhi-separator></jhi-separator>
 
@@ -9,57 +8,48 @@
     </div>
 
     <div class="col-6">
-
-      <div class="mt-4">
-        <jhi-gmap></jhi-gmap>
-      </div>
-
+      <jhi-gmap></jhi-gmap>
     </div>
   </div>
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src" />
       </a>
     </div>
 
-    <div class="col-5" style="text-align: center; cursor: pointer;">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src" />
       </a>
     </div>
-
   </div>
-
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Telefon: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+          <code>DiWiDi-Telefon: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
         </button>
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Briefkasten: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+          <code>DiWiDi-Briefkasten: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
         </button>
       </a>
     </div>
-
   </div>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'kebab'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
   <jhi-separator></jhi-separator>
 
@@ -69,8 +59,7 @@
     </div>
 
     <div class="col-6">
-
-      <div class="row mt-4">
+      <div class="row">
         <div class="col-12">
           <jhi-gmap></jhi-gmap>
         </div>
@@ -78,27 +67,23 @@
 
       <div class="row mt-4">
         <div class="col-12">
-          <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-            <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+          <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
+            <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src" />
           </a>
 
-          <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+          <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
             <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-              <code>DiWiDi-Telefon: </code><br>
-              <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+              <code>DiWiDi-Telefon: </code><br />
+              <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
             </button>
           </a>
         </div>
       </div>
-
     </div>
-
   </div>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'foot'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
   <jhi-separator></jhi-separator>
 
@@ -108,57 +93,48 @@
     </div>
 
     <div class="col-6">
-
-      <div class="mt-4">
-        <jhi-gmap></jhi-gmap>
-      </div>
-
+      <jhi-gmap></jhi-gmap>
     </div>
   </div>
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src" />
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer;">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src" />
       </a>
     </div>
-
   </div>
-
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Telefon: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+          <code style="color: white">DiWiDi-Telefon: </code><br />
+          <span style="color: white" class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
         </button>
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Briefkasten: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+          <code style="color: white">DiWiDi-Briefkasten: </code><br />
+          <span style="color: white" class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
         </button>
       </a>
     </div>
-
   </div>
-
 </div>
 
 <div *ngIf="wcmsService.wcmsClient === 'flower'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
   <jhi-separator></jhi-separator>
 
@@ -168,106 +144,93 @@
     </div>
 
     <div class="col-6">
-
-      <div class="mt-4">
+      <div class="col-6">
         <jhi-gmap></jhi-gmap>
       </div>
-
     </div>
   </div>
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.tel.src" />
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer;">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
-        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
+        <img height="40px" [src]="wcmsService.wcmsSelectedCommunication.email.src" />
       </a>
     </div>
-
   </div>
-
 
   <div class="row mt-4">
     <div class="col-1"></div>
-    <div class="col-5" style="text-align: center;">
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+    <div class="col-5" style="text-align: center">
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Telefon: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+          <code>DiWiDi-Telefon: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
         </button>
       </a>
     </div>
 
-    <div class="col-5"style="text-align: center; cursor: pointer">
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+    <div class="col-5" style="text-align: center; cursor: pointer">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Briefkasten: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+          <code>DiWiDi-Briefkasten: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
         </button>
       </a>
     </div>
-
   </div>
-
 </div>
 
-
 <div *ngIf="wcmsService.wcmsClient === 'animal'" style="overflow-x: hidden">
-
   <jhi-page-header [pageName]="pageName"></jhi-page-header>
 
-  <jhi-separator [factor]=.7></jhi-separator>
+  <jhi-separator [factor]="0.7"></jhi-separator>
 
   <div class="row">
-
     <div class="col-2"></div>
 
     <div class="col-6">
-      Telefonische Sprechzeit<br>
-      Mittwochs: 10 - 15 Uhr<br>
-      <a [href]="'tel:'+wcmsService.wcmsSelectedCommunication.tel.number">
+      Telefonische Sprechzeit<br />
+      Mittwochs: 10 - 15 Uhr<br />
+      <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
         <button class="btn btn-outline-light mr-md-3 mb-2 mb-md-0">
-          <code style="color: #FBB967" >Telefon: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.tel.description}}</span>
+          <code style="color: #fbb967">Telefon: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
         </button>
       </a>
-      <br>
-      <br>
-      !!! Weihnachtsferien 20.12.2022-02.01.2023 !!!<br>
+      <br />
+      <br />
+      !!! Weihnachtsferien 20.12.2022-02.01.2023 !!!<br />
       Keine telefonische Sprechzeit
     </div>
 
     <div class="col-4"></div>
-
   </div>
 
-  <hr>
+  <hr />
 
   <div class="row">
-
     <div class="col-4"></div>
 
     <div class="col-6">
       Schickt uns gerne eine E-Mail und wir melden uns im neuen Jahr bei euch!
-      <a [href]="'mailto:'+wcmsService.wcmsSelectedCommunication.email.address">
+      <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
         <button class="btn btn-outline-light mr-md-3 mb-2 mb-md-0">
-          <code style="color: #FBB967" >Briefkasten: </code><br>
-          <span class="txt-symbol">{{wcmsService.wcmsSelectedCommunication.email.description}}</span>
+          <code style="color: #fbb967">Briefkasten: </code><br />
+          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
         </button>
       </a>
-      <br>
-      <br>
+      <br />
+      <br />
       Im Notfall bitte immer einen Tierarzt aufsuchen!
     </div>
 
     <div class="col-2"></div>
-
   </div>
-
 </div>

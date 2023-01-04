@@ -721,6 +721,245 @@
           }
         }
       ]
+    },
+    {
+      "id": "foot",
+      "wcmsPages": [
+        {
+          "id": "pageOne",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "225px",
+            "height": "325px",
+            "background": "linear-gradient(to bottom, silver, white)",
+            "border": "solid 2px grey",
+            "borderRadius": "2em",
+            "boxShadow": "",
+            "filter": "grayscale(50%)",
+            "padding": "",
+            "margin": "",
+            "images": [
+              {
+                "src": "../../../content/images/client/foot/gallery/fusspflege.jpg",
+                "alt": "Fußpflege"
+              },
+              {
+                "src": "../../../content/images/client/foot/gallery/pedikuere.jpg",
+                "alt": "Pediküre"
+              },
+              {
+                "src": "../../../content/images/client/foot/gallery/nagellack.jpg",
+                "alt": "Nagellack"
+              },
+              {
+                "src": "../../../content/images/client/foot/gallery/wellnessmassage.jpg",
+                "alt": "Wellnessmassage"
+              }
+            ]
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageTwo",
+          "image1": {
+            "alt": "",
+            "url": "g",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "linear-gradient(90deg, silver, grey, white)",
+            "border": "solid 2px white",
+            "borderRadius": "10px",
+            "boxShadow": "",
+            "filter": "drop-shadow(-5px 5px 4px grey)",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "../../content/images/client/foot/products/fusspflege.jpg",
+                "alt": "fusspflege",
+                "title": "sortiment.foot.product001.title",
+                "description": "sortiment.foot.product001.description",
+                "special": "sortiment.foot.product001.special",
+                "additive": "",
+                "price": 50
+              },
+              {
+                "src": "../../content/images/client/foot/products/nagellack.jpg",
+                "alt": "nagellack",
+                "title": "sortiment.foot.product002.title",
+                "description": "sortiment.foot.product002.description",
+                "special": "sortiment.foot.product002.special",
+                "additive": "",
+                "price": 10,
+                "reducedPrice": 5
+              },
+              {
+                "src": "../../content/images/client/foot/products/pedikuere.jpg",
+                "alt": "pedikuere",
+                "title": "sortiment.foot.product003.title",
+                "description": "sortiment.foot.product003.description",
+                "special": "sortiment.foot.product003.special",
+                "additive": "",
+                "price": 35
+              },
+              {
+                "src": "../../content/images/client/foot/products/wellnessmassage.jpg",
+                "alt": "wellnessmassage",
+                "title": "sortiment.foot.product004.title",
+                "description": "sortiment.foot.product004.description",
+                "special": "sortiment.foot.product004.special",
+                "additive": "",
+                "price": 20
+              }
+            ]
+          }
+        },
+        {
+          "id": "pageThree",
+          "image1": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "image2": {
+            "alt": "",
+            "url": "",
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": ""
+          },
+          "gallery": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "images": []
+          },
+          "list": {
+            "width": "",
+            "height": "",
+            "background": "",
+            "border": "",
+            "borderRadius": "",
+            "boxShadow": "",
+            "filter": "",
+            "padding": "",
+            "margin": "",
+            "products": [
+              {
+                "src": "",
+                "alt": "Artikel001",
+                "title": "sortiment.demo.product001.title",
+                "description": "sortiment.demo.product001.description",
+                "special": "sortiment.demo.product001.special",
+                "price": 10,
+                "reducedPrice": 7
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

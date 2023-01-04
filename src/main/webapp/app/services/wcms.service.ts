@@ -19,7 +19,7 @@ export class WcmsService {
   pubSelect = true;
 
   // INITIAL CLIENT
-  wcmsClient = 'kebab';
+  wcmsClient = 'flower';
   // flag for activePage
   navigationActivePage = 'pageOne';
   // PATH

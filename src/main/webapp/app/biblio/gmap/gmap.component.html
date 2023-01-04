@@ -1,4 +1,15 @@
-<div class="feature map">
+<div
+  class="feature map"
+  [style.width]="wcmsService.wcmsSelectedGMap.frame.width"
+  [style.height]="wcmsService.wcmsSelectedGMap.frame.height"
+  [style.background]="wcmsService.wcmsSelectedGMap.frame.background"
+  [style.border]="wcmsService.wcmsSelectedGMap.frame.border"
+  [style.border-radius]="wcmsService.wcmsSelectedGMap.frame.borderRadius"
+  [style.box-shadow]="wcmsService.wcmsSelectedGMap.frame.boxShadow"
+  [style.filter]="wcmsService.wcmsSelectedGMap.frame.filter"
+  [style.padding]="wcmsService.wcmsSelectedGMap.frame.padding"
+  [style.margin]="wcmsService.wcmsSelectedGMap.frame.margin"
+>
   <iframe
     [src]="gMap"
     [style.width]="this.wcmsService.wcmsSelectedGMap.width"
@@ -9,6 +20,7 @@
     [style.filter]="this.wcmsService.wcmsSelectedGMap.filter"
     allowfullscreen="true"
     loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
+    referrerpolicy="no-referrer-when-downgrade"
+  >
   </iframe>
 </div>
