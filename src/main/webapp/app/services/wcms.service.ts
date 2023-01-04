@@ -5,15 +5,21 @@ import _JsonWcmsPages from '../../content/json/dwd-pages.json';
 import { RootObjectThemes } from '../interfaces/theme.interface';
 import { RootObjectPages } from '../interfaces/page.interface';
 import { RootObjectGlobal } from '../interfaces/global.interface';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
 })
 export class WcmsService {
-  // PUBLICITÉ - WERBUNG
-  pub = false;
+  // BUBBLE-ANGEBOT
+  pubBubble = false;
+  // BLINK-HAND
+  pubHand = false;
+  // HOMEPAGE-AUSWAHL
+  pubSelect = true;
+
   // INITIAL CLIENT
-  wcmsClient = 'flower';
+  wcmsClient = 'kebab';
   // flag for activePage
   navigationActivePage = 'pageOne';
   // PATH
@@ -22,14 +28,18 @@ export class WcmsService {
   rootWcmsGlobal = _JsonWcmsGlobal as RootObjectGlobal;
   JsonWcmsGlobal = this.rootWcmsGlobal.wcmsGlobal;
   // THEMES
+  userInfo: any;
+  urlTheme = 'https://virtuality.diwidi.net/api/dwd-themes.json';
   rootWcmsThemes = _JsonWcmsThemes as RootObjectThemes;
   JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
+  wcmsSelectedClient = this.JsonWcmsThemes[0];
   wcmsSelectedTheme = this.JsonWcmsThemes[0].theme;
   wcmsSelectedLogo = this.JsonWcmsThemes[0].logo;
   wcmsSelectedBusiness = this.JsonWcmsThemes[0].business;
   wcmsSelectedFlipCard = this.JsonWcmsThemes[0].flipCard;
   wcmsSelectedButtonSymbol = this.JsonWcmsThemes[0].buttonSymbol;
   wcmsSelectedNavigation = this.JsonWcmsThemes[0].navigation;
+  wcmsSelectedQuote = this.JsonWcmsThemes[0].quote;
   wcmsSelectedTitle = this.JsonWcmsThemes[0].title;
   wcmsSelectedService = this.JsonWcmsThemes[0].service;
   wcmsSelectedDescription = this.JsonWcmsThemes[0].description;
@@ -45,7 +55,30 @@ export class WcmsService {
   JsonWcmsPages = this.rootWcmsPages.wcmsThemeForPages;
   wcmsSelectedPages = this.JsonWcmsPages[0].wcmsPages;
 
-  // constructor() {}
+  constructor(private httpClient: HttpClient) {}
+
+  getTheme(): void {
+    console.warn('getTheme');
+    // READ
+    this.httpClient.get(this.urlTheme).subscribe(response => {
+      this.userInfo = response;
+      this.rootWcmsThemes = <RootObjectThemes>this.userInfo;
+      this.JsonWcmsThemes = this.rootWcmsThemes.wcmsThemes;
+    });
+  }
+
+  saveTheme(): void {
+    // WRITE
+    const theJSON = JSON.stringify(this.wcmsSelectedClient);
+    const uri = 'data:application/json;charset=UTF-8,' + encodeURIComponent(theJSON);
+    window.open(uri);
+    /*
+    const a = document.createElement('a');
+    a.href = uri;
+    a.innerHTML = "Recht-click und auswählen 'Ziel speichern unter...'";
+    document.body.appendChild(a);
+     */
+  }
 
   setSelectedTheme(client: string): void {
     let themeNr = 0;
@@ -59,12 +92,14 @@ export class WcmsService {
       }
     }
 
+    this.wcmsSelectedClient = this.JsonWcmsThemes[themeNr];
     this.wcmsSelectedTheme = this.JsonWcmsThemes[themeNr].theme;
     this.wcmsSelectedLogo = this.JsonWcmsThemes[themeNr].logo;
     this.wcmsSelectedBusiness = this.JsonWcmsThemes[themeNr].business;
     this.wcmsSelectedFlipCard = this.JsonWcmsThemes[themeNr].flipCard;
     this.wcmsSelectedButtonSymbol = this.JsonWcmsThemes[themeNr].buttonSymbol;
     this.wcmsSelectedNavigation = this.JsonWcmsThemes[themeNr].navigation;
+    this.wcmsSelectedQuote = this.JsonWcmsThemes[themeNr].quote;
     this.wcmsSelectedTitle = this.JsonWcmsThemes[themeNr].title;
     this.wcmsSelectedService = this.JsonWcmsThemes[themeNr].service;
     this.wcmsSelectedDescription = this.JsonWcmsThemes[themeNr].description;
@@ -126,7 +161,7 @@ export class WcmsService {
     document.documentElement.style.setProperty('--bs-impress-line-height', this.wcmsSelectedImpress.font.lineHeight);
     document.documentElement.style.setProperty('--bs-impress-letter-spacing', this.wcmsSelectedImpress.font.letterSpacing);
 
-    //
+    // ButtonSymbol
     document.documentElement.style.setProperty('--bs-btn-symbol-font-family', this.wcmsSelectedButtonSymbol.font.family);
     document.documentElement.style.setProperty('--bs-btn-symbol-font-size', this.wcmsSelectedButtonSymbol.font.size);
     document.documentElement.style.setProperty('--bs-btn-symbol-font-weight', this.wcmsSelectedButtonSymbol.font.weight);
@@ -143,6 +178,10 @@ export class WcmsService {
     document.documentElement.style.setProperty('--bs-btn-symbol-filter', this.wcmsSelectedButtonSymbol.filter);
     document.documentElement.style.setProperty('--bs-btn-symbol-padding', this.wcmsSelectedButtonSymbol.padding);
     document.documentElement.style.setProperty('--bs-btn-symbol-margin', this.wcmsSelectedButtonSymbol.margin);
+
+    // QUOTE
+    document.documentElement.style.setProperty('--bs-quote-symbol-color', this.wcmsSelectedQuote.mat.color);
+    document.documentElement.style.setProperty('--bs-quote-symbol-size', this.wcmsSelectedQuote.mat.size);
 
     // INPUT
     // document.documentElement.style.setProperty('--dwd-placeholder-color', 'silver');

@@ -1,47 +1,37 @@
 <div class="container">
-
   <div class="row">
-
-    <div class="col-6" style="display: flex; justify-content: center; align-items: center; margin-bottom:1em;">
-
+    <div class="col-6" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1em">
       <!-- BILD -->
       <div>
-        <img class="polaroid-photo"
-             style="transform: rotate(-11deg)"
-             [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.width"
-             [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.height"
-             [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.border"
-             [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
-             [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
-             [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.url"
-             [alt]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.alt">
+        <img
+          class="polaroid-photo"
+          style="transform: rotate(-11deg)"
+          [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.width"
+          [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.height"
+          [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.border"
+          [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
+          [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
+          [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.url"
+          [alt]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.alt"
+        />
 
-      <img class="polaroid-photo" style="margin-top: -5em"
-           [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.width"
-           [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.height"
-           [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.border"
-           [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.borderRadius"
-           [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.boxShadow"
-           [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.url"
-           [alt]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.alt">
-      </div><!-- END:BILD -->
-
+        <img
+          class="polaroid-photo"
+          style="margin-top: -5em"
+          [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.width"
+          [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.height"
+          [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.border"
+          [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.borderRadius"
+          [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.boxShadow"
+          [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.url"
+          [alt]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.alt"
+        />
+      </div>
+      <!-- END:BILD -->
     </div>
 
     <div class="col-6">
       <jhi-polaroid></jhi-polaroid>
     </div>
-
   </div>
-
-  <div class="row">
-
-    <!-- BESCHREIBUNG -->
-    <div style="margin-bottom:1em">
-      <p [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.description1'">
-      </p>
-    </div><!-- END:BESCHREIBUNG -->
-
-  </div>
-
 </div>

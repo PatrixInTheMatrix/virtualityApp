@@ -150,6 +150,30 @@
         "padding": "",
         "margin": ""
       },
+      "quote": {
+        "mat": {
+          "size": "1.5em",
+          "color": "white"
+        },
+        "font": {
+          "family": "Arial",
+          "size": "1.5em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
       "service": {
         "on": true,
         "font": {
@@ -469,6 +493,30 @@
       },
       "title": {
         "on": true,
+        "font": {
+          "family": "Arial",
+          "size": "1.5em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "quote": {
+        "mat": {
+          "size": "2.5em",
+          "color": "grey"
+        },
         "font": {
           "family": "Arial",
           "size": "1.5em",
@@ -843,6 +891,30 @@
           "lineHeight": "normal",
           "letterSpacing": "normal",
           "color": "green"
+        },
+        "background": "",
+        "border": "",
+        "borderRadius": "",
+        "boxShadow": "",
+        "filter": "",
+        "padding": "",
+        "margin": ""
+      },
+      "quote": {
+        "mat": {
+          "size": "1.5em",
+          "color": "white"
+        },
+        "font": {
+          "family": "Arial",
+          "size": "1.5em",
+          "stretch": "normal",
+          "style": "normal",
+          "variant": "normal",
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "white"
         },
         "background": "",
         "border": "",

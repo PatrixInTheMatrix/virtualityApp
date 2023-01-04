@@ -1,40 +1,52 @@
-<div style="text-align: center;"
-     [style.width]="wcmsService.wcmsSelectedOpen.width"
-     [style.height]="wcmsService.wcmsSelectedOpen.height"
-     [style.background]="wcmsService.wcmsSelectedOpen.background"
-     [style.border]="wcmsService.wcmsSelectedOpen.border"
-     [style.border-radius]="wcmsService.wcmsSelectedOpen.borderRadius"
-     [style.box-shadow]="wcmsService.wcmsSelectedOpen.boxShadow"
-     [style.filter]="wcmsService.wcmsSelectedOpen.filter"
-     [style.padding]="wcmsService.wcmsSelectedOpen.padding"
-     [style.margin]="wcmsService.wcmsSelectedOpen.margin">
-
+<div
+  style="text-align: center"
+  [style.width]="wcmsService.wcmsSelectedOpen.width"
+  [style.height]="wcmsService.wcmsSelectedOpen.height"
+  [style.background]="wcmsService.wcmsSelectedOpen.background"
+  [style.border]="wcmsService.wcmsSelectedOpen.border"
+  [style.border-radius]="wcmsService.wcmsSelectedOpen.borderRadius"
+  [style.box-shadow]="wcmsService.wcmsSelectedOpen.boxShadow"
+  [style.filter]="wcmsService.wcmsSelectedOpen.filter"
+  [style.padding]="wcmsService.wcmsSelectedOpen.padding"
+  [style.margin]="wcmsService.wcmsSelectedOpen.margin"
+>
   <!-- -------------- HEADER  -------------- -->
-
   <div class="row" *ngIf="isOpen">
     <div class="col-6" style="text-align: right">
-      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.open.src">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.open.src" />
     </div>
     <div class="col-6" style="text-align: left">
-      <div style="font-weight: 900; font-style: italic" id="openTitle" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.open.title.open'"></div>
+      <div
+        style="font-weight: 900; font-style: italic"
+        id="openTitle"
+        [jhiTranslate]="wcmsService.wcmsClientRoot + pageName + '.open.title.open'"
+      ></div>
     </div>
   </div>
 
   <div class="row" *ngIf="!isOpen && !isOpenAgain">
     <div class="col-6" style="text-align: right">
-      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.close.src">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.close.src" />
     </div>
     <div class="col-6" style="text-align: left">
-      <div style="font-weight: 900; font-style: italic" id="closeTitle" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.open.title.close'"></div>
+      <div
+        style="font-weight: 900; font-style: italic"
+        id="closeTitle"
+        [jhiTranslate]="wcmsService.wcmsClientRoot + pageName + '.open.title.close'"
+      ></div>
     </div>
   </div>
 
-  <div class="row" *ngIf="isOpenAgain">
+  <div class="row" *ngIf="isOpenAgain && isTodayButAlreadyPassed">
     <div class="col-6" style="text-align: right">
-      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.openAgain.src">
+      <img style="max-width: 50px" [src]="wcmsService.wcmsSelectedOpen.openAgain.src" />
     </div>
     <div class="col-6" style="text-align: left">
-      <div style="font-weight: 900; font-style: italic" id="openAgainTitle" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.open.title.openAgain'"></div>
+      <div
+        style="font-weight: 900; font-style: italic"
+        id="openAgainTitle"
+        [jhiTranslate]="wcmsService.wcmsClientRoot + pageName + '.open.title.openAgain'"
+      ></div>
       <!-- ich bin kurz weg... bis ich wiederkomme ;) -->
     </div>
   </div>
@@ -42,31 +54,34 @@
   <div style="height: 1em"></div>
 
   <div class="mt-2" *ngFor="let block of wcmsService.wcmsSelectedOpen.block">
-    <div [style.font-family]="wcmsService.wcmsSelectedOpen.font.family"
-         [style.font-size]="wcmsService.wcmsSelectedOpen.font.size"
-         [style.font-weight]="wcmsService.wcmsSelectedOpen.font.weight"
-         [style.font-stretch]="wcmsService.wcmsSelectedOpen.font.stretch"
-         [style.font-style]="wcmsService.wcmsSelectedOpen.font.style"
-         [style.font-variant]="wcmsService.wcmsSelectedOpen.font.variant"
-         [style.color]="wcmsService.wcmsSelectedOpen.font.color"
-         [style.lineHeight]="wcmsService.wcmsSelectedOpen.font.lineHeight"
-         [style.letterSpacing]="wcmsService.wcmsSelectedOpen.font.letterSpacing"
-    >{{block.text}}</div>
+    <div
+      [style.font-family]="wcmsService.wcmsSelectedOpen.font.family"
+      [style.font-size]="wcmsService.wcmsSelectedOpen.font.size"
+      [style.font-weight]="wcmsService.wcmsSelectedOpen.font.weight"
+      [style.font-stretch]="wcmsService.wcmsSelectedOpen.font.stretch"
+      [style.font-style]="wcmsService.wcmsSelectedOpen.font.style"
+      [style.font-variant]="wcmsService.wcmsSelectedOpen.font.variant"
+      [style.color]="wcmsService.wcmsSelectedOpen.font.color"
+      [style.lineHeight]="wcmsService.wcmsSelectedOpen.font.lineHeight"
+      [style.letterSpacing]="wcmsService.wcmsSelectedOpen.font.letterSpacing"
+    >
+      {{ block.text }}
+    </div>
     <div *ngIf="!block.textOnly">
-      <div *ngFor="let time of block.time" class="open"
-           [attr.days]="block.days"
-           [attr.minH]="time.minH"
-           [attr.minM]="time.minM"
-           [attr.maxH]="time.maxH"
-           [attr.maxM]="time.maxM"
-            >
-        {{time.minH}}:{{time.minM | number:'2.'}} - {{time.maxH}}:{{time.maxM | number:'2.'}}
+      <div
+        *ngFor="let time of block.time"
+        class="open"
+        [attr.days]="block.days"
+        [attr.minH]="time.minH"
+        [attr.minM]="time.minM"
+        [attr.maxH]="time.maxH"
+        [attr.maxM]="time.maxM"
+      >
+        {{ time.minH }}:{{ time.minM | number: '2.' }} - {{ time.maxH }}:{{ time.maxM | number: '2.' }}
       </div>
     </div>
     <div *ngIf="block.textOnly">
-      <div class="open">{{block.days}}
-      </div>
+      <div class="open">{{ block.days }}</div>
     </div>
   </div>
-
 </div>

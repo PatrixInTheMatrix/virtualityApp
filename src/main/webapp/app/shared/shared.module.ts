@@ -17,29 +17,30 @@ import { PageOneComponent } from '../layouts/page-one/page-one.component';
 import { PageTwoComponent } from '../layouts/page-two/page-two.component';
 import { PageThreeComponent } from '../layouts/page-three/page-three.component';
 import { PageImpressComponent } from '../layouts/page-impress/page-impress.component';
-import { PageHeaderComponent } from "../biblio/page-header/page-header.component";
-import { PageQuoteComponent } from "../biblio/page-quote/page-quote.component";
-import { OpenComponent } from "../biblio/open/open.component";
-import { GmapComponent } from "../biblio/gmap/gmap.component";
-import { SocialMediaComponent } from "../biblio/social-media/social-media.component";
-import { CommunicationComponent } from "../biblio/communication/communication.component";
-import { Gallery01Component } from "../biblio/gallery01/gallery01.component";
-import { Gallery02Component } from "../biblio/gallery02/gallery02.component";
-import { Gallery03Component } from "../biblio/gallery03/gallery03.component";
-import { Gallery04Component } from "../biblio/gallery04/gallery04.component";
-import { Gallery05Component } from "../biblio/gallery05/gallery05.component";
-import { Gallery06Component } from "../biblio/gallery06/gallery06.component";
-import { SeparatorComponent } from "../biblio/separator/separator.component";
-import { Shop01Component } from "../biblio/shop01/shop01.component";
-import { Shop02Component } from "../biblio/shop02/shop02.component";
-import { Shop03Component } from "../biblio/shop03/shop03.component";
-import { Shop04Component } from "../biblio/shop04/shop04.component";
-import { List01Component } from "../biblio/list01/list01.component";
-import { MediaBalloonComponent } from "../biblio/media-balloon/media-balloon.component";
-import { AdditiveComponent } from "../biblio/additive/additive.component";
-import { ProductList01Component } from "../biblio/product-list01/product-list01.component";
-import { PolaroidComponent } from "../biblio/polaroid/polaroid.component";
-import { LabelComponent } from "../biblio/label/label.component";
+import { PageHeaderComponent } from '../biblio/page-header/page-header.component';
+import { PageQuote02Component } from '../biblio/page-quote02/page-quote02.component';
+import { PageQuote01Component } from '../biblio/page-quote01/page-quote01.component';
+import { OpenComponent } from '../biblio/open/open.component';
+import { GmapComponent } from '../biblio/gmap/gmap.component';
+import { SocialMediaComponent } from '../biblio/social-media/social-media.component';
+import { CommunicationComponent } from '../biblio/communication/communication.component';
+import { Gallery01Component } from '../biblio/gallery01/gallery01.component';
+import { Gallery02Component } from '../biblio/gallery02/gallery02.component';
+import { Gallery03Component } from '../biblio/gallery03/gallery03.component';
+import { Gallery04Component } from '../biblio/gallery04/gallery04.component';
+import { Gallery05Component } from '../biblio/gallery05/gallery05.component';
+import { Gallery06Component } from '../biblio/gallery06/gallery06.component';
+import { SeparatorComponent } from '../biblio/separator/separator.component';
+import { Shop01Component } from '../biblio/shop01/shop01.component';
+import { Shop02Component } from '../biblio/shop02/shop02.component';
+import { Shop03Component } from '../biblio/shop03/shop03.component';
+import { Shop04Component } from '../biblio/shop04/shop04.component';
+import { List01Component } from '../biblio/list01/list01.component';
+import { MediaBalloonComponent } from '../biblio/media-balloon/media-balloon.component';
+import { AdditiveComponent } from '../biblio/additive/additive.component';
+import { ProductList01Component } from '../biblio/product-list01/product-list01.component';
+import { PolaroidComponent } from '../biblio/polaroid/polaroid.component';
+import { LabelComponent } from '../biblio/label/label.component';
 
 @NgModule({
   imports: [SharedLibsModule],
@@ -61,7 +62,8 @@ import { LabelComponent } from "../biblio/label/label.component";
     PageThreeComponent,
     PageImpressComponent,
     PageHeaderComponent,
-    PageQuoteComponent,
+    PageQuote01Component,
+    PageQuote02Component,
     OpenComponent,
     GmapComponent,
     SocialMediaComponent,
@@ -103,7 +105,8 @@ import { LabelComponent } from "../biblio/label/label.component";
     PageThreeComponent,
     PageImpressComponent,
     PageHeaderComponent,
-    PageQuoteComponent,
+    PageQuote01Component,
+    PageQuote02Component,
     OpenComponent,
     GmapComponent,
     SocialMediaComponent,

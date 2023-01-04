@@ -148,82 +148,6 @@ a:hover {
   -webkit-background-clip: text;
 }
 
-.blockquote {
-  color: $dwd-dark-blue;
-  position: relative;
-  margin: 1.2rem 1.2rem;
-  padding: 1.2rem 1.2rem;
-  display: flex;
-  justify-content: center;
-  // padding: 1.6em 2.4em .7em calc(1.4em + var(--quote-image-width));
-  font: italic 1.2rem var(--type-quote);
-  background: var(--quote-bg) no-repeat left / var(--quote-image-width);
-  border-radius: var(--border-rad);
-  border: 2px solid silver;
-  box-shadow: 2px 2px 4px hsl(0 0% 0% / 20%);
-  text-indent: 1.6em;
-}
-
-.blockquote::before {
-  content: '';
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: var(--border-rad);
-  // box-shadow: inset -2px -2px 1px hsl(0 0% 100%), inset 2px 2px 4px hsl(0 0% 0% / 20%);
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px 0px inset;
-  // border-radius: 10px;
-}
-
-.block-tel-nr::after {
-  content: ' \260e';
-}
-.blockquote::after {
-  content: '❝';
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  top: -2px;
-  transform: translate(-50%, -50%);
-  width: .8em;
-  height: .8em;
-  background: rgba(silver, 0.9);
-  box-shadow: 0 4px 5px -1px hsla(0 0% 0% / 20%);
-  border-radius: 999px;
-  display: grid;
-  place-content: center;
-  padding-top: 0.5em;
-  color: var(--accent-color);
-  font-size: 2.0em;
-  font-style: normal;
-  text-indent: 0;
-}
-
-.blockquote-author-image {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: var(--quote-image-width);
-  height: 100%;
-  opacity: 0.75;
-  background: var(--accent-color) var(--image) no-repeat center / cover;
-  background-blend-mode: hard-light;
-  border-top-left-radius: var(--border-rad);
-  border-bottom-left-radius: var(--border-rad);
-}
-
-.blocktext {
-  position: relative;
-  margin: 1.2rem 1.2rem;
-  padding: 1.2rem 1.2rem;
-  display: flex;
-  justify-content: center;
-}
-
 /* override hover color for dropdown-item forced by bootstrap to all a:not([href]):not([tabindex]) elements in _reboot.scss */
 a:not([href]):not([tabindex]):hover.dropdown-item {
   color: $dropdown-link-hover-color;
@@ -457,27 +381,27 @@ angular-cli removes postcss-rtl processed inline css, processed rules must be ad
 }
 
 .is-nope {
-  color: #D23;
-  border: 0.5rem double #D23;
+  color: #d23;
+  border: 0.5rem double #d23;
   transform: rotate(3deg);
   -webkit-mask-position: 2rem 3rem;
   font-size: 2rem;
 }
 
 .is-approved {
-  color: #0A9928;
-  border: 0.5rem solid #0A9928;
+  color: #0a9928;
+  border: 0.5rem solid #0a9928;
   -webkit-mask-position: 13rem 6rem;
   transform: rotate(-14deg);
   border-radius: 0;
 }
 
 .is-draft {
-  color: #C4C4C4;
-  border: 1rem double #C4C4C4;
+  color: #c4c4c4;
+  border: 1rem double #c4c4c4;
   transform: rotate(-5deg);
   font-size: 6rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
   border-radius: 0;
   padding: 0.5rem;
 }

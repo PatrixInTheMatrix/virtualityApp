@@ -181,6 +181,11 @@ export interface Title2 {
   margin: string;
 }
 
+export interface Mat {
+  size: string;
+  color: string;
+}
+
 export interface Font6 {
   family: string;
   size: string;
@@ -193,8 +198,8 @@ export interface Font6 {
   color: string;
 }
 
-export interface Service2 {
-  on: boolean;
+export interface Quote {
+  mat: Mat;
   font: Font6;
   background: string;
   border: string;
@@ -217,7 +222,7 @@ export interface Font7 {
   color: string;
 }
 
-export interface Description {
+export interface Service2 {
   on: boolean;
   font: Font7;
   background: string;
@@ -241,7 +246,7 @@ export interface Font8 {
   color: string;
 }
 
-export interface Banner {
+export interface Description {
   on: boolean;
   font: Font8;
   background: string;
@@ -265,19 +270,9 @@ export interface Font9 {
   color: string;
 }
 
-export interface Impress {
-  font: Font9;
-  background: string;
-  border: string;
-  borderRadius: string;
-  boxShadow: string;
-  filter: string;
-  padding: string;
-  margin: string;
-}
-
-export interface SocialMedia {
+export interface Banner {
   on: boolean;
+  font: Font9;
   background: string;
   border: string;
   borderRadius: string;
@@ -299,9 +294,43 @@ export interface Font10 {
   color: string;
 }
 
+export interface Impress {
+  font: Font10;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface SocialMedia {
+  on: boolean;
+  background: string;
+  border: string;
+  borderRadius: string;
+  boxShadow: string;
+  filter: string;
+  padding: string;
+  margin: string;
+}
+
+export interface Font11 {
+  family: string;
+  size: string;
+  stretch: string;
+  style: string;
+  variant: string;
+  weight: string;
+  lineHeight: string;
+  letterSpacing: string;
+  color: string;
+}
+
 export interface Header {
   on: boolean;
-  font: Font10;
+  font: Font11;
   background: string;
   border: string;
   borderRadius: string;
@@ -338,7 +367,7 @@ export interface Communication {
   email: Email2;
 }
 
-export interface Font11 {
+export interface Font12 {
   family: string;
   size: string;
   stretch: string;
@@ -377,7 +406,7 @@ export interface Block {
 }
 
 export interface Open {
-  font: Font11;
+  font: Font12;
   width: string;
   height: string;
   background: string;
@@ -402,6 +431,7 @@ export interface WcmsTheme {
   buttonSymbol: ButtonSymbol;
   navigation: Navigation;
   title: Title2;
+  quote: Quote;
   service: Service2;
   description: Description;
   banner: Banner;
