@@ -1,44 +1,47 @@
 <div>
-
   <!-- BLOCK1 BILD & BESCHREIBUNG -->
   <div class="row">
-
     <!-- BESCHREIBUNG -->
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.description1'">
-      </div>
-    </div><!-- END:BESCHREIBUNG -->
+      <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot + pageName + '.description1'"></div>
+    </div>
+    <!-- END:BESCHREIBUNG -->
 
     <!-- BILD1 -->
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <img [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.width"
-           [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.height"
-           [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.border"
-           [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
-           [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
-           [style.margin-bottom]="'1em'"
-           [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.url" alt="wcms-page-One">
-    </div><!-- END:BILD1 -->
-
-  </div><!-- END:BLOCK1 BILD & BESCHREIBUNG -->
+      <img
+        [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.width"
+        [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.height"
+        [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.border"
+        [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.borderRadius"
+        [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.boxShadow"
+        [style.margin-bottom]="'1em'"
+        [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image1.url"
+        [alt]="pageName"
+      />
+    </div>
+    <!-- END:BILD1 -->
+  </div>
+  <!-- END:BLOCK1 BILD & BESCHREIBUNG -->
 
   <!-- BLOCK2 BILD & BESCHREIBUNG -->
-  <div class="row">
+  <div class="row mt-4">
     <!-- BILD2 -->
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <img [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.width"
-           [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.height"
-           [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.border"
-           [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.borderRadius"
-           [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.boxShadow"
-           [style.margin-bottom]="'1em'"
-           [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.url" alt="wcms-page-One">
+      <img
+        [style.max-width]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.width"
+        [style.max-height]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.height"
+        [style.border]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.border"
+        [style.border-radius]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.borderRadius"
+        [style.box-shadow]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.boxShadow"
+        [style.margin-bottom]="'1em'"
+        [src]="this.wcmsService.wcmsSelectedPages[this.wcmsService.getIndex(pageName)].image2.url"
+        [alt]="pageName"
+      />
     </div>
     <!-- BILD -->
     <div class="col-6" style="display: flex; justify-content: center; align-items: center">
-      <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot+pageName+'.description2'">
-      </div>
+      <div class="blocktext" [jhiTranslate]="wcmsService.wcmsClientRoot + pageName + '.description2'"></div>
     </div>
-
   </div>
 </div>

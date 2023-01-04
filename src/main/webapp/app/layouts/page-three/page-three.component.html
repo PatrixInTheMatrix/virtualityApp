@@ -144,9 +144,7 @@
     </div>
 
     <div class="col-6">
-      <div class="col-6">
-        <jhi-gmap></jhi-gmap>
-      </div>
+      <jhi-gmap></jhi-gmap>
     </div>
   </div>
 
@@ -170,8 +168,8 @@
     <div class="col-5" style="text-align: center">
       <a [href]="'tel:' + wcmsService.wcmsSelectedCommunication.tel.number">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Telefon: </code><br />
-          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
+          <code style="color: white">DiWiDi-Telefon: </code><br />
+          <span style="color: white" class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.tel.description }}</span>
         </button>
       </a>
     </div>
@@ -179,8 +177,8 @@
     <div class="col-5" style="text-align: center; cursor: pointer">
       <a [href]="'mailto:' + wcmsService.wcmsSelectedCommunication.email.address">
         <button class="btn btn-outline-info mr-md-3 mb-2 mb-md-0">
-          <code>DiWiDi-Briefkasten: </code><br />
-          <span class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
+          <code style="color: white">DiWiDi-Briefkasten: </code><br />
+          <span style="color: white" class="txt-symbol">{{ wcmsService.wcmsSelectedCommunication.email.description }}</span>
         </button>
       </a>
     </div>

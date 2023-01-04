@@ -500,25 +500,25 @@
           "id": "pageOne",
           "image1": {
             "alt": "",
-            "url": "",
-            "width": "",
+            "url": "../../../content/images/client/flower/page-one/girl-1252739_640.jpg",
+            "width": "60%",
             "height": "",
             "background": "",
-            "border": "",
-            "borderRadius": "",
-            "boxShadow": "",
+            "border": "solid .7em white",
+            "borderRadius": "10px",
+            "boxShadow": "white 4px 4px 24px",
             "filter": "",
             "padding": "",
             "margin": ""
           },
           "image2": {
             "alt": "",
-            "url": "",
-            "width": "",
+            "url": "../../../content/images/client/flower/page-one/girl-842237_640.jpg",
+            "width": "70%",
             "height": "",
             "background": "",
-            "border": "",
-            "borderRadius": "",
+            "border": "dashed .7em white",
+            "borderRadius": "10px",
             "boxShadow": "",
             "filter": "",
             "padding": "",
@@ -531,27 +531,10 @@
             "border": "",
             "borderRadius": "2em",
             "boxShadow": "",
-            "filter": "grayscale(70%)",
+            "filter": "",
             "padding": "",
             "margin": "",
-            "images": [
-              {
-                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
-                "alt": "Gesteck"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
-                "alt": "Strauß"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
-                "alt": "Rosenstrauß"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
-                "alt": "Tulpen"
-              }
-            ]
+            "images": []
           },
           "list": {
             "width": "",
@@ -580,26 +563,26 @@
           "id": "pageTwo",
           "image1": {
             "alt": "",
-            "url": "",
-            "width": "",
+            "url": "../../../content/images/client/flower/page-two/wedding-2700495_640.jpg",
+            "width": "70%",
             "height": "",
             "background": "",
-            "border": "",
-            "borderRadius": "",
-            "boxShadow": "",
+            "border": "solid .7em white",
+            "borderRadius": "10px",
+            "boxShadow": "white 4px 4px 24px",
             "filter": "",
             "padding": "",
             "margin": ""
           },
           "image2": {
             "alt": "",
-            "url": "",
-            "width": "",
+            "url": "../../../content/images/client/flower/page-two/bride-1850126_640.jpg",
+            "width": "70%",
             "height": "",
             "background": "",
-            "border": "",
-            "borderRadius": "",
-            "boxShadow": "",
+            "border": "solid .7em white",
+            "borderRadius": "10px",
+            "boxShadow": "white 4px 4px 24px",
             "filter": "",
             "padding": "",
             "margin": ""
@@ -614,24 +597,7 @@
             "filter": "grayscale(70%)",
             "padding": "",
             "margin": "",
-            "images": [
-              {
-                "src": "../../../content/images/client/flower/gallery/bouquet-4323374_640.jpg",
-                "alt": "Gesteck"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/happy-mothers-day-3462379_640.jpg",
-                "alt": "Strauß"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/roses-1867911_640.jpg",
-                "alt": "Rosenstrauß"
-              },
-              {
-                "src": "../../../content/images/client/flower/gallery/vase-3204337_640.jpg",
-                "alt": "Tulpen"
-              }
-            ]
+            "images": []
           },
           "list": {
             "width": "",
@@ -643,18 +609,7 @@
             "filter": "drop-shadow(-5px 5px 4px grey)",
             "padding": "",
             "margin": "",
-            "products": [
-              {
-                "src": "../../content/images/client/flower/products/",
-                "alt": "Döner",
-                "title": "sortiment.kebab.product001.title",
-                "description": "sortiment.kebab.product001.description",
-                "special": "sortiment.kebab.product001.special",
-                "additive": "1, Aa, F, I",
-                "price": 8,
-                "reducedPrice": -1
-              }
-            ]
+            "products": []
           }
         },
         {
