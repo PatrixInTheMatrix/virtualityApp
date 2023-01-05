@@ -12,9 +12,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WcmsService {
   // BUBBLE-ANGEBOT
-  pubBubble = true;
+  pubBubble = false;
   // BLINK-HAND
-  pubHand = true;
+  pubHand = false;
   // HOMEPAGE-AUSWAHL
   pubSelect = true;
 
